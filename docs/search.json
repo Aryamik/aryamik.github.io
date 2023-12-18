@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "ML4ESG",
     "section": "",
-    "text": "First Post\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nAryamik Sharma\n\n\nDec 18, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSecond Post\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nAryamik Sharma\n\n\nDec 18, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "First Post\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nAryamik Sharma\n\n\nDec 18, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -47,5 +47,12 @@
     "title": "Curriculum vitae",
     "section": "",
     "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
+  },
+  {
+    "objectID": "posts/2023-12-18- Actual Post/index.html",
+    "href": "posts/2023-12-18- Actual Post/index.html",
+    "title": "Aryamik Sharma",
+    "section": "",
+    "text": "Hi There\n\nimport numpy as np"
   }
 ]
