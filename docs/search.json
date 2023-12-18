@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "ML4ESG",
     "section": "",
-    "text": "First Post\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nAryamik Sharma\n\n\nDec 18, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "First Post\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nAryamik Sharma\n\n\nDec 18, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Post\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nAryamik Sharma\n\n\nDec 18, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -54,5 +54,19 @@
     "title": "Aryamik Sharma",
     "section": "",
     "text": "Hi There\n\nimport numpy as np"
+  },
+  {
+    "objectID": "posts/2023-12-18-first-post/index.html",
+    "href": "posts/2023-12-18-first-post/index.html",
+    "title": "First Post",
+    "section": "",
+    "text": "#importing libraries\nimport altair as alt\nfrom bokeh.sampledata.penguins import data as penguins\n\nimport warnings\nwarnings.simplefilter(action='ignore', category=FutureWarning)\n\n#plotting\nbrush = alt.selection(type='interval')\n\npoints = alt.Chart(\n  data=penguins, \n  title=\"Palmer Penguins Dataset\",\n  ).mark_circle(size=60).encode(\n  alt.X('bill_length_mm', scale=alt.Scale(domain=[30,60])),\n  alt.Y('bill_depth_mm', scale=alt.Scale(domain=[12,22])),\n  color='species',\n  ).add_selection(\n    brush\n)\n\nbars = alt.Chart(penguins).mark_bar().encode(\n    y='island',\n    color='island',\n    x='count(island)'\n).transform_filter(\n    brush\n)\n\npoints & bars\nHi there\nHave you guys ever seen that meme?\nThat’s me\nSo you are all wondering how does a random guy hop on this blogging platform.\nEverything below this is a test to see if the website is actually working."
+  },
+  {
+    "objectID": "posts/2023-12-18-Second Pst/index.html",
+    "href": "posts/2023-12-18-Second Pst/index.html",
+    "title": "First Post",
+    "section": "",
+    "text": "#importing libraries\nimport altair as alt\nfrom bokeh.sampledata.penguins import data as penguins\n\nimport warnings\nwarnings.simplefilter(action='ignore', category=FutureWarning)\n\n#plotting\nbrush = alt.selection(type='interval')\n\npoints = alt.Chart(\n  data=penguins, \n  title=\"Palmer Penguins Dataset\",\n  ).mark_circle(size=60).encode(\n  alt.X('bill_length_mm', scale=alt.Scale(domain=[30,60])),\n  alt.Y('bill_depth_mm', scale=alt.Scale(domain=[12,22])),\n  color='species',\n  ).add_selection(\n    brush\n)\n\nbars = alt.Chart(penguins).mark_bar().encode(\n    y='island',\n    color='island',\n    x='count(island)'\n).transform_filter(\n    brush\n)\n\npoints & bars\nHi there\nHave you guys ever seen that meme?\nThat’s me\nSo you are all wondering how does a random guy hop on this blogging platform.\nEverything below this is a test to see if the website is actually working."
   }
 ]
