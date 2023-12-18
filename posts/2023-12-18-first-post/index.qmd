@@ -1,60 +1,80 @@
 ---
-title: "First Post"
+title: "Bare Beginnings"
 description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
 author:
   - name: Aryamik Sharma
     url: https://aryamik.github.io
-    orcid: 0000-0002-5300-3075
-   
+
 date: 12-18-2023
-categories: [Quarto, R, MEDS] # self-defined categories
+#categories: [Quarto, R, MEDS] # self-defined categories
 
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
-```         
+Have you come across the '*Record Scratch* *Freeze Frame* / Yep, That's me.' meme?
 
-```
+Like this one?
 
-``` python
-#importing libraries
-import altair as alt
-from bokeh.sampledata.penguins import data as penguins
+<https://www.youtube.com/watch?v=s8wxsUv_2vg>
 
-import warnings
-warnings.simplefilter(action='ignore', category=FutureWarning)
+You can see more of these on YouTube. I just happened to pick this one because it is hilarious and is from one of my favorite movies of all time (Spider-Man 2).
 
-#plotting
-brush = alt.selection(type='interval')
+Interestingly enough, no one knows the exact origin of this meme. When I tried to dig in, I came across [this opening sequence](https://www.youtube.com/watch?v=Qrwp_XkxJU8) of the movie Premium Rush (2012). However, the scene itself does not include the phrase. According to Knowyourmeme.com, this meme's origin could be traced back to the "[Robot Chicken](https://knowyourmeme.com/memes/subcultures/robot-chicken): [Star Wars](https://knowyourmeme.com/memes/subcultures/star-wars) Episode III.
 
-points = alt.Chart(
-  data=penguins, 
-  title="Palmer Penguins Dataset",
-  ).mark_circle(size=60).encode(
-  alt.X('bill_length_mm', scale=alt.Scale(domain=[30,60])),
-  alt.Y('bill_depth_mm', scale=alt.Scale(domain=[12,22])),
-  color='species',
-  ).add_selection(
-    brush
-)
+Anyways, why am I talking about this meme on my front page? Well because that's exactly how I feel right now writing this.
 
-bars = alt.Chart(penguins).mark_bar().encode(
-    y='island',
-    color='island',
-    x='count(island)'
-).transform_filter(
-    brush
-)
+I kind of feel like Tobey Maguire from that earlier clip or like Joe Gordon Lewitt from that opening sequence of Premium Rush except I am not in an immediate danger of getting bumped into a wall from a failed web swing attempt or about to taste the pavement because of New York's traffic. I assure you I am not in any of these situations. Instead picture me sitting in front of a laptop trying to learn about Deep Learning and Machine Learning. The frame pauses right as in it zooms on my face and you hear a voice:
 
-points & bars
-```
+'Yup, That's me. You are probably wondering how I ended up in that situation.'
 
-Hi there
+So how does an Environment and Business undergraduate from the University of Waterloo who is passionate about sustainable finance ends up writing a blog (?) that is going to talk about Machine Learning, Deep Learning, Statistics, Data Analytics and other topics?
 
-Have you guys ever seen that meme?
+That's what I want to this blog to be!
 
-That's me
+But since this is supposed to my first post, I want to give you a gist of what actually motivated me to share this journey with others?
 
-So you are all wondering how does a random guy hop on this blogging platform.
+I actually got to thank two individuals:
 
-Everything below this is a test to see if the website is actually working.
+a\) Max Tegmark: I recently finished reading [Life 3.0 by Max Tegmark](https://www.goodreads.com/book/show/34272565-life-3-0?from_search=true&from_srp=true&qid=fZlgPWioK1&rank=1) and I will just say if you haven't read this book, I would highly recommend you to check it out. This book was the first book to ever make me excited about a subject area! Talking about how great that book is in this post would be a disservice from my end. I will just say for now that one of the themes that Max touches upon is the idea that **the age of artificial intelligence is going to have an impact across all corners of life**. While we do need the brightest minds working on these topics, Max argues that It's not just the job of scientists, physicists, researchers and philosophers to think about 'what kind of future do we want? Because if we ourselves don't know about what kind of future do we want, how can we expect to work towards it, much less build Average General Intelligence (AGI)? Max's argument can be beautifully summed up by Seneca
+
+*"If a man knows not which port he sails, no wind is favorable."*
+
+b\) Jeremy Howard: I came across [fast.ai](https://www.fast.ai/) after picking up Life 3.0 and as I was browsing the website for 'Practical Deep Learning for Coders'. I was skimming through the first few paragraphs and my initial reaction was
+
+*Hmm. this looks interesting. Let's see what else is there.*
+
+A few paragraphs led to a few pages and before I knew it I came across the section on 'Deep Learning for Everyone'. When I saw the myth get busted by 'Lot of Math' not required, I had a huge sigh of relief!
+
+A few years ago when I came across the terms 'Machine Learning' , 'Deep Learning', 'Neural Networks'; I pictured a bunch of computer scientists, researchers and mathematicians from MIT working on the most complicated theorems and equations of advanced mathematics one can probably imagine. Oh, did I mention they were wearing white labcoats?
+
+![An 18 year old Aryamik's version of what it takes to work on Machine Learning](images/national-cancer-institute-kCXvthZgtvA-unsplash.jpg){fig-align="center"}
+
+This Vince McMohan meme can probably sum up my reactions as I read through the first few sections of that course.
+
+![](images/Screenshot%20from%202023-12-18%2019-14-00.png){fig-align="center"}
+
+Jokes aside, Jeremy went on talk about how Deep Learning is indeed for everyone.
+
+The idea that Artificial Intelligence and Machine Learning are transversal across sectors is something that reminds of something similar that I came across when I was preparing for Sustainability and Climate Risk Certification.Climate risk is an area that is also transversal in nature, meaning that it is not just going to have an impact on the 'E' side of the ESG, but also on the 'S' and the 'G'.
+
+Whenever someone asks me about my interests, I usually walk them through this venn diagram:
+
+![](images/Screenshot from 2023-12-18 23-14-19.png){fig-align="center"}
+
+The intersection of these areas represents the areas that I am really passionate to work on. However, if you were to ask me the same question today, I believe that this model will probably do a better job of explaining my interest areas!
+
+![](images/Screenshot from 2023-12-18 23-12-27.png){fig-align="center"}
+
+You could say that I am just a guy who is curious to learn more about these cross-functional domains can possibly interact with each other. It is about my own journey as I try to decipher these seemingly complex topics.
+
+But I don't want to give off the impression that this is just going to be a 'data science blog'. Yes, I want to primarily talk about the domain of ESG, Data Analytics, Machine Learning. I want to share my own thoughts and resources along the way, explore some of the practical cases of Machine Learning and ESG. After all, what good is knowledge if you don't get to share it with others?
+
+But I don't just want this to be just *a Machine Learning* blog or *an ESG blog.* I want to talk about philosophical themes as they emerge (Seneca's quote counts right?), sprinkle in some pop cultural references (Spider-Man 2, Premium Rush) or maybe just explore the theory behind the additive assumption in Linear Models.
+
+I want to be excited about doing this! Something clearly excited me about this project. Maybe it was the prospect of using Spider-Man memes or maybe it's just a tool that I am using to learn these concepts? After all they say that there is no better test of your understanding of a topic than attempting to teach it to somebody else.
+
+I want to see how this evolves.
+
+For now, you could think of this as a 'journal' that I want to share with people as I embark upon this journey.
+
+So there you have it folks. Now that you know *a little bit* about what this blog is all about, hop on along for the journey. Or at the very least stay here for the memes and the pop-culture references.
