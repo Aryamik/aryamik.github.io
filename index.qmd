@@ -2,7 +2,6 @@
 about:
   template: jolla
   id: about-block
-  image: "img/my_imgage.jpg"
   links:
     - icon: linkedin
       text: Linkedin
@@ -26,8 +25,4 @@ As an aspiring sustainability professional, I enjoy connecting the dots: be it i
 
 My passion lies in exploring the connection between financial sector players and the link between sustainability and financial performance of enterprises. I excel when working in collaborative groups to solve real-world business problems and am eager to adapt and learn in different environments.
 
-When I am not in the office I love playing my bass guitar and pursuing my fitness goals! 
-Please feel free to [contact me](mailto:mail.aryamik.sharma@uwaterloo.ca) if you have any questions or would like to discuss potential projects.
-
-
-
+When I am not in the office I love playing my bass guitar and pursuing my fitness goals! Please feel free to [contact me](mailto:mail.aryamik.sharma@uwaterloo.ca) if you have any questions or would like to discuss potential projects.

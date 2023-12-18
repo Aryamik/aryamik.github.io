@@ -13,13 +13,11 @@ draft: false # setting this to `true` will prevent your post from appearing on y
 
 Have you come across the '*Record Scratch* *Freeze Frame* Yep, That's me.' meme?
 
-Like this one?
-
-<https://www.youtube.com/watch?v=s8wxsUv_2vg>
+Like [this one](https://www.youtube.com/watch?v=s8wxsUv_2vg)?
 
 You can see more of these on YouTube. I just happened to pick this one because it is hilarious and is from one of my favorite movies of all time (Spider-Man 2).
 
-Interestingly enough, no one knows the exact origin of this meme. When I tried to dig in, I came across [this opening sequence](https://www.youtube.com/watch?v=Qrwp_XkxJU8) of the movie Premium Rush (2012). However, the scene itself does not include the phrase. According to Knowyourmeme.com, this meme's origin could be traced back to the "[Robot Chicken](https://knowyourmeme.com/memes/subcultures/robot-chicken): [Star Wars](https://knowyourmeme.com/memes/subcultures/star-wars) Episode III.
+Interestingly enough, no one knows the exact origin of this meme. When I tried to dig in, I came across [this opening sequence](https://www.youtube.com/watch?v=Qrwp_XkxJU8) of the movie Premium Rush (2012). However, the scene itself does not include the phrase. According to [Knowyourmeme.com](https://knowyourmeme.com/memes/record-scratch-freeze-frame-yep-thats-me), this meme's origin could be traced back to the "[Robot Chicken](https://knowyourmeme.com/memes/subcultures/robot-chicken): [Star Wars](https://knowyourmeme.com/memes/subcultures/star-wars) Episode III.
 
 Anyways, why am I talking about this meme on my front page? Well because that's exactly how I feel right now writing this.
 
@@ -59,11 +57,11 @@ The idea that Artificial Intelligence and Machine Learning are transversal acros
 
 Whenever someone asks me about my interests, I usually walk them through this venn diagram:
 
-![](images/Screenshot from 2023-12-18 23-14-19.png){fig-align="center"}
+![](images/Screenshot%20from%202023-12-18%2023-14-19.png){fig-align="center"}
 
 The intersection of these areas represents the areas that I am really passionate to work on. However, if you were to ask me the same question today, I believe that this model will probably do a better job of explaining my interest areas!
 
-![](images/Screenshot from 2023-12-18 23-12-27.png){fig-align="center"}
+![](images/Screenshot%20from%202023-12-18%2023-12-27.png){fig-align="center"}
 
 You could say that I am just a guy who is curious to learn more about these cross-functional domains can possibly interact with each other. It is about my own journey as I try to decipher these seemingly complex topics.
 
