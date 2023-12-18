@@ -1,6 +1,6 @@
 ---
 title: "Bare Beginnings"
-description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+#description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
 author:
   - name: Aryamik Sharma
     url: https://aryamik.github.io
@@ -11,7 +11,7 @@ date: 12-18-2023
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
-Have you come across the '*Record Scratch* *Freeze Frame* / Yep, That's me.' meme?
+Have you come across the '*Record Scratch* *Freeze Frame* Yep, That's me.' meme?
 
 Like this one?
 
