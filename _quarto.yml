@@ -26,7 +26,7 @@ website:
       - icon: envelope
         aria-label: email
         href: "mailto:aryamik.sharma@uwaterloo.ca"  
-  
+
   
 
 # Don't touch unless you know what you are doing :) ------------
@@ -53,7 +53,7 @@ format:
   html:
     fontsize: 1.1em
     theme: 
-      - pulse
+      - yeti
       - html/styles.scss
     toc: false
     code-link: true
