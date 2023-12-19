@@ -2,6 +2,7 @@
 about:
   template: jolla
   id: about-block
+  image: my_image1.jpg
   links:
     - icon: linkedin
       text: Linkedin
@@ -12,6 +13,8 @@ about:
     - icon: envelope
       text: Email
       href: "mailto:mail.aryamik.sharma@uwaterloo.ca"  
+
+comments: false
 ---
 
 ::: {#about-block}
