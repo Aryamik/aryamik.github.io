@@ -9,6 +9,8 @@ date: 12-18-2023
 #categories: [Quarto, R, MEDS] # self-defined categories
 
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+
+
 ---
 
 Have you come across the '*Record Scratch* *Freeze Frame* Yep, That's me.' meme?
@@ -76,3 +78,5 @@ I want to see how this evolves.
 For now, you could think of this as a 'journal' that I want to share with people as I embark upon this journey.
 
 So there you have it folks. Now that you know *a little bit* about what this blog is all about, hop on along for the journey. Or at the very least stay here for the memes and the pop-culture references.
+
+

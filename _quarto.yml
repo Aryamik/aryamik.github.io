@@ -27,7 +27,7 @@ website:
         aria-label: email
         href: "mailto:aryamik.sharma@uwaterloo.ca"  
 
-  
+
 
 # Don't touch unless you know what you are doing :) ------------
   search: 
@@ -53,11 +53,15 @@ format:
   html:
     fontsize: 1.1em
     theme: 
-      - yeti
-      - html/styles.scss
+      - flatly
+      #- html/styles.scss
     toc: false
     code-link: true
     anchor-sections: true
     fig-cap-location: margin
     reference-location: margin
     footnotes-hover: true
+    
+comments:
+  giscus: 
+    repo: Aryamik/aryamik.github.io
