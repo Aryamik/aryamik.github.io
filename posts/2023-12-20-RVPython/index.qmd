@@ -1,0 +1,102 @@
+---
+title: "Bare Beginnings"
+#description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Aryamik Sharma
+    url: https://aryamik.github.io
+
+date: 12-29-2023
+categories: [Data Analytics] # self-defined categories
+
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+::: {.callout-tip title="TL;DR"}
+-   Both R and Python are amazing programming languages that can be used for a vast majority of use cases
+
+-   Knowing what to use and when to use it is highly contextual
+
+-   Focus on learning the concepts and applying them
+:::
+
+Do you remember the scene in Batman vs Superman where Superman confronts Lex Luthor at the top of Lex Corp? Lex asks Superman to fight Batman and says:
+
+> *Black and blue. Fight night. The greatest gladiator match in the history of the world: God versus man; day versus night; Son of Krypton versus Bat of Gotham!*
+
+Here's the scene:
+
+```{=html}
+<p align = 'center'><iframe width="560" height="315" src="https://www.youtube.com/embed/1DyD2jrWjFM?si=ap_D5Y-yvTsCNV2a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+```
+Sometimes that's what most of the debates on the internet feel like. Except they are not. The R vs Python is no such exception. It feels as if its the clash of the titans. But spoiler alert: *it's not!*
+
+The other day I came across this amazing meme and as a fan of both Wile E. Coyote and The Flash, I couldn't help but laugh.
+
+![](images/Screenshot%20from%202023-12-20%2000-15-21.png){fig-align="center"}
+
+Few days later, I saw this format used in the context of data science.
+
+![](images/Screenshot from 2023-12-20 00-10-34-01.png){fig-align="center"}
+
+It got me thinking about *what if it is true?*
+
+> *Is Python better than R? Or is it the other way round?*
+
+This post is not going to go into the specifics. Instead I will just link some amazing resources that will provide some more information.
+
+> -   [Python vs R for Data Science: Which Should You Learn?](https://www.datacamp.com/blog/python-vs-r-for-data-science-whats-the-difference)
+>
+> -   [Python or R for Data Analysis: Which Should I Learn?](https://www.coursera.org/articles/python-or-r-for-data-analysis)
+>
+> -   [Python vs. R: What\'s the Difference?](https://www.ibm.com/blog/python-vs-r/)
+
+```{=html}
+<iframe title="Popular Programming Languages" aria-label="Interactive line chart" id="datawrapper-chart-RASRM" src="https://datawrapper.dwcdn.net/RASRM/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+```
+In this graph, we can see that over the past few years Python has emerged to be one of the most popular programming languages. Even the results from [Stack Overflow's surveys](https://survey.stackoverflow.co/2023/#technology-most-popular-technologies) since have supported this claim. Nearly 49.3% of survey respondents (out of 87,585 responses) used Python. For R, it was 4.23%. Similarly, Python ranks first in several programming language popularity indices such as the [Popularity of Programming Language Index (PYPL)](https://pypl.github.io/PYPL.html) and the [TIOBE Programming Community index](https://www.tiobe.com/tiobe-index/).
+
+So what does this mean to the 'R vs Python' debate? Is it settled then? Do we have a 'winner'?
+
+The truth is there is no 'debate' or a 'fight' in first place. I know it sounds silly but it all *depends on the context.*
+
+Python is a high-level, general purpose programming language and focuses on high readability and interpretability. The 'general purpose' part of Python allows it to be used across various programming domains such as data science, web development, software development and gaming. Since its use cases span across multiple domains, it makes sense why it happens to be one of the most popular languages.
+
+R on the other hand was created specifically for statistical analysis. As a result, it has become the go-to language in academia, research, finance and data science. When my brother started working at his first job, he began his data science journey using R. Almost all of his projects were exclusively based in R. His journey later inspired me to start my own data science journey with R.
+
+We need to understand that there is a difference between creating a language that can be leveraged for statistical analysis and a language that can do a lot of things with statistical analysis being one of them. This is something that is not so apparent when we skim through the survey results and indices. What if the surveys were targeted towards audiences in academia? The results may tell us a totally different story. Or how about surveys that asks respondents which programming language has better visualization capabilities? The results might lean towards R.
+
+This is something that I can vouch for as well. When I first started using ggplot2 in R, my reaction was:
+
+![](images/Screenshot%20from%202023-12-28%2022-41-11.png){fig-align="center"}
+
+So now, we have this:
+
+![](images/Screenshot%20from%202023-12-20%2009-44-03.png){fig-align="center"}
+
+The best part about both these languages is that both Python and R have robust and extensive ecosystems and a vast community of users and developers who ensure the smooth growth and improvement of the respective languages, as well as the continuous release of new libraries designed for all kinds of purposes. In other words, one can use *either language* for a vast majority of the use cases.
+
+True wisdom lies in *knowing the strengths of both and knowing when to use them*. If you are working with your fellow postgraduates on a research project that requires you to do some statistical analysis, it would be a good idea to use R. Similarly if your day-to-day involves web scraping or automating tasks, then writing scripts in Python would be a better decision.
+
+At the end of the day, all these 'debates' and 'comparisons' don't matter. Jeremy from fast.ai sums it up beautifully:
+
+> *However, it doesn't really matter what software you learn, because it takes only a few days to learn to switch from one library to another. What really matters is learning the deep learning foundations and techniques properly. Our focus will be on using code that, as clearly as possible, expresses the concepts that you need to learn. Where we are teaching high-level concepts, we will use high-level fastai code. Where we are teaching low-level concepts, we will use low-level PyTorch or even pure Python code.*
+>
+> *Though it may seem like new deep learning libraries are appearing ata rapid pace nowadays, you need to be prepared for a much faster rate of change in the coming months and years. As more people enter the field, they will bring more skills and ideas, and try more things. You should assume that whatever specific libraries and software you learn today will be obsolete in a year or two. Just think about the number of changes in libraries and technology stacks that occur all the time in the world of web programming---a much more mature and slow-growing area than deep learning. We strongly believe that the focus in learning needs to be on understanding the underlying techniques and how to apply them in practice, and how to quickly build expertise in new tools and techniques as they are released.*
+
+When I was learning to play Bass, I was inspired by a lot of heavy metal bands. I wanted to learn all the amazing riffs that my idols used to play. When I did some research and looked up their histories, I realized that a lot of them came from different musical backgrounds such as jazz, blues, contemporary. For example, one of my favorite guitarists of all time, Synyster Gates started out as a jazz musician and so did his father Brian Haner. It is no surprise that almost all of Avenged Sevenfold's riffs have pentatonics and diminished arpeggios. It is fairly common knowledge among musicians to not confine yourself to a particular genre. Don't just be *a metal musician,* or *a jazz musician* , or a *blues musician.*
+
+I believe same logic can be applied to the world of data science. As long as you know 'what' is happening under the hood, you can easily apply that to any other language. Use R. Use Python. Or use both because why not? Think of them as *tools* that you can add to your data science *toolbox.*
+
+So which programming language is good?
+
+Here's your answer:
+
+```{=html}
+<p align = 'center'><iframe src="https://giphy.com/embed/3o7aCRloybJlXpNjSU" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/3o7aCRloybJlXpNjSU">via GIPHY</a></p></p> 
+```
+One last meme to put this topic to bed:
+
+![](images/Screenshot%20from%202023-12-20%2000-11-03.png){fig-align="center"}
+
+(P.S. I am going to miss Henry Cavill in the next season of Witcher 😢)

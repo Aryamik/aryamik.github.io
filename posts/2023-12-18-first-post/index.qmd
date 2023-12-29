@@ -9,14 +9,15 @@ date: 12-18-2023
 #categories: [Quarto, R, MEDS] # self-defined categories
 
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
-
-
 ---
 
 Have you come across the '*Record Scratch* *Freeze Frame* Yep, That's me.' meme?
 
-Like [this one](https://www.youtube.com/watch?v=s8wxsUv_2vg)?
+Like this one
 
+```{=html}
+<p align = 'center'><iframe width="560" height="315" src="https://www.youtube.com/embed/s8wxsUv_2vg?si=ivgaGxG0K2p7xrZm" align= 'center' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+```
 You can see more of these on YouTube. I just happened to pick this one because it is hilarious and is from one of my favorite movies of all time (Spider-Man 2).
 
 Interestingly enough, no one knows the exact origin of this meme. When I tried to dig in, I came across [this opening sequence](https://www.youtube.com/watch?v=Qrwp_XkxJU8) of the movie Premium Rush (2012). However, the scene itself does not include the phrase. According to [Knowyourmeme.com](https://knowyourmeme.com/memes/record-scratch-freeze-frame-yep-thats-me), this meme's origin could be traced back to the "[Robot Chicken](https://knowyourmeme.com/memes/subcultures/robot-chicken): [Star Wars](https://knowyourmeme.com/memes/subcultures/star-wars) Episode III.
@@ -47,7 +48,7 @@ A few paragraphs led to a few pages and before I knew it I came across the secti
 
 A few years ago when I came across the terms 'Machine Learning' , 'Deep Learning', 'Neural Networks'; I pictured a bunch of computer scientists, researchers and mathematicians from MIT working on the most complicated theorems and equations of advanced mathematics one can probably imagine. Oh, did I mention they were wearing white labcoats?
 
-![An 18 year old Aryamik's version of what it takes to work on Machine Learning](images/national-cancer-institute-kCXvthZgtvA-unsplash.jpg){fig-align="center"}
+![An 18 year old Aryamik's version of what it takes to work on Machine Learning](images/Social-Math_2880x1700_Lede.jpg){fig-align="center"}
 
 This Vince McMohan meme can probably sum up my reactions as I read through the first few sections of that course.
 
@@ -78,5 +79,3 @@ I want to see how this evolves.
 For now, you could think of this as a 'journal' that I want to share with people as I embark upon this journey.
 
 So there you have it folks. Now that you know *a little bit* about what this blog is all about, hop on along for the journey. Or at the very least stay here for the memes and the pop-culture references.
-
-
