@@ -4,7 +4,7 @@
 website:
   title: "Aryamik Sharma"                                # Your name
 #  description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
-  image: img/my_image1.jpg
+  image: img/my_image.jpg
   
   #favicon: img/favicon.png
   
@@ -63,5 +63,5 @@ format:
     footnotes-hover: true
     
 comments:
-  giscus: 
+  utterances: 
     repo: Aryamik/aryamik.github.io

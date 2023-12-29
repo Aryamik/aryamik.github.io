@@ -7,6 +7,6 @@ listing:
   categories: true # allows you to sort posts by assigned categories 
 
 comments:
-  giscus: 
+  utterances: 
     repo: Aryamik/aryamik.github.io
 ---
