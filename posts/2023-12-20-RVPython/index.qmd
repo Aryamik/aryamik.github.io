@@ -36,7 +36,7 @@ The other day I came across this amazing meme and as a fan of both Wile E. Coyot
 
 Few days later, I saw this format used in the context of data science.
 
-![](images/Screenshot from 2023-12-20 00-10-34-01.png){fig-align="center"}
+![](images/Screenshot%20from%202023-12-20%2000-10-34-01.png){fig-align="center"}
 
 It got me thinking about *what if it is true?*
 
@@ -48,7 +48,7 @@ This post is not going to go into the specifics. Instead I will just link some a
 >
 > -   [Python or R for Data Analysis: Which Should I Learn?](https://www.coursera.org/articles/python-or-r-for-data-analysis)
 >
-> -   [Python vs. R: What\'s the Difference?](https://www.ibm.com/blog/python-vs-r/)
+> -   [Python vs. R: What's the Difference?](https://www.ibm.com/blog/python-vs-r/)
 
 ```{=html}
 <iframe title="Popular Programming Languages" aria-label="Interactive line chart" id="datawrapper-chart-RASRM" src="https://datawrapper.dwcdn.net/RASRM/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
