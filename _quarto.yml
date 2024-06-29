@@ -15,7 +15,7 @@ website:
     
     # your sub-pages
     left:
-      - text: "ML4ESG"
+      - text: "Sympatheia"
         href: posts.qmd
 
     
