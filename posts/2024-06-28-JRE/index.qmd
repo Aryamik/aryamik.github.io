@@ -4,102 +4,263 @@ title: "Good Hearts Law"
 author:
   - name: Aryamik Sharma
     url: https://aryamik.github.io
-
 date: 06-28-2024
-categories: [Artificial Intelligences] # self-defined categories
-
-draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+categories: [Economics] # self-defined categories
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+editor: 
+  markdown: 
+    wrap: 72
+bibliography: references.bib
 ---
 
 ::: {.callout-tip title="TL;DR"}
--   Both R and Python are amazing programming languages that can be used for a vast majority of use cases
-
--   Knowing what to use and when to use it is highly contextual
-
--   Focus on learning the concepts and applying them
 :::
 
-I was listening to Episode #2156 of Joe Rogan Experience featuring Jeremie & Edouard Harris from Gladstone AI, an organization dedicated to promoting the responsible development and adoption of AI. The whole episode had interesting tidbits that I really liked but for this post, I wanted to focus on just segment - the economic principle of 'Good Heart's Law'. They discuss it around 56:30: 
+I was listening to Episode #2156 of Joe Rogan Experience featuring
+Jeremie & Edouard Harris from Gladstone AI, an organization dedicated to
+promoting the responsible development and adoption of AI. The whole
+episode had interesting tidbits that I really liked but for this post, I
+wanted to focus on just segment - the economic principle of 'Goodhart's
+Law'. They discuss it around 56:30:
 
 ```{=html}
 <p align = 'center'><iframe width="560" height="315" src="https://youtu.be/c6JdeL90ans?t=3396" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 ```
+> *This economic principle called Goodhart's Law where the minute you
+> take a metric you were using to measure something. So you're saying, I
+> don't know GDP is a great measure of how happy we are in the United
+> States. Let's say it was. Sounds reasonable. The moment you turn that
+> metric into a target that you're going to reward people for optimizing
+> it stops measuring the thing it was measuring before. It stops being a
+> good measure of the thing you cared about because people will come up
+> with dangerously creative hacks, gaming the system, finding ways to
+> make that number go up that don't map on to the intent that you had
+> going in.*
 
-> *This economic principle called Good Heart's Law where the minute you take a metric you were using to measure something. So you're saying, I don't know GDP is a great measure of how happy we are in the United States. Let's say it was. Sounds reasonable. The moment you turn that metric into a target that you're going to reward people for optimizing it stops measuring the thing it was measuring before. It stops being a good measure of the thing you cared about because people will come up with dangerously creative hacks, gaming the system, finding ways to make that number go up that don't map on to the intent that you had going in.*
+This led me into a rabbit hole on what Goodhart's law is all about. It
+can be traced back to 1975 when the British economist Charles Goodhart
+expressed this idea in his article "Problems of Monetary Management: The
+U.K. Experience". In the article Goodhart explains:
 
-This one seemed something that even I have experienced in my personal life. Consider my own diets and weight loss journey. There have been times when I just got fixated on getting the number on weighing scale down no matter what to the point it became kind of obsessive and uneccessary. 
+> *Any observed statistical regularity will tend to collapse once
+> pressure is placed upon it for control purposes.*
 
-I became so fixated on getting that number down that I lost track of my big picture goals and why I was interested in getting that number down in the first place? To be at a healthy body weight, to feel good. 
+Goodhart's Law was originally developed in the context of conducting
+monetary policy on the basis of targets ([Goodhart
+1984](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/j.1755-263X.2011.00167.x#b14)).
+Ever since then, it has been restated as:
 
-Sometimes that's what most of the debates on the internet feel like. Except they are not. The R vs Python is no such exception. It feels as if its the clash of the titans. But spoiler alert: *it's not!*
+> *When a measure becomes a target, it ceases to be a good measure.*
 
-The other day I came across this amazing meme and as a fan of both Wile E. Coyote and The Flash, I couldn't help but laugh.
+It got me thinking about my own fitness journey. When I was just
+starting out, I used to get so fixated on the number on weighing scale.
+because in my head I rationalized it as:
 
-![](images/Screenshot%20from%202023-12-20%2000-15-21.png){fig-align="center"}
+*Lower weight = Being closer to my fitness goals.*
 
-Few days later, I saw this format used in the context of data science.
+It got to a point where I became so obsessed with the number that I saw
+on the weighing scale everyday that I started 'gaming' the system. I
+started pulling off some shenanigans like being over zealous with my
+cardio, being extremely restrictive with my calories so that the next
+day the scale would read the number that I wanted to see. It got to a
+point where I lost track of my broader fitness goals and why I was doing
+it in the first place - to be more healthy and happy.
 
-![](images/Screenshot%20from%202023-12-20%2000-10-34-01.png){fig-align="center"}
+It wasn't until many years later that I realized the errors of my ways.
+It occurred me to that weight is one of the many metrics that can be
+used to gauge your progress. It can serve as a proxy for your fitness
+journey but it is not the end all be all metric that is worth obsessing
+over. Not only that, but relying solely on a weight loss scale for
+fitness progress can turn misleading. These digital scales give weight
+readings, but what's behind that number?
 
-It got me thinking about *what if it is true?*
+[Many variables affect your body
+weight](https://rpstrength.com/blogs/articles/why-arent-your-results-good-enough),
+such as:
 
-> *Is Python better than R? Or is it the other way round?*
+-   Sleep
 
-This post is not going to go into the specifics. Instead I will just link some amazing resources that will provide some more information.
+-   Carbohydrate intake
 
-> -   [Python vs R for Data Science: Which Should You Learn?](https://www.datacamp.com/blog/python-vs-r-for-data-science-whats-the-difference)
->
-> -   [Python or R for Data Analysis: Which Should I Learn?](https://www.coursera.org/articles/python-or-r-for-data-analysis)
->
-> -   [Python vs. R: What's the Difference?](https://www.ibm.com/blog/python-vs-r/)
+-   Sodium intake Fiber
 
-```{=html}
-<iframe title="Popular Programming Languages" aria-label="Interactive line chart" id="datawrapper-chart-RASRM" src="https://datawrapper.dwcdn.net/RASRM/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-</script>
-```
-In this graph, we can see that over the past few years Python has emerged to be one of the most popular programming languages. Even the results from [Stack Overflow's surveys](https://survey.stackoverflow.co/2023/#technology-most-popular-technologies) since have supported this claim. Nearly 49.3% of survey respondents (out of 87,585 responses) used Python. For R, it was 4.23%. Similarly, Python ranks first in several programming language popularity indices such as the [Popularity of Programming Language Index (PYPL)](https://pypl.github.io/PYPL.html) and the [TIOBE Programming Community index](https://www.tiobe.com/tiobe-index/).
+-   Menstrual cycle
 
-So what does this mean to the 'R vs Python' debate? Is it settled then? Do we have a 'winner'?
+-   Food volume
 
-The truth is there is no 'debate' or a 'fight' in first place. I know it sounds silly but it all *depends on the context.*
+-   Constipation
 
-Python is a high-level, general purpose programming language and focuses on high readability and interpretability. The 'general purpose' part of Python allows it to be used across various programming domains such as data science, web development, software development and gaming. Since its use cases span across multiple domains, it makes sense why it happens to be one of the most popular languages.
+-   Stress
 
-R on the other hand was created specifically for statistical analysis. As a result, it has become the go-to language in academia, research, finance and data science. When my brother started working at his first job, he began his data science journey using R. Almost all of his projects were exclusively based in R. His journey later inspired me to start my own data science journey with R.
+-   Hydration
 
-We need to understand that there is a difference between creating a language that can be leveraged for statistical analysis and a language that can do a lot of things with statistical analysis being one of them. This is something that is not so apparent when we skim through the survey results and indices. What if the surveys were targeted towards audiences in academia? The results may tell us a totally different story. Or how about surveys that asks respondents which programming language has better visualization capabilities? The results might lean towards R.
+Therefore even if you are giving 100%, the numbers on weighing scale can
+fluctuate easily.
 
-This is something that I can vouch for as well. When I first started using ggplot2 in R, my reaction was:
+So what does this tell? Being obsessed with chasing a particular metric
+(in this case the number on weighing scale) ends up telling nothing
+about what we wanted to measure in the first place.
 
-![](images/Screenshot%20from%202023-12-28%2022-41-11.png){fig-align="center"}
+In Life 3.0 (which is easily one of my favorite books of all time), Max
+Tegmark mentions that in our question to building Artificial General
+Intelligence (AGI) as we get more intelligent and powerful machines, the
+more important it will become becomes that their goals are aligned with
+ours. He argues that figuring out how to align the goals of a
+superintelligent AI with our goals isn\'t just important, but also hard
+and continues to be an unsolved problem. For example if I ask a
+self-driving car to take me to the airport as fast as possible and it
+takes my word for it, the next thing I know I am being chased by
+helicopters and I find myself covered in vomit. I could get mad at the
+car all day long and tell it 'That's not what I wanted!', it can argue
+'That's what you asked for.'
 
-So now, we have this:
+Let's take a look at another example of where Goodhart's law maybe
+applicable - sustainability targets and initiatives.
 
-![](images/Screenshot%20from%202023-12-20%2009-44-03.png){fig-align="center"}
+Following the Paris Agreement, the [Intergovernmental Panel on Climate
+Change](https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change "Intergovernmental Panel on Climate Change")
+published its [Special Report on Global Warming of 1.5 °C
+(SR15)](https://en.wikipedia.org/wiki/Special_Report_on_Global_Warming_of_1.5_%C2%B0C "Special Report on Global Warming of 1.5 °C")
+in which stated that
 
-The best part about both these languages is that both Python and R have robust and extensive ecosystems and a vast community of users and developers who ensure the smooth growth and improvement of the respective languages, as well as the continuous release of new libraries designed for all kinds of purposes. In other words, one can use *either language* for a vast majority of the use cases.
+> *"Reaching and sustaining net zero global anthropogenic
+> \[human-caused\] CO~2~ emissions and declining net non-CO~2~[radiative
+> forcing](https://en.wikipedia.org/wiki/Radiative_forcing "Radiative forcing")
+> would halt anthropogenic global warming on multi-decadal timescales.*
 
-True wisdom lies in *knowing the strengths of both and knowing when to use them*. If you are working with your fellow postgraduates on a research project that requires you to do some statistical analysis, it would be a good idea to use R. Similarly if your day-to-day involves web scraping or automating tasks, then writing scripts in Python would be a better decision.
+Ever since then, there has been significant growth in the number of
+actors pledging net zero emissions. Many standards such as the [Science
+Based Targets
+initiative](https://en.wikipedia.org/wiki/Science_Based_Targets_initiative "Science Based Targets initiative")
+(SBTi) and International Sustainability Standards have emerged that
+interpret the net zero concept and aim to measure progress towards net
+zero targets.
 
-At the end of the day, all these 'debates' and 'comparisons' don't matter. Jeremy from fast.ai sums it up beautifully:
+The rise of these standards have led to the (re)emergence of various
+policies and mechanisms such as carbon offsets.
 
-> *However, it doesn't really matter what software you learn, because it takes only a few days to learn to switch from one library to another. What really matters is learning the deep learning foundations and techniques properly. Our focus will be on using code that, as clearly as possible, expresses the concepts that you need to learn. Where we are teaching high-level concepts, we will use high-level fastai code. Where we are teaching low-level concepts, we will use low-level PyTorch or even pure Python code.*
->
-> *Though it may seem like new deep learning libraries are appearing ata rapid pace nowadays, you need to be prepared for a much faster rate of change in the coming months and years. As more people enter the field, they will bring more skills and ideas, and try more things. You should assume that whatever specific libraries and software you learn today will be obsolete in a year or two. Just think about the number of changes in libraries and technology stacks that occur all the time in the world of web programming---a much more mature and slow-growing area than deep learning. We strongly believe that the focus in learning needs to be on understanding the underlying techniques and how to apply them in practice, and how to quickly build expertise in new tools and techniques as they are released.*
+The idea behind a carbon offset is that when an entity releases
+greenhouse gases, they can pay someone else to remove an equivalent
+amount of climate pollution from the atmosphere. For example, if an
+automotive manufacturer in a developed country that wants to claim it is
+reducing its emissions can pay for a patch of rainforest to be protected
+in the Amazon that can absorb an equal amount of emissions. This in
+theory -- cancels out - or offsets the impact of the automotive
+manufacturer.
 
-When I was learning to play Bass, I was inspired by a lot of heavy metal bands. I wanted to learn all the amazing riffs that my idols used to play. When I did some research and looked up their histories, I realized that a lot of them came from different musical backgrounds such as jazz, blues, contemporary. For example, one of my favorite guitarists of all time, Synyster Gates started out as a jazz musician and so did his father Brian Haner. It is no surprise that almost all of Avenged Sevenfold's riffs have pentatonics and diminished arpeggios. It is fairly common knowledge among musicians to not confine yourself to a particular genre. Don't just be *a metal musician,* or *a jazz musician* , or a *blues musician.*
+One can see the appeal for carbon offsets. For many industries, the cost
+of addressing their own emissions can be a huge undertaking. By directly
+funding offset projects, the cost of addressing climate change becomes
+more manageable. It should work out, right?
 
-I believe same logic can be applied to the world of data science. As long as you know 'what' is happening under the hood, you can easily apply that to any other language. Use R. Use Python. Or use both because why not? Think of them as *tools* that you can add to your data science *toolbox.*
+The reality:
 
-So which programming language is good?
+[![Source:
+Bloomberg.com](images/Screenshot from 2024-06-29 16-54-23.png){fig-align="center"}](https://www.bloomberg.com/news/articles/2023-08-24/junk-offsets-are-feeding-mass-wave-of-greenwashing-study-shows?sref=GBEdnt3o)
 
-Here's your answer:
+[![Source:
+Time.com](images/Screenshot from 2024-06-29 16-57-46.png)](https://time.com/6264772/study-most-carbon-credits-are-bogus/)
 
-```{=html}
-<p align = 'center'><iframe src="https://giphy.com/embed/3o7aCRloybJlXpNjSU" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/3o7aCRloybJlXpNjSU">via GIPHY</a></p></p> 
-```
-One last meme to put this topic to bed:
+@west2023 analyzed 18 carbon-offset projects across Peru, Colombia,
+Cambodia, Tanzania and the Democratic Republic of Congo and found that
+only 5.4 million --- or 6% --- of a potential 89 million credits were
+linked to additional carbon reductions through preserved forests.
 
-![](images/Screenshot%20from%202023-12-20%2000-11-03.png){fig-align="center"}
+Carbon offsets have been there since 1970s. So what went wrong?
 
-(P.S. I am going to miss Henry Cavill in the next season of Witcher 😢)
+Keeping aside the limitations of carbon offsets such as overstated
+baselines, double counting of emissions, additionality; one can see how
+Goodhart's law might be at play here.
+
+Consider a simple example. A dairy farm wants to setup its operations in
+California. This means the dairy farm will have to clear 1 hectare of
+land to be up and running. Theoretically, the dairy farm could offset
+its impact by planting 1 hectare of vegetation in Amazon. Soon enough,
+this will prompt other dairy farms to do the same thing and before you
+know it hundreds of acres of lands have been cleared in California. But
+you might say : 'Aren't they making up for their impacts by offsetting
+their emissions in Amazon?'
+
+Partially yes. But 1 hectare of land in California is not the same as 1
+hectare of land in Amazon. The ecological complexities of the two
+regions are vastly different. This has been one of the criticisms of
+carbon offsets where offset projects tend to become concentrated in the
+developing countries.
+
+The organizations can claim to be carbon neutral (which on paper they
+might be). But in the end, are we really 'solving' for the underlying
+problem?
+
+Similarly, Goodhart's law finds it way in a related area - protecting
+biodiversity.
+
+Rapid declines in populations of various vulnerable species have led to
+their inclusion in direct measures of biodiversity such as
+[International Union for Conservation of Nature
+(IUCN)](https://www.iucn.org/), Red List Index (RLI). The Index is based
+on the IUCN Red List of Threatened Species™, which is
+widely considered to be the leading assessment of the extinction risk
+of species. The Red List involves the application of quantitative
+criteria based on population size, distribution area, and rate of
+decline, to assign species to different categories of relative
+extinction risk ([IUCN
+2001](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/j.1755-263X.2011.00167.x#b19)).
+
+As a result, a substantial research effort has been devoted to examining
+the causes of decline in these vulnerable species. This has
+led to increases in conservation efforts which have had some success in
+slowing or even reversing the observed declines. At first glance, this
+can viewed as a success story. However, it has also potentially
+undermined the use of these species as a sustainability indicator. As
+policy and management interventions have focused specifically on
+vulnerable species, with the aim of improving this indicator, abundance
+of these species is arguably now less representative of the general
+state of the natural environment than it was hitherto. Consequently, any
+increase in the indicator is more likely to be a measure of specific
+response actions than of any general improvement in the state of the
+environment.
+
+This post is not meant to be a criticism of carbon credits,
+sustainability standards or indicators. Instead, it highlights how
+despite our best efforts at measuring something, Goodhart law can find a
+way to sneak in. So the obvious questions become:
+
+Why does it happen?
+
+What can we do about it?
+
+In the JRE episode, Jeremie explains this happens because you end up
+baking in some misalignment between what you want and what the system
+wants. The more powerful that system becomes the the more it exploits
+that gap. People will tend to affect any given indicator/measure in
+whichever ways can be most readily achieved. As a result, indicators
+become decoupled from underlying process that they are supposed to
+indicate, and indicator values will become artificially inflated without
+addressing the underlying problem.
+
+How do we address this? I have been a huge proponent of 'What gets
+measured, gets managed'. Do we get rid of measures altogether? No.
+
+Before coming up with ways to quantify something, we should be really
+clear with what do we want out of this action? Do I want to track my
+daily weight or do I want to be the healthiest version of myself?
+
+Do I want to offset my emissions or do I want to make sure the broader
+environment is protected?
+
+Being clear on what problem are we addressing from the get go should
+help i
+
+Once we are clear on that, then we should think of all the possible ways
+in which the given indicator/measure could be exploited/gamified?
+Specifically, systems should be put in place to prevent manipulation of
+the indicators and the assessments on which they are based, to ensure
+that the information they provide is objective and reliable. Use of
+multiple indicator sets, including measures of pressure as well as state
+variables, could help reduce scope for indicator manipulation.
+
+Finally, there is a need for caution in interpreting the information
+provided by any indicators that are used; at best, they can only provide
+a partial indication of the status and trends of the process we are
+trying to measure, and this needs to be appreciated by the
+decision-makers who employ them.
