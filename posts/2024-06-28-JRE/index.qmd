@@ -8,7 +8,7 @@ author:
 date: 06-28-2024
 categories: [Artificial Intelligences] # self-defined categories
 
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
 ::: {.callout-tip title="TL;DR"}
@@ -19,15 +19,18 @@ draft: false # setting this to `true` will prevent your post from appearing on y
 -   Focus on learning the concepts and applying them
 :::
 
-Do you remember the scene in Batman vs Superman where Superman confronts Lex Luthor at the top of Lex Corp? Lex asks Superman to fight Batman and says:
-
-> *Black and blue. Fight night. The greatest gladiator match in the history of the world: God versus man; day versus night; Son of Krypton versus Bat of Gotham!*
-
-Here's the scene:
+I was listening to Episode #2156 of Joe Rogan Experience featuring Jeremie & Edouard Harris from Gladstone AI, an organization dedicated to promoting the responsible development and adoption of AI. The whole episode had interesting tidbits that I really liked but for this post, I wanted to focus on just segment - the economic principle of 'Good Heart's Law'. They discuss it around 56:30: 
 
 ```{=html}
-<p align = 'center'><iframe width="560" height="315" src="https://www.youtube.com/embed/1DyD2jrWjFM?si=ap_D5Y-yvTsCNV2a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p align = 'center'><iframe width="560" height="315" src="https://youtu.be/c6JdeL90ans?t=3396" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 ```
+
+> *This economic principle called Good Heart's Law where the minute you take a metric you were using to measure something. So you're saying, I don't know GDP is a great measure of how happy we are in the United States. Let's say it was. Sounds reasonable. The moment you turn that metric into a target that you're going to reward people for optimizing it stops measuring the thing it was measuring before. It stops being a good measure of the thing you cared about because people will come up with dangerously creative hacks, gaming the system, finding ways to make that number go up that don't map on to the intent that you had going in.*
+
+This one seemed something that even I have experienced in my personal life. Consider my own diets and weight loss journey. There have been times when I just got fixated on getting the number on weighing scale down no matter what to the point it became kind of obsessive and uneccessary. 
+
+I became so fixated on getting that number down that I lost track of my big picture goals and why I was interested in getting that number down in the first place? To be at a healthy body weight, to feel good. 
+
 Sometimes that's what most of the debates on the internet feel like. Except they are not. The R vs Python is no such exception. It feels as if its the clash of the titans. But spoiler alert: *it's not!*
 
 The other day I came across this amazing meme and as a fan of both Wile E. Coyote and The Flash, I couldn't help but laugh.
