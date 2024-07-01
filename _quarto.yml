@@ -12,15 +12,14 @@ website:
   navbar:
     pinned: true
    # logo: /img/logo.png
-    
-    # your sub-pages
-    left:
-      - text: "Sympatheia"
-        href: posts.qmd
 
     
-    # your social media handles
+    # your sub pages and social media handles
     right:
+      - text: "Sympatheia"
+        href: posts.qmd    
+      - text: "About"
+        href: About.qmd          
       - icon: linkedin
         href: https://www.linkedin.com/in/aryamik-sharma
       - icon: envelope

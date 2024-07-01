@@ -1,0 +1,12 @@
+---
+title: Disclaimer
+comments: false
+---
+
+::: {#about-block}
+
+:::
+
+The information provided on this website reflects my personal thoughts, opinions, and experiences. It is intended for informational purposes only and should not be taken as professional advice. All information on the site is provided in good faith, however, I make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.
+
+All views expressed on this site are my own and do not represent the opinions of any entity with which I have been or am currently affiliated.

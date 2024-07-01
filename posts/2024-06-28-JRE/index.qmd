@@ -5,7 +5,7 @@ author:
   - name: Aryamik Sharma
     url: https://aryamik.github.io
 date: 06-28-2024
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 editor: 
   markdown: 
     wrap: 72
@@ -105,7 +105,7 @@ Tegmark mentions that in our question to building Artificial General
 Intelligence (AGI) as we get more intelligent and powerful machines, the
 more important it will become becomes that their goals are aligned with
 ours. He argues that figuring out how to align the goals of a
-superintelligent AI with our goals isn\'t just important, but also hard
+superintelligent AI with our goals isn't just important, but also hard
 and continues to be an unsolved problem. For example if I ask a
 self-driving car to take me to the airport as fast as possible and it
 takes my word for it, the next thing I know I am being chased by
@@ -155,10 +155,10 @@ more manageable. It should work out, right?
 The reality:
 
 [![Source:
-Bloomberg.com](images/Screenshot from 2024-06-29 16-54-23.png){fig-align="center"}](https://www.bloomberg.com/news/articles/2023-08-24/junk-offsets-are-feeding-mass-wave-of-greenwashing-study-shows?sref=GBEdnt3o)
+Bloomberg.com](images/Screenshot%20from%202024-06-29%2016-54-23.png){fig-align="center"}](https://www.bloomberg.com/news/articles/2023-08-24/junk-offsets-are-feeding-mass-wave-of-greenwashing-study-shows?sref=GBEdnt3o)
 
 [![Source:
-Time.com](images/Screenshot from 2024-06-29 16-57-46.png)](https://time.com/6264772/study-most-carbon-credits-are-bogus/)
+Time.com](images/Screenshot%20from%202024-06-29%2016-57-46.png)](https://time.com/6264772/study-most-carbon-credits-are-bogus/)
 
 @west2023 analyzed 18 carbon-offset projects across Peru, Colombia,
 Cambodia, Tanzania and the Democratic Republic of Congo and found that
@@ -197,27 +197,25 @@ Rapid declines in populations of various vulnerable species have led to
 their inclusion in direct measures of biodiversity such as
 [International Union for Conservation of Nature
 (IUCN)](https://www.iucn.org/), Red List Index (RLI). The Index is based
-on the IUCN Red List of Threatened Species™, which is
-widely considered to be the leading assessment of the extinction risk
-of species. The Red List involves the application of quantitative
-criteria based on population size, distribution area, and rate of
-decline, to assign species to different categories of relative
-extinction risk ([IUCN
+on the IUCN Red List of Threatened Species™, which is widely considered
+to be the leading assessment of the extinction risk of species. The Red
+List involves the application of quantitative criteria based on
+population size, distribution area, and rate of decline, to assign
+species to different categories of relative extinction risk ([IUCN
 2001](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/j.1755-263X.2011.00167.x#b19)).
 
 As a result, a substantial research effort has been devoted to examining
-the causes of decline in these vulnerable species. This has
-led to increases in conservation efforts which have had some success in
-slowing or even reversing the observed declines. At first glance, this
-can viewed as a success story. However, it has also potentially
-undermined the use of these species as a sustainability indicator. As
-policy and management interventions have focused specifically on
-vulnerable species, with the aim of improving this indicator, abundance
-of these species is arguably now less representative of the general
-state of the natural environment than it was hitherto. Consequently, any
-increase in the indicator is more likely to be a measure of specific
-response actions than of any general improvement in the state of the
-environment.
+the causes of decline in these vulnerable species. This has led to
+increases in conservation efforts which have had some success in slowing
+or even reversing the observed declines. At first glance, this can
+viewed as a success story. However, it has also potentially undermined
+the use of these species as a sustainability indicator. As policy and
+management interventions have focused specifically on vulnerable
+species, with the aim of improving this indicator, abundance of these
+species is arguably now less representative of the general state of the
+natural environment than it was hitherto. Consequently, any increase in
+the indicator is more likely to be a measure of specific response
+actions than of any general improvement in the state of the environment.
 
 This post is not meant to be a criticism of carbon credits,
 sustainability standards or indicators. Instead, it highlights how
