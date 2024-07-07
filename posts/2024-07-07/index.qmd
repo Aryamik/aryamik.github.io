@@ -5,6 +5,8 @@ author:
   - name: Aryamik Sharma
     url: https://aryamik.github.io
 date: 07-07-2024
+categories: [Economics] # self-defined categories
+
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 editor: 
   markdown: 
