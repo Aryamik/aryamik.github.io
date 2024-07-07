@@ -19,7 +19,7 @@ website:
       - text: "Sympatheia"
         href: posts.qmd    
       - text: "Disclaimer"
-        href: About.qmd          
+        href: Disclaimer.qmd          
       - icon: linkedin
         href: https://www.linkedin.com/in/aryamik-sharma
       - icon: envelope

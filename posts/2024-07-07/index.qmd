@@ -1,0 +1,291 @@
+---
+title: "Goodhart's Law - When Chasing Measures Goes Wrong"
+#description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Aryamik Sharma
+    url: https://aryamik.github.io
+date: 07-07-2024
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+editor: 
+  markdown: 
+    wrap: 72
+bibliography: references.bib
+---
+
+I was listening to [Episode #2156 of the Joe Rogan
+Experience](https://youtu.be/c6JdeL90ans) featuring Jeremie & Edouard
+Harris from Gladstone AI, an organization dedicated to promoting the
+responsible development and adoption of AI. The whole episode had
+interesting tidbits that I really liked but for this post, I wanted to
+focus on just one segment - the economic principle of 'Goodhart's law'.
+They discuss it around 56:30:
+
+```{=html}
+<p align = 'left'><iframe width="560" height="315" src="https://youtu.be/c6JdeL90ans?t=3396" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+```
+> *This economic principle called Goodhart's Law where the minute you
+> take a metric you were using to measure something. So you're saying, I
+> don't know, GDP is a great measure of how happy we are in the United
+> States. Let's say it was. Sounds reasonable. The moment you turn that
+> metric into a target that you're going to reward people for optimizing
+> it stops measuring the thing it was measuring before. It stops being a
+> good measure of the thing you cared about because people will come up
+> with dangerously creative hacks, gaming the system, finding ways to
+> make that number go up that don't map on to the intent that you had
+> going in.*
+
+This led me into a rabbit hole of Goodhart's law and figuring out what
+it is all about. It can be traced back to 1975 when the British
+economist Charles Goodhart expressed this idea in his article ["Problems
+of Monetary Management: The U.K.
+Experience"](https://link.springer.com/chapter/10.1007/978-1-349-17295-5_4).
+In the article Goodhart explains:
+
+> *Any observed statistical regularity will tend to collapse once
+> pressure is placed upon it for control purposes.*
+
+Simply put
+
+> *When a measure becomes a target, it ceases to be a good measure.*
+
+Goodhart's law was originally developed in the context of conducting
+monetary policy on the basis of targets. However, its application can be
+observed in many other areas. Here are some other applications of
+Goodhart's law that I can think at the top of my head:
+
+## My Fitness Journey
+
+After hearing about Goodhart's law, it got me thinking about my own
+fitness journey. When I was just starting out, I used to get so fixated
+on the number on weighing scale because in my head I rationalized it as:
+
+*Lower weight on the weighing scale = Being closer to my fitness goals*
+
+I became so obsessed with the number that I saw on the weighing scale
+everyday that I started 'gaming' the system. I started pulling off some
+shenanigans like being over zealous with my cardio, being extremely
+restrictive with my calories so that the next day the scale would read
+the number that I wanted to see. It got to a point where I lost track of
+my broader fitness goals and why I was doing it in the first place - to
+stay fit and be more healthy.
+
+It wasn't until many years later that I realized that I was doing it all
+wrong. It occurred me to that weight is one of the many metrics that can
+be used to gauge your progress. It can serve as a proxy for your fitness
+journey but it is not the end-all metric that is worth obsessing over.
+Not only that, but relying solely on a weight loss scale for fitness
+progress can be misleading. Turns out [many variables affect your body
+weight](https://rpstrength.com/blogs/articles/why-arent-your-results-good-enough),
+such as:
+
+-   Sleep
+
+-   Carbohydrate intake
+
+-   Sodium intake
+
+-   Fiber
+
+-   Menstrual cycle
+
+-   Food volume
+
+-   Constipation
+
+-   Stress
+
+-   Hydration
+
+Therefore even if you are giving 100%, the numbers on weighing scale can
+fluctuate easily.
+
+## AI Goals
+
+In Life 3.0 (which is easily one of my favorite books of all time), Max
+Tegmark mentions that in our quest to building Artificial General
+Intelligence (AGI) as we get more intelligent and powerful machines, it
+will become paramount to ensure that their goals are aligned with ours.
+He argues that figuring out how to align the goals of a superintelligent
+AI with our goals isn't just important, but also hard and continues to
+be an unsolved problem. For example, if I ask a self-driving car to take
+me to the airport as fast as possible and it literally takes my word for
+it, the next thing I know the car is ignoring the speed limits and all
+traffic signals, I am being chased by helicopters and by the time I
+arrive at the airport, I find myself covered in vomit. I could get mad
+at the car all day long and tell it 'That's not what I wanted!', it can
+argue 'That's what you asked for.'
+
+## Sustainability Targets and Initiatives
+
+Let's take a look at another example of where Goodhart's law maybe
+applicable - sustainability targets and initiatives.
+
+Following the Paris Agreement, the [Intergovernmental Panel on Climate
+Change](https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change "Intergovernmental Panel on Climate Change")
+published its [Special Report on Global Warming of 1.5 °C
+(SR15)](https://en.wikipedia.org/wiki/Special_Report_on_Global_Warming_of_1.5_%C2%B0C "Special Report on Global Warming of 1.5 °C")
+which stated that
+
+> *"Reaching and sustaining net zero global anthropogenic
+> \[human-caused\] CO~2~ emissions and declining net non-CO~2~[radiative
+> forcing](https://en.wikipedia.org/wiki/Radiative_forcing "Radiative forcing")
+> would halt anthropogenic global warming on multi-decadal timescales.*
+
+Ever since then, there has been significant growth in the number of
+actors pledging net zero emissions. Many standards such as the [Science
+Based Targets
+initiative](https://en.wikipedia.org/wiki/Science_Based_Targets_initiative "Science Based Targets initiative")
+(SBTi) and [International Sustainability
+Standards](https://www.ifrs.org/groups/international-sustainability-standards-board/)
+have emerged that interpret the net zero concept and aim to measure
+progress towards net zero targets. The rise of these standards have led
+to the (re)emergence of various policies and mechanisms such as carbon
+offsets.
+
+The idea behind a carbon offset is that when an entity releases
+greenhouse gases, they can pay someone else to remove an equivalent
+amount of climate pollution from the atmosphere. For example, if an
+automotive manufacturer in a developed country that wants to claim it is
+reducing its emissions, the manufacturer can pay for a patch of
+rainforest to be protected in the Amazon that can absorb an equal amount
+of emissions. This in theory -- cancels out - or offsets the impact of
+the automotive manufacturer's emissions.
+
+One can see the appeal for carbon offsets. For many industries, the cost
+of addressing their own emissions can be a huge undertaking. By directly
+funding offset projects, the cost of addressing climate change becomes
+more manageable. It sounds pretty straightforward, right?
+
+It is all fun and games until you take a look at the reality.
+
+How it started:
+
+[![Source:
+Marketplace.org](images/Screenshot%20from%202024-07-06%2011-18-54.png)](https://www.marketplace.org/2019/09/13/as-climate-change-looms-a-booming-market-for-carbon-offsets/)
+
+How it's going:
+
+[![Source:
+Bloomberg.org](images/Screenshot%20from%202024-07-06%2011-26-04.png)](https://www.bloomberg.com/news/articles/2024-07-02/carbon-credits-face-fresh-blowback-as-ngos-unite-to-slam-offsets)
+
+Carbon offsets have been there since
+[1970s](https://ghginstitute.org/wp-content/uploads/2015/04/AdditionalityPaper_Part-1ver3FINAL.pdf).
+So what went wrong along the way?
+
+Keeping aside the [limitations of carbon
+offsets](https://www.science.org/doi/abs/10.1126/science.ade3535) such
+as overstated baselines, double counting of emissions, additionality;
+one can see how Goodhart's law might be at play here.
+
+Consider a simple example. A dairy farm wants to setup its operations in
+California. This means the dairy farm will have to clear 1 hectare of
+land to be up and running. Theoretically, the dairy farm could offset
+its impact by planting 1 hectare of vegetation in Amazon. Soon enough,
+this will prompt other dairy farms to do the same thing and before you
+know it hundreds of acres of lands have been cleared in California. But
+you might say : 'Aren't they making up for their impacts by offsetting
+their emissions in Amazon?'
+
+Partially yes. But 1 hectare of land in California is not the same as 1
+hectare of land in Amazon. This has been [one of the
+criticisms](https://www.theguardian.com/environment/2023/jan/18/revealed-forest-carbon-offsets-biggest-provider-worthless-verra-aoe)
+of carbon offsets where offset projects tend to encourage 'business as
+usual' practices without considering the ecological complexities of the
+different regions. As a result, organizations can claim to be carbon
+neutral (which on paper they might be). But in the end, are we really
+'solving' for the underlying problem?
+
+## Biodiversity Conservation
+
+Similarly, Goodhart's law finds it way in a related area - protecting
+biodiversity.
+
+Rapid declines in populations of various vulnerable species have led to
+their inclusion in direct measures of biodiversity such as
+[International Union for Conservation of Nature
+(IUCN)](https://www.iucn.org/), Red List Index (RLI). The Index is based
+on the [IUCN Red List of Threatened
+Species™](https://www.iucnredlist.org/about/background-history), which
+is widely considered to be the leading assessment of the extinction risk
+of species. The Red List involves the [application of quantitative
+criteria](https://www.iucnredlist.org/resources/summary-sheet) based on
+population size, distribution area, and rate of decline, to assign
+species to different categories of relative extinction risk.
+
+A substantial research effort has been devoted to examining the causes
+of decline in these vulnerable species using the indicators used in RLI.
+This [has led to increases in conservation
+efforts](https://www.tandfonline.com/doi/abs/10.1080/14749730110100778)
+which have had some success in slowing or even reversing the observed
+declines. At first glance, this can viewed as a success story. However,
+it has also potentially undermined the use of these species as a
+sustainability indicator. As policy and management interventions have
+focused specifically on vulnerable species, with the aim of improving
+this indicator, [abundance of these species is arguably now less
+representative of the general state of the natural environment than it
+was
+hitherto.](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/j.1755-263X.2011.00167.x)
+Consequently, any increase in the indicator is more likely to be a
+measure of specific response actions than of any general improvement in
+the state of the environment.
+
+## Way Forward
+
+These examples illustrate the central theme of Goodhart's law, that is
+
+> Once a measure is declared as important and policy aims to reduce it,
+> the underlying correlation will be reduced.
+
+This post is not meant to be a criticism of carbon offsets,
+sustainability standards or measures as a whole. As someone who is part
+of the 'what gets measured, gets managed' crowd, I still believe that
+measures serve an important purpose.
+
+But given what we know about Goodhart's law, two key questions emerge:
+
+-   Why does it happen?
+
+-   What can we do about it?
+
+In the episode, Jeremie explains this happens because you end up baking
+in some misalignment between what you want and what the system wants.
+The more powerful that system becomes the the more it exploits that gap.
+People will tend to affect any given indicator/measure in whichever ways
+can be most readily achieved. As a result, indicators become decoupled
+from underlying process that they are supposed to indicate, and
+indicator values will become artificially inflated without addressing
+the underlying problem.
+
+That takes care of the 'why'. Now how do we actually address it?
+
+Before coming up with ways to quantify something, we should be really
+clear with *what are we trying to solve for?* Do I want to track my
+daily weight or do I want to be the healthiest version of myself? Do I
+want to offset my emissions or do I want to make sure the global
+ecosystems are protected?
+
+Once we are clear on the problem we are trying to solve, we should then
+think of all the possible ways in which the given indicator/measure
+could be exploited/gamified. How could our measure of choice become
+decoupled from the underlying process?
+
+Sometimes we won't have clear answers to to these questions, especially
+when we are trying to solve a novel problem where there has been no
+precedence. However, considering some of the confounding variables at
+the onset of the process could help us ensure that our measures are
+aligned with what we are trying to solve for.
+
+Finally, systems should be put in place to prevent manipulation of the
+indicators and the assessments on which they are based, to ensure that
+the information they provide is objective and reliable. Using multiple
+indicator sets, including measures of pressure as well as state
+variables, could help reduce scope for indicator manipulation.
+
+In conclusion, measures serve an important function in guiding
+decision-making and assessing progress toward goals. However, there is a
+need for caution in interpreting the information provided by any measure
+that are used; at best, they can only provide a partial indication of
+the status and trends of the process we are trying to assess, and this
+needs to be appreciated by the decision-makers who employ them.
+
+# [![Source: XKCD](images/goodharts_law.png)](https://xkcd.com/2899)
