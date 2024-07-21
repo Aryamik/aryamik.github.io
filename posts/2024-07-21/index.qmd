@@ -1,0 +1,246 @@
+---
+title: "AI and Sustainability - How to make them coexist?"
+#description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Aryamik Sharma
+    url: https://aryamik.github.io
+date: 07-21-2024
+categories: 
+- AI
+- Sustainability
+# self-defined categories
+
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+AI and Sustainability - two of the hottest topics right now. From
+regulators to policymakers, businesses, research institutions,
+non-governmental organizations (NGOs), academia, investors, consumers,
+and communities at large, everyone wants to see what does AI have to
+offer while at the same time Earth is witnessing [record
+temperatures](https://www.theguardian.com/environment/article/2024/jul/08/temperatures-1-point-5c-above-pre-industrial-era-average-for-12-months-data-shows).
+
+The other day I saw a headline that read something along the lines of
+'STOP USING ChatGPT BECAUSE IT IS BAD FOR THE ENVIRONMENT!!!'.
+
+Naturally, it got me curious and I decided to do a deep dive to explore
+the interplay between these two areas and address the question 'how do
+we make them compatible?'
+
+In [Electricity
+2024](https://iea.blob.core.windows.net/assets/6b2fd954-2017-408e-bf08-952fdd62118a/Electricity2024-Analysisandforecastto2026.pdf),
+IEA reported that data center electricity usage is set to double by 2026
+due to the rise of power-intensive workloads such as AI and
+cryptocurrency mining.
+
+[![Source: IEA - Electricity 2024 - Analysis and Forecast to
+2026](images/Screenshot%20from%202024-07-07%2017-48-32.png)](https://iea.blob.core.windows.net/assets/6b2fd954-2017-408e-bf08-952fdd62118a/Electricity2024-Analysisandforecastto2026.pdf)
+
+Within the data center segment, IEA wrote that computing power and
+cooling were the two most energy-intensive processes within data
+centers. Additionally, the report noted how the rapid growth of
+artificial intelligence-related services over the last 12 months means
+providers have invested in power-hungry GPUs.
+
+According to OpenAI, the amount of computing power used for deep
+learning research since 2012 has been [doubling every 3.4
+months](https://openai.com/index/ai-and-compute/). In a 2018 study,
+researchers at the University of Massachusetts, Amherst, performed a
+life cycle assessment for training several common large AI models and
+found that training these large AI models can emit more than [626,000
+pounds of carbon dioxide
+equivalent](http://arxiv.org/abs/1906.02243)---nearly five times the
+lifetime emissions of the average American car. One also needs to factor
+in the additional footprint of hardware manufacturing, transportation,
+infrastructure overheads as well the [water
+required](https://arxiv.org/abs/2304.03271) for running these models.
+
+[![Source: Strubell et
+al.](images/Screenshot from 2024-07-21 10-33-04.png)](https://arxiv.org/abs/1906.02243)
+
+In an age where there semiconductors are becoming a hot commodity,
+NVIDIA being [the world's most valuable publicly traded
+company](https://www.bloomberg.com/news/articles/2024-06-18/nvidia-becomes-world-s-largest-firm-as-ai-rally-steams-ahead?srnd=homepage-americas&sref=CIpmV6x8);
+all these figures shouldn't come as a shocker.
+
+A surge in demand for the data centers required for artificial
+intelligence is having an impact on Big Tech's carbon emissions. Google
+recently released its [Environmental
+Report](https://www.gstatic.com/gumdrop/sustainability/google-2024-environmental-report.pdf).
+The report states:
+
+> In 2023, our total GHG emissions were 14.3 million tCO2e, representing
+> a 13% year-over- year increase and a 48% increase compared to our 2019
+> target base year. This result was primarily due to increases in data
+> center energy consumption and supply chain emissions. As we further
+> integrate AI into our products, reducing emissions may be challenging
+> due to increasing energy demands from the greater intensity of AI
+> compute, and the emissions associated with the expected increases in
+> our technical infrastructure investment.
+
+Microsoft is in the same boat as well. The Seattle-based company's total
+planet-warming impact is about 30% higher today than it was in 2020,
+according to the latest [sustainability
+report](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1lMjE).
+
+Interestingly enough, Amazon's GHG emissions dropped by 3% in
+[2023](https://sustainability.aboutamazon.com/2023-sustainability-report.pdf).
+Amazon has pledged to spend more than [\$150
+billion](https://www.bloomberg.com/news/articles/2024-03-28/amazon-bets-150-billion-on-data-centers-required-for-ai-boom)
+on data centers in the next 15 years. It would be interesting to see how
+it all plays out for them.
+
+But maybe these emissions will offset themselves in a couple of years as
+AI systems get more efficient? Atleast, that's what Bill Gates has to
+say on this matter. He believes that AI will ['pay for
+itself'](https://www.bloomberg.com/news/articles/2024-06-26/why-bill-gates-is-bullish-on-artificial-intelligence-and-nuclear-energy)
+when it comes to its associated environmental costs and AI is already
+being used to solve some of the pressing environmental problems such as
+[optimizing energy
+demand](https://www.sciencedirect.com/science/article/pii/S2352484723011459),
+[developing early warning
+systems](https://www.researchgate.net/publication/358955485_Flood_Prediction_Using_Machine_Learning_Models_A_Case_Study_of_Kebbi_State_Nigeria)
+for natural disasters, development of [adaptation strategies for
+businesses and
+communties](https://link.springer.com/referenceworkentry/10.1007/978-3-030-45106-6_80).
+So according to Gates, that 'extra 5%' of energy demand is not the thing
+that prevents our climate goals.
+
+When I heard that interview, the first thought I had was "I agree". AI
+is already showing promising results in multiple areas and some of these
+climate solutions are just tip of the iceberg - and they are only going
+to get better.
+
+Now it becomes a moral question : 'Given the promising solutions that AI
+has to offer for addressing some of the pressing problems, why would we
+NOT want to continue to use AI?'
+
+It's the same rationale computer scientist Moshe Vardi has when it comes
+to developing self driving cars. He views it as a [moral
+imperative](https://www.huffpost.com/entry/the-moral-imperative-thats-driving-the-robot-revolution_n_56c22168e4b0c3c550521f64)
+given how many lives could be saved by automated driving. Going back to
+Ethics 101, this moral imperative stems from the ethical theory of
+[Utilitarianism](https://en.wikisource.org/wiki/Utilitarianism/Chapter_2)
+where the morally right action is the one that produces the greatest
+amount of happiness or pleasure (and the least amount of pain or
+suffering) for the largest number of people. If we apply this
+utilitarian approach to the case of AI and Sustainability, it is in our
+best interests to atleast consider that AI does offer a path to a
+sustainable future.
+
+However despite all this evidence, something just doesn't sit right with
+me. There is still a looming thought in my head 'What if those
+reactionary headlines that I read are true? What if using ChatGPT is
+indeed causing degradation of global ecosystems?'
+
+The idea that AI benefits will offset the environmental costs is based
+on the assumption that AI developments will continue to grow and with
+the passage of time AI systems will get more efficient. But what if it
+is the other way round? What if the environmental costs of running these
+systems outweigh the benefits they have to offer?
+
+Historically, the rate of improvement of computing technology has been
+described by the famous Moore's law, which in one of its variations
+states that [computing power per dollar doubles every 18 months or
+so](https://firstmonday.org/ojs/index.php/fm/article/view/1000/921).
+Yes, there are physical limits to Moore's law but there is still room
+for advances in computing technology. As Max Tegmark points out in Life
+3.0, once technology gets twice as powerful, it can often be used to
+design and build technology that's twice as powerful in turn, triggering
+repeated capability doubling in the spirit of Moore's law. We are making
+breakthroughs in AI that enables us to do more with less. Consider
+[DeepMind's Chinchilla](https://arxiv.org/pdf/2203.15556) which
+highlighted that AI models could be using radically less computing
+power, by changing the ratio between the amount of training data and the
+size of the resulting model. One would assume that this efficiency would
+translate into AI systems using less electricity. Turns out that was not
+the case and it resulted in the [same amount of electricity being
+used](https://www.theguardian.com/business/article/2024/jul/04/can-the-climate-survive-the-insatiable-energy-demands-of-the-ai-arms-race).
+
+This is a classic example of a phenomenon referred to as "[Jevons'
+paradox](https://www.tandfonline.com/doi/abs/10.1080/15487733.2009.11908028)",
+named after the English economist William Stanley Jevons who noted who
+noted that improvements that increased the efficiency of coal use such
+as the James Watt steam engine led to increased consumption of fossil
+fuel burned in England during the Industrial Revolution. As a result, he
+argued that, contrary to common intuition, technological progress could
+not be relied upon to reduce fuel consumption. Many
+[worry](https://link.springer.com/chapter/10.1007/978-3-030-79496-5_33)
+that in our quest to develop AI systems to solve , something similar may
+play out - where better AI systems end up driving the demand for
+resources rather than a decrease in resource consumption. This means
+more electricity consumed to fuel these systems.
+
+The concern now becomes - can these AI systems that are being developed
+to address the sustainability problems end up backfiring and undo all
+the hard work that we have done?More importantly can we develop these
+solutions before we surpass the [planetary
+boundaries](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10499318/)?
+
+Fortunately, these two seemingly incompatible domains can be made more
+compatible. Recent research by [Luccioni et al.
+(2022)](https://arxiv.org/abs/2211.02001) on the carbon footprint of
+BLOOM, a 176-billion parameter language model, showed that both the
+manufacturing of equipment, model training and deployment can be carried
+out in a way that results in negligible amounts of carbon emissions when
+compared to other similar size models.
+
+In a policy brief titled '[TOWARDS MEASURING AND MITIGATING THE
+ENVIRONMENTAL IMPACTS OF LARGE LANGUAGE
+MODELS](https://cifar.ca/wp-content/uploads/2023/09/Towards-Measuring-and-Mitigating-the-Environmental-Impacts-of-Large-Language-Models.pdf)',
+Dr. Luccioni further highlights some recommendations for responsible LLM
+innovation with sustainability in mind:
+
+1.  Creating standards and frameworks for evaluating and reporting the
+    carbon footprint of large language models
+
+2.  Developing tools for accurate energy estimation
+
+3.  Mandates for environmental impact with the release of LLM-based
+    systems
+
+4.  The creation of certification and ratings of AI models
+
+5.  Carbon-aware model training
+
+6.  Expanding renewable energy resources
+
+Similarly, Association of Computational Logistics (ACL) outlined
+[recommendations](https://public.ukp.informatik.tu-darmstadt.de/enlp/Efficient-NLP-policy-document.pdf)
+to address some of the environmental concerns in Natural Language
+Processing (NLP) by:
+
+1.  Increasing the alignment between experiments and research hypotheses
+
+2.  Encouraging the release of trained models
+
+3.  Setting up tracks that target efficiency
+
+These are just two examples that highlight the good work that is being
+done to address this problem from both sides. This is where approaching
+this problem through the lens of '[double
+materiality](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52019XC0620(01))'
+might be useful - where we consider not just the impact of AI on
+sustainability but also the impact of sustainability on AI.
+
+The key takeaway is addressing this problem will require creative
+solutions from both sides. The AI community will need to figure out how
+can they make these systems that minimize environmental impact. On the
+flip side, governments, policymakers, researchers, businesses,
+non-profits will need to brainstorm new uses cases for AI in solving
+some of the sustainability problems which includes negative impacts of
+large scale AI deployment.
+
+At the end of the day, we need to realize that AI is just one of the
+many tools in our arsenal for addressing the sustainability challenges
+we face. Policy making, strong governance, and technological innovation
+are all essential components for achieving our ambitious goals.
+
+The question is not whether ChatGPT is good/bad for the environment. A
+broader question that we should instead focus on:
+
+> Can we figure out a way to save our planet using AI within this narrow
+> window of opportunity?
