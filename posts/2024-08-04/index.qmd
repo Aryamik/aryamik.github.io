@@ -1,0 +1,194 @@
+---
+title: "AI Washing - Is it time to put a brake on the AI Hype Train?"
+#description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Aryamik Sharma
+    url: https://aryamik.github.io
+date: 08-04-2024
+categories: 
+- AI
+
+# self-defined categories
+
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+If you are anything like me, every day you wake up to see something new
+happening in the AI space. Whether its is OpenAI creating its own search
+engine [SearchGPT](https://openai.com/index/searchgpt-prototype/) or
+Meta releasing [Llama 3.1](https://llama.meta.com/), AI stuff is
+everywhere. I am not going to lie, reading about the latest and greatest
+happening in the AI ecosystem is really exciting for me. The other day I
+read about Adobe coming up with new audio editing features that [removes
+instances of filler
+words](https://research.adobe.com/news/new-ai-features-make-audio-editing-easier/)
+such as 'umh'. Granted it is not perfect, but it is only a matter of
+time before it becomes even better.
+
+However, it is getting to the point where I am finding it too much.
+These days it is almost impossible for me to browse my newsfeed without
+ever encountering the term 'GenAI'.
+
+```{=html}
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/2Wim5ftHoDdJ1RNpuS" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p>My honest reaction whenever I see a new 'GenAI' related post on my newsfeed</p><p><a href="https://giphy.com/gifs/reaction-2Wim5ftHoDdJ1RNpuS">via GIPHY</a></p>
+```
+Curating my newsfeed has definitely helped. However, I asked myself:
+\"Are we really going overboard with AI?\" Don't get me wrong, I am not
+an AI skeptic in any shape or form. On the contrary, I am excited to see
+how it all plays out. But maybe we need to be realistic with our
+expectations about AI? Big Tech's latest earnings suggest that there
+[isn't much
+revenue](https://www.ctvnews.ca/business/has-the-ai-bubble-burst-wall-street-wonders-if-artificial-intelligence-will-ever-make-money-1.6987513)
+to show for the AI hype train. Granted that could change in the future,
+but as Julia Angwin describes in her
+[article](https://archive.ph/LlvyG), \"some of A.I.'s greatest
+accomplishments seem inflated\" and it will take a while for AI to live
+up to its hype of becoming [the most powerful technology humanity has
+yet
+invented](https://time.com/6344160/a-year-in-time-ceo-interview-sam-altman/).
+
+What could be possibly causing this? My theory is that this misalignment
+between the hype and the actual reality of AI comes down to the
+vagueness of the term 'artificial intelligence' itself.
+
+The term artificial intelligence has been around since 1956 when John
+McCarthy, coined it during a [conference at Dartmouth
+College](http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html).
+The proposal stated:
+
+> The study is to proceed on the basis of the conjecture that every
+> aspect of learning or any other feature of intelligence can in
+> principle be so precisely described that a machine can be made to
+> simulate it.
+
+How can it be that the concept of AI has been around since decades and
+yet there is no universally agreed upon definition of 'artificial
+intelligence' ?
+
+That's because there is no definition of the term 'intelligence' itself.
+In Life 3.0, Max Tegmark defines intelligence as the *ability to
+accomplish complex goals*. And because there are many possible goals,
+there are many possible types of intelligence. Every now and then I keep
+reading about feats of intelligence in animal kingdom from ants being
+able to collectively [solve complex
+tasks](https://elifesciences.org/articles/79638#s4) to [dolphins being
+able to sense electric
+currents](https://journals.biologists.com/jeb/article/226/22/jeb245845/334721/Passive-electroreception-in-bottlenose-dolphins)
+in water (electroreception) to avoid predators, find food, navigate or
+even communicate with one another. Clearly they are 'intelligent' in
+their own ways, it's just that we don't know how to measure that
+intelligence. Therefore, according to Tegmark, it makes no sense to
+quantify intelligence of humans, non-human animals or machines by a
+single number such as an IQ.
+
+That isn't to say there haven't been attempts to capture the essence of
+AI. AI has its roots in statistics and machine learning and can be
+traced back to works of [Alan
+Turing](https://academic.oup.com/mind/article/LIX/236/433/986238?login=false#164226651)
+and [Arthur Samuel](https://ieeexplore.ieee.org/document/5389202) in
+20th Century. These researchers were interested in [having machines
+learn from data](http://aima.cs.berkeley.edu/) and attempted to approach
+the problem through generalized linear models and probabilistic
+reasoning. Eventually, these methods evolved and led to some early
+developments in the broad AI space. Somewhere along the way, the
+boundaries between traditional statistical methods, machine learning and
+artificial intelligence got blurred. Fast forward to today and the meme
+of 'It's AI in the sales pitch and machine learning in the prototype' is
+now a reality.\
+
+[![Source: Sandserif
+Comics](images/1_x7P7gqjo8k2_bj2rTQWAfg.webp)](https://www.instagram.com/sandserifcomics/)
+
+[![The power of the hype. Source: Wallace
+Ferreira](images/1719070480784.jpeg){alt="Old, but gold.… The power of the hype... Source: Wallace Ferreira"}](https://www.linkedin.com/posts/wallace-ferreira-69065910_old-but-gold-the-power-of-the-hype-activity-7210304199601905664-imBH?utm_source=share&utm_medium=member_desktop)
+
+Jokes aside, this isn't to say all Statistics = Machine Learning =
+Artificial Intelligence. Joe Davison covers this in the article '[No,
+Machine Learning is not just glorified
+Statistics](https://towardsdatascience.com/no-machine-learning-is-not-just-glorified-statistics-26d3952234e3)'
+and sums it up succinctly : ''reducing machine learning as a whole to
+nothing more than a subsidiary of statistics is quite a stretch.''
+
+Instead the way to look at it is that artificial intelligence is this
+broad umbrella category with machine learning being a subset of
+artificial intelligence and deep learning in turn being a subset of
+machine learning which ultimately has roots in statistics.
+
+![An illustration of the position of deep learning (DL), comparing with
+machine learning (ML) and artificial intelligence (AI). Source: Sarker
+(2021)](images/42979_2021_815_Fig2_HTML.png){alt="An illustration of the position of deep learning (DL), comparing with machine learning (ML) and artificial intelligence (AI). Source: Sarker (2021)"}
+
+The vagueness of terms like AI starts emerging when people start
+conflating these terms with one another. Eric Siegel, former professor
+at Columbia University talks about this extensively in his work.
+According to [Siegel](https://archive.ph/gUOmP),
+
+> Most people conceive of ML as "AI." This is a reasonable
+> misunderstanding. But "AI" suffers from an unrelenting, [incurable
+> case of
+> vagueness](https://www.aimyths.org/the-term-ai-has-a-clear-meaning)
+> --- it is a catch-all term of art that does not consistently refer to
+> any particular method or value proposition. Calling ML tools "AI"
+> oversells what most ML business deployments actually do. In fact, you
+> couldn't overpromise more than you do when you call something "AI."
+> The moniker invokes the notion of artificial general intelligence
+> (AGI), software capable of any intellectual task humans can do.
+
+He further talks about a paradox, known as [*The AI
+Effect*](https://cacm.acm.org/opinion/artificial-intelligence-past-and-future/)
+where either the definition of AI or the concept of intelligence is
+adjusted to exclude capabilities that AI systems have mastered. In other
+words, if everything is AI, then nothing is truly AI.
+
+If you think about it, this problem is not unique to the AI space.
+Sustainability space continues to be afflicted by what constitutes as
+'sustainable'? No wonder there is a huge focus on addressing
+greenwashing risks to seperate the facts from the fiction and cut down
+misleading environmental claims.
+
+So going back to the title of the post, is it time to borrow a page from
+the sustainability space and address '[AI
+washing](https://theconversation.com/beware-businesses-claiming-to-use-trailblazing-technology-they-might-just-be-ai-washing-to-snare-investors-226717)',
+investments directed towards projects labeled as AI without rigorous
+scrutiny of their actual impact?
+
+Do we really need to have 'AI-features' in our [electric
+toothbrushes](https://arstechnica.com/gadgets/2024/07/ai-toothbrushes-are-coming-for-your-teeth-and-your-data/)
+(unless it's going to save me a visit to my dentist every 6 months or
+so, then I am all ears)? Or how about an 'AI Button' on [your mouse and
+your
+keyboard](https://www.theverge.com/2024/4/17/24132468/logitech-ai-prompt-builder-button)?
+(I mean, really?)
+
+Now I am not implying that these features aren't welcome and the we all
+should be become AI Luddites. I would be lying if I said the thought of
+trying these features didn't occur to me. But this raises some questions
+such as \"Do I really need to pay \$100 extra for an 'AI-powered
+toothbrush' that is pretty much going to do the same thing?\" or more
+broadly \"Do we really need to slap the term GenAI to something that
+would had been routine 'bug fixes' or 'feature enhancements' six months
+ago?\"
+
+Fortunately, there is work being done to address AI washing. Last year,
+the Federal Trade Commission (FTC)
+[warned](https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check)
+companies across the economy that it would be on the lookout for false
+AI claims in advertising, Similarly, Securities and Exchange Commission
+(SEC) [Chair Gary Gensler](https://archive.ph/2pvPH) has warned
+businesses against making exaggerations of AI's capabilities. Earlier
+this year, the SEC [imposed the first civil penalties on two
+companies](https://www.sec.gov/newsroom/press-releases/2024-36), Delphia
+Inc and Global Predictions Inc, for misleading
+statements about their use of AI. In Europe, the [Artificial
+Intelligence
+Act](https://www.consilium.europa.eu/en/press/press-releases/2024/05/21/artificial-intelligence-ai-act-council-gives-final-green-light-to-the-first-worldwide-rules-on-ai/)
+was approved in May 2024 with the goal of harmonising rules on AI.
+
+Love it or hate it, I still think that AI is here to stay. Ultimately,
+the future of AI is one of the most important conversations we need to
+have. Maybe our goal shouldn't be jumping off the AI train but rather
+building more transparent and responsible AI systems that facilitate
+open and honest discourse.
