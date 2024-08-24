@@ -10,18 +10,20 @@ categories:
 
 # self-defined categories
 
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 editor: 
   markdown: 
     wrap: 72
 ---
 
-As the title says, is there a pattern to my musical tastes? Do they have
-something in common?
+As the title says, is there a pattern to my musical tastes? Do the
 
 ```{r}
-reticulate::repl_python()
+library(reticulate)
+py_config()
 ```
+
+y have something in common?
 
 ```{python}
 from pprint import pprint
