@@ -36,16 +36,16 @@ ever encountering the term 'GenAI'.
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/2Wim5ftHoDdJ1RNpuS" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p>My honest reaction whenever I see a new 'GenAI' related post on my newsfeed</p><p><a href="https://giphy.com/gifs/reaction-2Wim5ftHoDdJ1RNpuS">via GIPHY</a></p>
 ```
 Curating my newsfeed has definitely helped. However, I asked myself:
-\"Are we really going overboard with AI?\" Don't get me wrong, I am not
-an AI skeptic in any shape or form. On the contrary, I am excited to see
+"Are we really going overboard with AI?" Don't get me wrong, I am not an
+AI skeptic in any shape or form. On the contrary, I am excited to see
 how it all plays out. But maybe we need to be realistic with our
 expectations about AI? Big Tech's latest earnings suggest that there
 [isn't much
 revenue](https://www.ctvnews.ca/business/has-the-ai-bubble-burst-wall-street-wonders-if-artificial-intelligence-will-ever-make-money-1.6987513)
 to show for the AI hype train. Granted that could change in the future,
 but as Julia Angwin describes in her
-[article](https://archive.ph/LlvyG), \"some of A.I.'s greatest
-accomplishments seem inflated\" and it will take a while for AI to live
+[article](https://archive.ph/LlvyG), "some of A.I.'s greatest
+accomplishments seem inflated" and it will take a while for AI to live
 up to its hype of becoming [the most powerful technology humanity has
 yet
 invented](https://time.com/6344160/a-year-in-time-ceo-interview-sam-altman/).
@@ -119,7 +119,7 @@ machine learning which ultimately has roots in statistics.
 
 ![An illustration of the position of deep learning (DL), comparing with
 machine learning (ML) and artificial intelligence (AI). Source: Sarker
-(2021)](images/42979_2021_815_Fig2_HTML.png){alt="An illustration of the position of deep learning (DL), comparing with machine learning (ML) and artificial intelligence (AI). Source: Sarker (2021)"}
+(2021)](images/42979_2021_815_Fig2_HTML.png)
 
 The vagueness of terms like AI starts emerging when people start
 conflating these terms with one another. Eric Siegel, former professor
@@ -166,11 +166,11 @@ keyboard](https://www.theverge.com/2024/4/17/24132468/logitech-ai-prompt-builder
 Now I am not implying that these features aren't welcome and the we all
 should be become AI Luddites. I would be lying if I said the thought of
 trying these features didn't occur to me. But this raises some questions
-such as \"Do I really need to pay \$100 extra for an 'AI-powered
-toothbrush' that is pretty much going to do the same thing?\" or more
-broadly \"Do we really need to slap the term GenAI to something that
+such as "Do I really need to pay \$100 extra for an 'AI-powered
+toothbrush' that is pretty much going to do the same thing?" or more
+broadly "Do we really need to slap the term GenAI to something that
 would had been routine 'bug fixes' or 'feature enhancements' six months
-ago?\"
+ago?"
 
 Fortunately, there is work being done to address AI washing. Last year,
 the Federal Trade Commission (FTC)
@@ -181,9 +181,8 @@ AI claims in advertising, Similarly, Securities and Exchange Commission
 businesses against making exaggerations of AI's capabilities. Earlier
 this year, the SEC [imposed the first civil penalties on two
 companies](https://www.sec.gov/newsroom/press-releases/2024-36), Delphia
-Inc and Global Predictions Inc, for misleading
-statements about their use of AI. In Europe, the [Artificial
-Intelligence
+Inc and Global Predictions Inc, for misleading statements about their
+use of AI. In Europe, the [Artificial Intelligence
 Act](https://www.consilium.europa.eu/en/press/press-releases/2024/05/21/artificial-intelligence-ai-act-council-gives-final-green-light-to-the-first-worldwide-rules-on-ai/)
 was approved in May 2024 with the goal of harmonising rules on AI.
 

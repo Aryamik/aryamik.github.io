@@ -1,0 +1,182 @@
+---
+title: "Is AI an 'existential risk'?"
+#description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Aryamik Sharma
+    url: https://aryamik.github.io
+date: 08-24-2024
+categories: 
+- AI
+
+# self-defined categories
+
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+From Terminator to Westworld, almost all depictions of AI that I have
+seen in media follow a similar theme: a malevolent entity that aims to
+subjugate human beings. In fact, I am having a hard time recalling any
+major piece of media that isn't set in the dystopian future and depicts
+humans and AI living in harmony. If you have any good recommendations of
+a movie, TV series, novel or any other major piece of art that depicts
+humans and AI having a jolly good time, do let me know.
+
+But coming to the concept of AI being an existential threat. How did I
+stumble across this idea?
+
+The answer is this comprehensive
+[article](https://80000hours.org/problem-profiles/artificial-intelligence/)
+published on 80000 hours. I would definitely recommend giving it a read
+because it outlines some really good points about the future of AI. In
+fact, risks from artificial intelligence are ranked as the number one in
+the world's most pressing problems above catastrophic pandemics, nuclear
+weapons, power war and climate change. On March 22, 2023, thousands of
+tech leaders, researchers and AI experts including Elon Musk, Stuart
+Russell, Max Tegmark signed [an open
+letter](https://futureoflife.org/open-letter/pause-giant-ai-experiments/)
+urging a moratorium on the development of the most powerful artificial
+intelligence systems. Almost two months later, a similar letter titled
+'[Statement on AI
+Risk](https://www.safe.ai/work/statement-on-ai-risk#signatories)' was
+signed by another group of world's leading AI scientists and experts.
+
+A natural question to ask would be: why is this all happening of a
+sudden?
+
+The number of AI-lobbying organizations in the U.S. [spiked from 158 in
+2022 to 450 in
+2023](https://www.cnbc.com/2024/02/02/ai-lobbying-spikes-nearly-200percent-as-calls-for-regulation-surge.html).
+That marks a whopping 185% increase in AI lobbying with the goal of
+regulating AI. There have been reports suggesting that there is in fact
+a growing network of AI advisers, think tanks and policy groups that are
+[influencing federal agencies on AI policy
+discourse](https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362).
+For example, a [bipartisan
+bill](https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-and-hawley-announce-bipartisan-framework-on-artificial-intelligence-legislation)
+was passed in the U.S. Senate setting the framework for AI legislation.
+It would would create a new authority that any company developing AI
+would have to register to and seek a license from. Similar developments
+are taking place around the world. According to Stanford University's
+[2023 AI Index](https://aiindex.stanford.edu/ai-index-report-2023/), the
+annual number of bills mentioning "artificial intelligence" passed in
+127 surveyed countries jumped from one in 2016 to 37 in 2022.
+
+At a first glance, all these developments look like a step in the right
+direction. In hands of bad actors, any technology like AI can be a bad
+thing. We are already seeing a rise in
+[scams](https://www.scientificamerican.com/article/a-safe-word-can-protect-against-ai-impostor-scams/),
+[deepfakes](https://www.nature.com/articles/d41586-024-02521-3), [voice
+cloning](https://www.newyorker.com/science/annals-of-artificial-intelligence/the-terrifying-ai-scam-that-uses-your-loved-ones-voice),
+[misinformation](https://www.theverge.com/2023/1/25/23571082/cnet-ai-written-stories-errors-corrections-red-ventures)
+and
+[cyberattacks](https://www.thomsonreuters.com/en-us/posts/government/identity-theft-drivers/).
+
+However, there are many who believe that this narrative of AI being an
+existential risk is being used to monopolize AI in hands of select few.
+Andrew Ng, a globally recognized leader in AI, believes that imposing
+strict licensing requirements and blanket AI regulations is is based on
+the ["bad idea that AI could make us go
+extinct"](https://www.afr.com/technology/google-brain-founder-says-big-tech-is-lying-about-ai-human-extinction-danger-20231027-p5efnz).
+[In his
+view](https://venturebeat.com/ai/ai-pioneers-hinton-ng-lecun-bengio-amp-up-x-risk-debate/),
+this is a way for big tech to create regulatory capture to ensure that
+open source alternatives [cannot
+compete](https://www.businessinsider.com/andrew-ng-google-brain-big-tech-ai-risks-2023-10).
+Regulatory capture is a concept where a regulatory agency enacts
+policies that favor the industry at the expense of the broader public
+interest, in this case with regulations that are too onerous or
+expensive for smaller businesses to meet. This has led to a growing
+movement to democratize AI governance. Letters such as [Joint Statement
+on AI Safety and Openness](https://open.mozilla.org/letter/) and [A Call
+to Protect and Open-Source AI in
+Europe](https://laion.ai/notes/letter-to-the-eu-parliament/) have been
+signed by various scientists, policymakers, researchers and other
+prominent figures in the field of AI.
+
+Suresh Venkatasubramanian, a professor of computer science at Brown
+University who co-authored last year's [White House Blueprint for an AI
+Bill of Rights](https://www.whitehouse.gov/ostp/ai-bill-of-rights/)
+believes that the focus on cataclysmic AI risk is ["speculative science
+fiction"](https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362)
+that borders on "fearmongering." He argues:
+
+> "There's a push being made that the only thing we should care about is
+> long-term risk because 'It's going to take over the world, Terminator,
+> blah blah blah,'"
+>
+> "I think it's important to ask, what is the basis for these claims?
+> What is the likelihood of these claims coming to pass? And how certain
+> are we about all this?"
+
+When one sits down to analyse these claims, a natural question to start
+off would be:
+
+*'Is superintelligence even possible?'* The answer to that question
+depends on who you ask. As Nick Bostrom mentions in Superintelligence,
+expert opinions about the future of AI vary wildly. There is
+disagreement about timescales as well as about what forms AI might
+eventually take. According to [Stuart Armstrong and Kaj
+Sotala](https://intelligence.org/files/PredictingAI.pdf). predictions
+about the future development of artificial intelligence, "are as
+confident as they are diverse."
+
+Many surveys have been conducted on this topic where AI experts have
+been asked about their expectations for the future of machine
+intelligence (I really like this
+[article](https://ourworldindata.org/ai-timelines) and this
+[survey](https://nickbostrom.com/papers/survey.pdf) conducted by Nick
+Bostrom in 2012-2013) and turns out there is huge disagreement between
+experts about when human-level AI will be developed. Granted there are
+limitations when interpreting the results of these surveys, but the take
+home message is that there is a high degree of uncertainty about the
+future of AI. That does not mean there is no risk involved. But what is
+that risk exactly? Is it Skynet? Ultron? Or another killer robot?
+
+In Life 3.0, Max Tegmark debunks the long standing narrative of AI going
+rogue:
+
+> The fear of machines turning evil is another red herring. The real
+> worry isn't malevolence, but competence. A superintelligent AI is by
+> definition very good at attaining its goals, whatever they may be, so
+> we need to ensure that its goals are aligned with ours. You're
+> probably not an ant hater who steps on ants out of malice, but if
+> you're in charge of a hydroelectric green energy project and there's
+> an anthill in the region to be flooded, too bad for the ants. The
+> beneficial-AI movement wants to avoid placing humanity in the position
+> of those ants.
+>
+> Therefore, *the real risk with AGI isn't malice but competence*. A
+> superintelligent AI will be extremely good at accomplishing its goals,
+> and if those goals aren't aligned with ours, we're in trouble.
+
+[![Source: Can we build AI without losing control over it? \| Sam
+Harris](images/Screenshot from 2024-08-24 10-27-27.png)](https://youtu.be/8nt3edWLgIg)
+
+This raises the question: 'What do we do about these risks of AI and
+more importantly how do we make sure our goals align with that of a
+superintelligent AI? In the book, Max mentions that goal alignment
+remains to be an unsolved problem which would require its own post but
+broadly speaking it can be further subdivided into three sub-problems:
+
+1.  Making AI *learn* our goals
+
+2.  Making AI *adopt* our goals
+
+3.  Making AI *retain* our goals
+
+To wrap things up, any technology including AI poses a risk. This risk
+stems from misalignment between our goals and the goal of AI. In my
+opinion, addressing that risk will require strong policy making and open
+discourse to facilitate responsible AI development. Clearly there is a
+need for *some* regulatory oversight to address these risks. In my last
+[post](https://aryamik.github.io/posts/2024-08-04/), I mentioned about
+there is work being done to address 'AI Washing' by regulators like
+Federal Trade Commission, Securities and Exchange Commission. But a
+question needs to be asked:
+
+> What do we want out of these regulations? Do we want to monopolize
+> these developments in the hands of select few or do we truly want
+> responsible AI systems?
