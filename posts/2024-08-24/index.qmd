@@ -153,7 +153,7 @@ rogue:
 > and if those goals aren't aligned with ours, we're in trouble.
 
 [![Source: Can we build AI without losing control over it? \| Sam
-Harris](images/Screenshot from 2024-08-24 10-27-27.png)](https://youtu.be/8nt3edWLgIg)
+Harris](images/Screenshot%20from%202024-08-24%2010-27-27.png)](https://youtu.be/8nt3edWLgIg)
 
 This raises the question: 'What do we do about these risks of AI and
 more importantly how do we make sure our goals align with that of a
@@ -168,14 +168,17 @@ broadly speaking it can be further subdivided into three sub-problems:
 3.  Making AI *retain* our goals
 
 To wrap things up, any technology including AI poses a risk. This risk
-stems from misalignment between our goals and the goal of AI. In my
-opinion, addressing that risk will require strong policy making and open
-discourse to facilitate responsible AI development. Clearly there is a
-need for *some* regulatory oversight to address these risks. In my last
-[post](https://aryamik.github.io/posts/2024-08-04/), I mentioned about
-there is work being done to address 'AI Washing' by regulators like
-Federal Trade Commission, Securities and Exchange Commission. But a
-question needs to be asked:
+stems from misalignment between our goals and the goal of AI. However,
+we also need to be careful that we are not overselling these risks. In
+my last post, I talked about how 'AI Washing' stems from overselling the
+true benefits of AI. The way I see it is that the 'AI as an existential
+risk' narrative is no different; where instead of the true benefits of
+AI, the focus is on exaggerating the risks of AI. The path forward is
+also not downplaying these risks. In my opinion, we need to focus our
+efforts on strong policy making and open discourse to facilitate
+responsible AI development. Clearly there is also a need for *some*
+regulatory oversight to address these risks. But a question needs to be
+asked:
 
 > What do we want out of these regulations? Do we want to monopolize
 > these developments in the hands of select few or do we truly want
