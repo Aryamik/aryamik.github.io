@@ -1,29 +1,229 @@
 ---
-title: "How do we regulate AI"
+title: "'Smart Regulations' in the age of AI"
 #description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
 author:
   - name: Aryamik Sharma
     url: https://aryamik.github.io
-date: 08-17-2024
+date: 09-14-2024
 categories: 
 - AI
 
 # self-defined categories
 
-draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 editor: 
   markdown: 
     wrap: 72
 ---
 
-Regulations.
+Riddle me this:
 
-Let's play a word association game. What's the first thing that comes to
-your mind when you hear the word regulation?
+> I'm the reason you can't do that thing you crave,\
+> I make sure everyone follows the wave.\
+> You might love me or call me a bore,\
+> But without me, chaos would be at your door.\
+> What am I?
 
-Red Tape, Bureacratic processes, If, you are not alone. For me, scales
-of justice.
+If you guessed regulations, then you are right.
 
-S
+A while back, I came across this post on r/dundermifflin. Sometime
+later, a totally random thought came to my head: what would be the
+course that I took at UW that would be analogous to that meme format?
 
-https://www.jstor.org/stable/j.ctt1q1crtm.16?seq=2
+[![](images/who-is-this-in-the-office-v0-vffle08dwcec1.webp)](https://www.reddit.com/r/DunderMifflin/comments/19ed6m9/who_is_this_in_the_office/?share_id=NKnR1gA7iuxQv6NGjbdCS)
+
+For me, it would be ENBUS 408 – Best Practices in Regulation Instrument
+Choice in Environmental Policy.
+
+(By the way if you are wondering which character in The Office had the
+most impact in the story given their limited screen time, I would go
+with Robert California. Period.)
+
+I took ENBUS 408 during my last term at UW and the entire premise of
+that course was on designing 'smart regulations' when it comes to
+addressing environmental problems. Having been involved in this space
+that is constantly evolving, not a day goes by that I don't see a new
+ESG regulation popping up in my newsfeed. Looking back, I can definitely
+say now that ENBUS 408 made me appreciate the process that goes behind
+designing regulations.
+
+My last few posts have been focused on the idea of transparency around
+AI governance. As I was in the process of writing them, I realized that
+AI and sustainability share a lot of common features. The obvious one
+being that they are rapidly evolving. So I asked myself: Can we borrow a
+page from environmental policy making and design 'smart regulations' for
+AI? That's what compelled me to write this post.
+
+What are smart regulations in the first place?
+
+This excerpt from Chapter 8 of [Regulatory Theory: Foundations and
+applications](https://www.jstor.org/stable/j.ctt1q1crtm) by Peter Drahos
+sums up smart regulations pretty succinctly:
+
+> The term \[smart regulation\] refers to a form of regulatory pluralism
+> that embraces flexible, imaginative and innovative forms of social
+> control. In doing so, it harnesses governments as well as business and
+> third parties. For example, it encompasses self-regulation and
+> co-regulation, using commercial interests and non-governmental
+> organisations (NGOs) (such as peak bodies) as regulatory surrogates,
+> together with improving the effectiveness and efficiency of more
+> conventional forms of direct government regulation. The underlying
+> rationale is that, in the majority of circumstances, the use of
+> multiple rather than single policy instruments, and a broader range of
+> regulatory actors, will produce better regulation. As such, it
+> envisages the implementation of complementary combinations of
+> instruments and participants tailored to meet the imperatives of
+> specific environmental issues.
+
+In the article, the authors Neil Gunningham and Darren Sinclair argue
+that regulations were traditionally considered a bipartiate process
+involving the state (the regulator) and the business (the regulated
+entity). However, work by [Joseph Rees in
+1988](https://books.google.ca/books?hl=en&lr=&id=R1ArEAAAQBAJ&oi=fnd&pg=PR5&dq=joseph+rees&ots=fPj33B0ouv&sig=gvs25veBIQFHXMjhHB0LrBSOxyA&redir_esc=y)
+highlighted that there are multiple actors influencing the behavior or
+regulated groups in a variety of complex and subtle ways. In an age when
+we are dealing with complex problems such as climate change and AI,
+smart regulations have emerged as an alternative where traditional
+command-and-control regulation nor the free market have been sufficient
+in addressing them. As a result, the focus of smart regulation is on
+understanding the dynamic interplay of different actors such as
+international standards organisations; trading partners and the supply
+chain; commercial institutions and financial markets; peer pressure and
+self-regulation through industry associations; and civil society.
+
+The authors proposes the following 'regulatory design principles' that
+should guide these smart regulations:
+
+-   The desirability of preferring complementary instrument mixes over
+    single instrument approaches.
+
+-   The virtues of parsimony where less interventionist measures should
+    be preferred.
+
+-   The benefits of an escalating response up an instrument pyramid
+    (utilizing not only government, but also business and third parties)
+    to build in regulatory responsiveness, to increase dependability of
+    outcomes through instrument sequencing and to provide early warning
+    of instrument failure through the use of triggers.
+
+-   Empowering third parties (both commercial and non-commercial) to act
+    as surrogate regulators, thereby achieving not only better
+    environmental outcomes at less cost but also freeing up scarce
+    regulatory resources, which can be redeployed in circumstances where
+    no alternatives to direct government intervention are available.
+
+-   Maximising opportunities for win--win outcomes by expanding the
+    boundaries within which such opportunities are available and
+    encouraging business to go 'beyond compliance' within existing legal
+    requirements.
+
+[![Enforcement Pyramid that builds up uild in regulatory responsiveness.
+Source: Neil Gunningham and Darren
+Sinclair](images/Screenshot%20from%202024-09-16%2011-36-56.png)](https://www.jstor.org/stable/j.ctt1q1crtm.16?seq=1)
+
+The trick however is finding the right combinations of instruments that
+work together.
+
+In the article '[Regulatory Pluralism: Designing Policy Mixes for
+Environmental
+Protection](https://onlinepubs.trb.org/onlinepubs/PBRLit/GunninghamSinclair.pdf)',
+the authors outlined some of the complementary instrument choices that I
+think can be leveraged for designing AI related regulations.
+
+1.  Voluntarism and Command and Control Regulation: The combination of
+    voluntarism (where individual firms voluntarily seek to improve an
+    objective/target) and traditional command-and-control regulation
+    where there is a clear definition of what is permitted and what is
+    illegal. An example that I can think of is many organizations have
+    been voluntarily reporting on their climate-related disclosures
+    using the Global Reporting Initiative (GRI) sustainability standards
+    in the early 2000s, long before some of the regulations such as the
+    Corporate Sustainability Reporting Directive (CSRD) came into effect
+    where there are clear requirements for organizations on these
+    disclosures.
+
+    An argument can be made that if voluntarism were introduced alone,
+    the outcomes (in this case, transparent disclosures) would had been
+    sub-optimal and it would had resulted in an increased greenwashing
+    risk. However, the combination of command and control regulations
+    with voluntary standards encourages firms to go *beyond compliance*
+    while still complying with the performance baseline.
+
+    In one of my previous
+    [posts](https://aryamik.github.io/posts/2024-08-04/), I talked about
+    'AI Washing' and how there is a growing movement to open source AI
+    governance. A regulation that combines mandatory requirements such
+    as disclosures of data sources and decision making processes in the
+    AI systems used by organizations along with voluntary initiatives
+    where organizations are encouraged to adopt best practices for AI
+    transparency and fairness. In a way, firms choosing to voluntary
+    adopt these best practices allows this industry to self regulate.
+
+2.  Command and Control Regulation and Supply-Side Incentives:
+
+    Supply-side incentives in this context refer to tax concessions or
+    soft loans for achieving specific outcomes. For instance,
+    organizations that meet or exceed the regulatory standards, could be
+    offered grants and tax credits which would encourage them to invest
+    in research initiatives on improving accuracy, transparency and
+    reducing biases of AI systems.
+
+3.  Command and Control Regulation and Broad-Based Economic Incentives
+
+    Besides supply-side incentives, command and control regulations
+    could be paired with broader economic incentives in cases when hey
+    are used to target different aspects of a common problem. For
+    example, a regulatory body might impose strict guidelines on AI
+    developers requiring transparency in how algorithms are trained and
+    tested for bias. This might require that organizations to undergo
+    fairness audits and provide detailed reports on the data used and
+    the results of bias evaluations. Failure to meet certain standards
+    would result in penalties.
+
+On the other hand, some instrument choices might be inherently
+incompatible. For example, mandating specific AI technologies
+(command-and-control) for firms in tandem with a tax-based incentive for
+using a specific technology (economic instruments) might be
+counterproductive. This is largely because command-and-control
+regulations seek to impose predetermined outcomes outcomes on industry
+which means individual firms are largely limited in what they can and
+cannot do. Economic instruments, on the other hand, seek to maximize the
+flexibility of firms in their ability to choose the optimal course of
+action as long as it meets the price signal relative to the level of
+outcome desired.
+
+Similarly, self regulation when combined together with broad-based
+economic instruments might be an overkill. For example, If an industry
+code sets rigid data privacy requirements for AI systems across all
+sectors, it could undermine the effectiveness of the tax penalties where
+organizations that do not meet the privacy standards. The tax might be
+less effective in driving firms with higher abatement costs to comply
+with privacy standards since the self-regulation approach imposes
+uniform requirements, not considering these cost differences. As a
+result, the tax may fail to achieve its intended goal of encouraging
+privacy improvements across the industry.
+
+To overcome the drawbacks that may arise from combining instruments, the
+authors recommend sequencing their introduction, which means certain
+instruments should be held in reserve and should only be applied if and
+when other instruments demonstrably fail to meet pre- determined
+performance benchmarks. It could be as simple as introductng an entirely
+new instrument category introduced where previous categories have failed
+or enforcing elements of a pre-existing instrument to supplement the
+shortcomings of another. Sequencing ensures that there is a progression
+when it comes to levels of intervention.
+
+A couple of caveats that I want to mention briefly. Some
+[authors](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-2230.2008.00681.x)
+authors claim that smart regulations do not address institutional
+issues, compliance-type specific responses, performance sensitivity and
+adaptability of regulatory regimes (Baldwin and Black 2008; Böcher and
+Toller 2003). Additionally, when discussing how to best regulate AI,
+it's important to highlight that it goes far beyond mere technical
+oversight. Effective regulation must tackle deeply embedded issues such
+as bias, discrimination, and ethics; something that I did not talk
+about.
+
+Are smart regulations the panacea for all the problems? I don't think
+so. However, they can be a valuable component of a broader regulatory
+strategy when it comes to AI governance.

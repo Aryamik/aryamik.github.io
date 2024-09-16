@@ -18,9 +18,7 @@ editor:
 
 As the title says, is there a pattern to my musical tastes? Do the
 
-```{r}
-library(reticulate)
-py_config()
+```         
 ```
 
 y have something in common?
