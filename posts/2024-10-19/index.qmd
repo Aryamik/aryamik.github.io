@@ -1,0 +1,232 @@
+---
+title: "Uncertainities in Climate Risk Modelling"
+#description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Aryamik Sharma
+    url: https://aryamik.github.io
+date: 10-19-2024
+categories: 
+- Sustainability
+- Statistics
+
+# self-defined categories
+
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+Weather forecasts and climate predictions have been a part of human
+culture since time immemorial. From elaborate rain dance rituals to
+simulation models, predicting what the weather and climate is going to
+be in the near future has always been part of human history. 2024 has
+been the wild west when it comes to extreme weather and climate events.
+From [record
+temperatures](https://www.nasa.gov/earth/nasa-finds-summer-2024-hottest-to-date/)
+to
+[hurricanes](https://www.noaa.gov/news-release/noaa-predicts-above-normal-2024-atlantic-hurricane-season)
+across the globe, we can't help but wonder what's next? However, our
+predictions about future events is limited by the element of
+uncertainty. Consider these exhibits:
+
+-   Exhibit A: A while back I was reading
+    [this](https://archive.ph/Qw8AQ) amazing deep dive on the nuances of
+    climate risk modelling. In case you have not read it already, I
+    would highly encourage you to take a look at it. The authors looked
+    at two models - one from UC Irvine and one from First Street -
+    showing areas in Los Angeles County that are vulnerable to flooding
+    and found that outputs from the models were “nearly polar opposite”.
+
+-   Exhibit B: Earlier [this summer](https://archive.ph/buMMU),
+    Copernicus, EU's climate science agency said July was the second
+    hottest month ever recorded. But later, NASA and the US National
+    Oceanic and Atmospheric Administration (NOAA) said August was the
+    world’s hottest month ever recorded. Granted the two both agencies
+    use different methods for measuring temperature, but it still
+    alludes to the fact that there are discrepancies and uncertainties
+    when it comes to measuring weather patterns and long-term climate.
+
+-   Exhibit C: Figuring out the [exact magnitude of extreme
+    events](https://archive.ph/tbr2Q) such as Hurricanes Helene and
+    Milton has been an area that forecasters and scientists are still
+    struggling with.
+
+-   Exhibit D: The concept of "net zero" emissions introduced in
+    [Special Report on Global Warming of 1.5 °C
+    (SR15)](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D7455D42B4C820E706A03A169B1893FA/9781009157957AR.pdf/Global_Warming_of_1_5_C.pdf "Special Report on Global Warming of 1.5 °C")
+    : "Reaching and sustaining net zero global anthropogenic
+    \[human-caused\] CO~2~ emissions and declining net non-CO~2~
+    radiative forcing would halt anthropogenic global warming on
+    multi-decadal timescales **(*high confidence*).**"
+
+-   Exhibit E: The estimate 'bands' in the global greenhouse gas
+    emissions and warming scenarios:
+
+[![Global greenhouse gas emissions and warming scenarios. Source: Our
+World In
+Data](images/Greenhouse-gas-emission-scenarios_2062.png)](https://ourworldindata.org/co2-and-greenhouse-gas-emissions?insight=current-climate-policies-will-reduce-emissions-but-not-enough-to-keep-temperature-rise-below-2c#key-insights)
+
+As we see across these exhibits, forecasts and estimates are not
+absolute and carry an element of uncertainty. It makes me wonder -
+wouldn't it be nice if there was a way we could accurately predict when
+the next extreme weather event is going to happen and map out the exact
+impacts down to a T? Think of all the collateral damage that can be
+prevented if there was a magic crystal ball that helped us.
+
+Turns out all **measurements** have some degree of uncertainty. As
+Leonard Smith mentions in the article ['What might we learn from climate
+models?'](https://www.pnas.org/doi/full/10.1073/pnas.012580599#sec-5) :
+
+> *Even in high school physics, we learn that an answer without “error
+> bars” is no answer at all*.
+
+When we make a measurement, it is based on the assumption that the exact
+value exists based on how we define what is being measured. We attempt
+to find this ideal quantity to the best of our ability. However, despite
+our best efforts, there is always an element of uncertainty introduced
+in our measurements which may come from a variety of sources such as:
+
+-   **Failure to account for a factor/input variable**
+
+-   **Instrument resolution**
+
+-   **Calibration**
+
+-   **Parallax**
+
+-   **Instrument drift**
+
+-   **Lag time** and **hysteresis**
+
+-   **Personal errors**
+
+In case you are interested in reading more these errors, do check out
+[this
+chapter](https://www.webassign.net/question_assets/unccolphysmechl1/measurements/manual.html)
+on Measurements and Error Analysis by University of North Carolina.
+
+This begs the question - how do we report our findings for our best
+estimate of this **true value**? From a statistical perspective, the
+most common way to show the range of values that we believe includes the
+true value can be represented as
+
+$Measurement = Estimate ±  Uncertainty$
+
+For example, let's suppose that we want to measure temperature (denoted
+as a variable $Y$) and it is an output of different input
+factors/variables such as humidity, wind speed, pressure etc (denoted as
+$X_1, X_2, X_3...X_p$) and there is some relationship between
+temperature and the inputs humidity, wind speed, pressure. As a result,
+the relationship can be denoted as:
+
+$Y = f(X) + 𝞮$
+
+Here $f$ is some fixed but unknown function of $X_1, X_2, X_3$ and 𝞮 is
+a random error term, which is independent of $X$ and has mean zero. As
+noted in [Introduction to Statistical
+Learning](file:///home/aryamik/Downloads/ISLP_website.pdf):
+
+> The accuracy of $Ŷ$ as a prediction for $Y$ depends on two quantities,
+> which we will call the reducible error and the irreducible error. In
+> general, reducible $\hat{f}$ will not be a perfect estimate for
+> $\hat{f}$ , and this inaccuracy will introduce error some error. This
+> error is reducible because we can potentially improve the irreducible
+> accuracy of $\hat{f}$ by using the most appropriate statistical
+> learning technique to error estimate . However, even if it were
+> possible to form a perfect estimate for $f$ , so that our estimated
+> response took the form $Ŷ = f(X)$, our prediction would still have
+> some error in it! This is because $Y$ is also a function of 𝞮, which,
+> by definition, cannot be predicted using $X$. Therefore, variability
+> associated with 𝞮 also affects the accuracy of our predictions. This
+> is known as the irreducible error, because no matter how well we
+> estimate $f$ is , we cannot reduce the error introduced by 𝞮.
+
+In other words, the irreducible error will always provide an upper bound
+on the accuracy of our prediction for temperature and the reality is
+that the bound is almost always unknown in practice.
+
+Keep in mind that that predicting weather events and climate is a lot
+more complicated than a simple linear function as illustrated above.
+While it is true that over the past few decades we have made strides in
+quantitatively determining the extent to which climate change played a
+role in an extreme event, there is still so much we don't know about
+them. Turns out the Earth's climate system is [incredibly complex,
+involving interactions between multiple non-linear systems (including
+anthropogenic) at
+play](https://www.hoover.org/research/flawed-climate-models). Then there
+are measurement errors that are introduced when recording these
+variables.
+[Work](https://www.jstor.org/stable/43735017?seq=1#page_scan_tab_contents)
+by Patrick Frank at the Stanford Synchrotron Radiation Lightsource
+(SSRL), has shown that the errors in temperatures recorded by weather
+stations have been incorrectly handled. Additionally, pretty much all
+the climate models rely on assumptions and simplifications which can
+further add uncertainties in the equation.
+
+It is also worth noting that climate risk is a [function of hazard,
+exposure and
+vulnerability](https://www.ipcc.ch/site/assets/uploads/2018/03/SREX-Chap2_FINAL-1.pdf).
+
+$Climate Risk = f(Hazard, Exposure, Vulnerability)$
+
+where
+
+-   Hazard refers to the possible, future occurrence of natural or
+    human-induced physical events that may have adverse effects on
+    vulnerable and exposed elements;
+
+-   Exposure refers to the inventory of elements in an area in which
+    hazard events may occur;
+
+-   Vulnerability refers to the propensity of exposed elements such as
+    human beings, their livelihoods, and assets to suffer adverse
+    effects when impacted by hazard events
+
+[![Climate Risk as a function of Hazard, Exposure and Vulnerability.
+Source: Managing the Risks of Extreme Events and Disasters to Advance
+Climate Change
+Adaptation](images/Fig1-1.jpg)](https://www.ipcc.ch/report/managing-the-risks-of-extreme-events-and-disasters-to-advance-climate-change-adaptation/climate-change-new-dimensions-in-disaster-risk-exposure-vulnerability-and-resilience/)
+
+So now not only does one has to factor the probability of these hazards,
+but also the estimates for exposure and vulnerability which further adds
+new complexities.
+
+Ultimately, this excerpt from the deep dive done by Roston et al. (2024)
+on climate risk models nicely sums up the nuances of climate risk
+modelling:
+
+> Understanding climate risk is a bit like taking a vision test at the
+> eye doctor. At the largest scale — the big “E” at the top of the
+> chart, or the whole globe — the signs are the clearest. Refined by
+> scientists over decades, climate models have proved very reliable at
+> what they were designed to do, projecting the global effects of rising
+> greenhouse gases.
+>
+> But at progressively smaller scales and over longer time horizons — as
+> the characters on the eye chart shrink — clarity gives way to
+> fuzziness: You’re sure it’s a letter, just not which one. Climate
+> models can be like that. They are simply better at projecting averages
+> than extremes. Outlier events, like 1-in-100-year storms, are still
+> hard to predict.
+
+It is well known that climate models are not [“plug and
+chug”](https://www.hoover.org/research/flawed-climate-models). At the
+end of the day, they are simply tools that are used in conjunction with
+other tools like risk assessments, scenario analysis, computer
+simulations for decision making purposes. There is work being done to
+improve these existing processes and reduce the element of uncertainty
+in climate risk modelling. For instance, many startups like
+[Brightband](https://archive.ph/E2a5X) are leveraging machine learning
+algorithms to predict the behavior of extreme weather events. Maybe we
+are not that far away from creating a holy grail of climate risk
+modelling where we can map out the impacts to a T. But until then, it
+looks like uncertainties are here to stay with our predictions.
+
+To wrap things up, I would like to leave this quote by Yogi Berra that I
+read in An Introduction to Statistical Learning
+
+> It’s tough to make predictions, especially about the future.
+
+[![Metereologist. Souce XKCD Comic
+#1985](images/meteorologist.png)](https://xkcd.com/1985/)
