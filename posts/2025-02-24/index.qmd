@@ -4,7 +4,7 @@ title: "In Search of Awe"
 author:
   - name: Aryamik Sharma
     url: https://aryamik.github.io
-date: 02-24-2025
+date: 02-23-2025
 categories: 
 - Sustainability
 - Philosophy
