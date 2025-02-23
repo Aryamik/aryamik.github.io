@@ -4,7 +4,7 @@ title: "In Search of Awe"
 author:
   - name: Aryamik Sharma
     url: https://aryamik.github.io
-date: 02-23-2025
+date: 02-24-2025
 categories: 
 - Sustainability
 - Philosophy
@@ -207,9 +207,9 @@ hours, and were starstruck at what we were all seeing.
 
 I will let you be the judge of it.
 
-![](images/IMG_20210111_013730-01.jpg)
-
 ![](images/IMG_20210111_023924.jpg)
+
+![](images/IMG_20210111_013730.jpg)
 
 Years of light pollution and living in 400 AQI air in New Delhi had made
 us lose sight of something that is literally right above every single
