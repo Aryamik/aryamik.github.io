@@ -1,0 +1,26 @@
+---
+title: "Test"
+#description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Aryamik Sharma
+    url: https://aryamik.github.io
+date: 02-23-2025
+categories: 
+- Sustainability
+- Philosophy
+
+# self-defined categories
+
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+Riddle me this:
+
+I can't be bought, nor can I be sold,\
+I’m found in moments, both young and old.\
+I grow when shared, but shrink when hoarded,\
+I bring warmth when your heart’s unguarded.\
+What am I?
