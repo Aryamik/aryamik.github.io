@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Aryamik Sharma">
+<meta name="dcterms.date" content="2025-04-12">
 
-<title>Sympatheia – Aryamik Sharma</title>
+<title>On Technology and Laziness – Aryamik Sharma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,76 +66,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Aryamik Sharma</span>
     </a>
   </div>
@@ -146,11 +88,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Sympatheia</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Disclaimer.html"> 
+    <a class="nav-link" href="../../Disclaimer.html"> 
 <span class="menu-text">Disclaimer</span></a>
   </li>  
   <li class="nav-item compact">
@@ -171,362 +113,126 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">On Technology and Laziness</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">AI</div>
+                <div class="quarto-category">Philosophy</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://aryamik.github.io">Aryamik Sharma</a> </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 12, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="AI">AI <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Ecology">Ecology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Economics">Economics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Philosophy">Philosophy <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Statistics">Statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Sustainability">Sustainability <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Sympatheia</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p>It was middle of a workday and I received a call from my dad.</p>
+<p>“Hi, I am applying for my Canadian Tourist Visa and I will need a letter of invitation from you for my application.”</p>
+<p>“Why don’t you use ChatGPT to help you draft one? Once it is ready, send it over and I will modify it accordingly.”</p>
+<p>“Sounds good, will do”</p>
+<p>After I hung up, a strange thought permeated within me. “I have become so lazy these days. Everything is now ‘ChatGPT this, ChatGPT that’. Want a letter of invitation? Sure let’s use ChatGPT for that. Want to summarize a 2000 word essay? Sure, let’s just copy and paste that in ChatGPT and let it do the grunt work.”</p>
+<p>It is not that I couldn’t draft a letter of invitation by myself. If this was 2019, way before ChatGPT was a thing, I would have probably spent like 30 minutes looking for a template of a letter of invitation and then modify it for my needs. In fact, IRCC does provide a list of things that need to be included in an letter so it shouldn’t be a big deal.</p>
+<p>What concerned me was something about that feeling of atrophying of ‘things that make us human’. Initially, I was thinking of calling this post ‘On AI and Laziness’. But then it occurred to me that this is not a new thing. The laziness argument has been brought up everytime there has been a technological innovation. ChatGPT and AI just happen to be the ‘Current Thing’.</p>
+<p>Look at Spellcheck. It has been around for years and has become ingrained as part of our daily lives to a point where we don’t even have to worry about making spelling mistakes. There are a couple of moments when I accidentally misspell something and I am like “I am pretty sure it is Fahrenheit and not Fahrenhiet, but let me double check.” Once the red squiggly lines appear and I auto correct the word, I am like “Oh geez, I can’t even remember basic spellings anymore.”</p>
+<p>I am specifically referring to <em>that</em> feeling.</p>
+<p>Let’s look at another example - calculators. I am old enough to remember when calculators were prohibited in classrooms. It wasn’t until high school physics that we were allowed to use scientific calculators. The reasoning was that if we used calculators for basic arithmetic, we wouldn’t understand the logic behind it. The goal was to help students develop their reasoning and arithmetic skills. Once the student was able to demonstrate a certain level of proficiency in those skills, only then calculators were introduced. If a student knows how to multiply 456 x 84, then one can assume that the student would be able to handle more complex arithmetic operations. Eventually, we weighed the pros and cons of doing the grunt work when it comes to these arithmetic operations</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pro</th>
+<th>Con</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>The student understands the underlying logic of these arithmetic operations and will be comfortable with dealing more advanced problems in the future</td>
+<td>Doing complex calculations takes more time and once the underlying logic has been well understood, it results in marginal benefits in terms of skill development</td>
+</tr>
+</tbody>
+</table>
+<p>Initially the pro outweighed the con. But gradually we were like “Does it really make sense for Tim to spend 5 minutes solving 506738 x 456435 when he could be spending that time working on something else?”</p>
+<p>The last bit of ‘spending time working on something else’ is a defining feature of innovation. The premise behind innovation is that it will help us be a lot more efficient. The argument is it will help us save time, so that we can spend time doing something else. By definition, technology is something that we design that is supposed to help us. Invention of wheel made it easier for our ancestors to move things around. Something that would had taken 2 hours of commute, now took 30 minutes. Industrial Revolution and assembly lines facilitated the same trend. People were now spending less time doing grunt work thanks to machines, which resulted in massive productivity gains.</p>
+<p>But then another thought comes to my mind that says “What are we going to do with all that time in the world? Where does this end?”</p>
+<p>It reminds me of the bit from The Office where Kevin decides to Small Talk</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_K-L9uhsBLM?si=BYsHf2-b84-udp_H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<p>Kevin starts omitting words from his regular speech because “why waste time say lot word when few word do trick?”. He thinks that he will be able to save so much to “see world”. Pam’s response on how this will result in a “microscopic amount of time saved” is exactly how I feel about the “technology will save us time” argument.</p>
+<p>Let’s say writing an original letter of invitation without using ChatGPT would had taken me 30 minutes from start to finish. With ChatGPT, I was able to get a final product in 5 minutes. In total, it saved me 25 minutes of grunt work which means I can do something else in those 25 minutes such as do my laundry, clean the dishes, have a call with my friend and so on.</p>
+<p>In theory, this line of reasoning sounds about right. But in reality, the difference in time saved is marginal. The thing with current AI systems is that they are not perfect. It’s not that I can realistically expect ChatGPT to produce a perfect letter for me. It will take me a couple of prompts to make the final product tailored to my needs.</p>
+<p>So I keep asking myself, “What will I do with those 3 minutes saved by using ChatGPT?”</p>
+<p>My argument lies on the assumption that AI systems are always going to stay the same as they are today. In reality, it is more likely that ChatGPT 7.0 is going to superior than what we have today. This means eventually, efficiency gains would be far greater than what we currently have.</p>
+<p>To get some clarity, I came up with a hypothetical thought experiment.</p>
+<p>Let’s assume sometime in a distant, utopian future where AI is resulting in productivity gains like nothing we have ever witnessed. Virtually all the bottlenecks in our systems have been eliminated. The question is now no longer about reducing inefficiencies but rather about what do we do now that we are more than efficient?</p>
+<p>I posed this question to my brother and we had a good discussion about it.</p>
+<p>“You live close to work right?”</p>
+<p>“Yeah, it takes me 15 minutes to be at my desk.”</p>
+<p>“That’s good, right? Now imagine if you had a 30 minute commute everyday.”</p>
+<p>“Yeah it wouldn’t be ideal.”</p>
+<p>“What do you in those 15 minutes you saved?”</p>
+<p>His response left me like:</p>
+<p><img src="images/4e3.jpg" class="img-fluid"></p>
+<p>It is true that in 24 hours, 15 minutes is a nothingburger yet I still have a strong <em>preference</em> for it.</p>
+<p>Let’s say if I have to go get my groceries from the market that is 5 minutes away from where I live. I could simply walk to the market or I can take my car. I am pretty sure most would argue that me taking my car to grab a dozen bananas is me just being lazy. Not only that, but I am being more wasteful with the resources and I am missing out on the opportunity to get my daily steps. But let’s say if I had to travel all the way to New York. Here are my options:</p>
+<p><img src="images/clipboard-959789764.png" class="img-fluid"></p>
+<p>I could do a 7 day expedition by foot (which would be fun!), rent a bike and pedal my way for 48 hours (which would be a great workout in itself) or simply hop on a plane from Billy Bishop and arrive at JFK in 90 minutes. Now all of a sudden, the consensus would be to take a plane. Suddenly we don’t care about being wasteful or getting our daily steps? I mean I could do that and no one would stop me but ‘common sense’ would dictate that it’s not the wisest thing to do.</p>
+<p>How we define laziness in the context of technological innovation is very subjective. It’s the classic ‘glass half-full/half-empty’ scenario. Today’s laziness is tomorrow’s efficiency. It boils down to <em>what makes sense at that point in time.</em> Had this been 19th century, we wouldn’t be having this conversation because commercial planes were not a thing yet. So my only option would had been to walk all the way to New York. In the 21st century, I would come off as a technological luddite if I resist innovation just for the sake of resisting. What changed in these two examples?</p>
+<p>We collectively weighed the pros and cons of the two scenarios (going to a local market vs going to New York). The cons of taking a car to a market far outweigh the pros. But when it comes to New York, it is the other way round.</p>
+<p>Maybe AI is going to follow a similar trajectory? There may come a point in time, when we as a society collectively decide that the pros of using AI will far outweigh any cons.</p>
+<p>But it still doesn’t explain the feelings of atrophy that we have. Maybe there is more to the story.</p>
+<p>Josh Waitizkin, one of my favorite individuals and the author of <em>The Art of Learning</em> had some interesting takes on this topic. Recently, he was describing the Elo system used to rank players in the world of chess. Grandmasters like <a href="https://ratings.fide.com/profile/1503014">Magnus Carlsen</a> are rated around 2800. This number dwarfs in comparison to the Elo ratings of some of the more advanced AI systems like <a href="https://www.computerchess.org.uk/ccrl/4040/rating_list_all.html">Stockfish that are around 3700</a>. He believes eventually we will have to deal with the possibility of having 3700 rated ‘everything’. What do we do then?</p>
+<p>He thinks that we as humans can’t accept the fact that eventually we won’t be the apex intelligence running things around. He gives an example from Thomas S. Kuhn’s <em>The Structure of Scientific Revolutions.</em> Imagine you are a classic Newtonian physicist. You have spent your entire life working on it. And then suddenly we have a new field of Quantum Mechanics. To embrace this new field, you have to admit to yourself and everyone else that the work you did is outdated. That’s where the ego comes in which manifests in the form of internal resistance we have to overcome to embrace the new paradigm.</p>
+<p>This leaves us with two options. We can either continue to resist these changes as they are happening or simply accept the reality that there may come a time in future where AI outsmarts us in everything. As I have mentioned <a href="https://aryamik.github.io/posts/2024-08-24/">before</a>, no one knows if it is going to happen or when its going to happen. But for the sake of argument, let’s assume it does. What do we do then?</p>
+<p>Josh says that we will have to cultivate a child-like humility and curiosity towards things. The way I look at it is that we should look for ways to live with these changes rather than being dogmatic about them. Instead of latching on to things, a fundamental question we should be asking is ‘what are we trying to solve?’</p>
+<p>Is the goal to be an expert speller or be a great communicator? If Spellcheck allows us to get our ideas across more easily, is it really a bad thing? It’s not that either of those goals are right or wrong. It’s just that the former made sense a while ago and it served its purpose. Now that things have changed, our goals have evolved too.</p>
+<p>And maybe we aren’t supposed to figure out what the future is going to look like? Maybe it is just something we will never be able to comprehend. Truth is, technological advancements are so much greater and faster than biological advancements. We are so limited in our ability to evolve that we will always end up playing catch-up with technological innovation. In the book <em>The Nineties</em>, the author Charles Klosterman brings up an interesting idea. If you took a person from 1950 and then dropped them into 1990, it wouldn’t be too hard to explain everything. Tvs, music on discs, computers and phones all existed in the 1950s. But taking a person from 1990 and then plopping them into 2025 would require some serious explanation. Yes, I mean just start with phones. Yes, people still have phones. But most don’t have a home phone anymore. They have this electronic brick that they never let out of their sight which has access to the internet and isn’t used for talking most of the time. Music isn’t on discs much anymore, you stream it on the internet. I could go on, but you get the idea. Our ancestors would be puzzled about this prospect of an interconnected world and maybe that’s what we are currently dealing with right now.</p>
+<p>Maybe it is not laziness after all? Maybe it is our tendency to resist change that is really at play here? But isn’t change the only constant? Sometimes, we tend to overlook the good that happens because of these changes. Think of individuals who deal with speech impairment and learning disabilities like dyslexia. While we may be bemoaning the fact that our writing skills are atrophying, advancements in in educational technology are offering new ways to bridge accessibility gaps and provide meaningful support for millions of individuals around the world. Shouldn’t we be celebrating this? Isn’t this a net positive for the society? I am sure Utilitarians would argue that if technology results in the greater good, it would make sense to pursue it.</p>
+<p>I will part by sharing some Stoic wisdom but then I am reminded me of what Marcus Aurelius had to say about change</p>
+<blockquote class="blockquote">
+<p>Frightened of change? But what can exist without it?<br>
+What’s closer to nature’s heart? Can you take a hot bath and<br>
+leave the firewood as it was? Eat food without transforming<br>
+it? Can any vital process take place without something being<br>
+changed?<br>
+<br>
+Can’t you see? It’s just the same with you—and just as vital to nature.</p>
+</blockquote>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="AI,Philosophy" data-listing-date-sort="1744430400000" data-listing-file-modified-sort="1744553679656" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2171">
-<a href="./posts/2025-04-12/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\2025-04-12\images\4e3.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-On Technology and Laziness
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Philosophy'); return false;">
-Philosophy
-</div>
-</div>
-<div class="card-text listing-description">
-It was middle of a workday and I received a call from my dad.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aryamik Sharma
-</div>
-<div class="listing-date">
-Apr 12, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Ecology,Philosophy" data-listing-date-sort="1742702400000" data-listing-file-modified-sort="1742746026098" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1315">
-<a href="./posts/2025-03-31/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\2025-03-31\images\IMG-20200212-WA0000.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Wolf Reintroductions - Yea or Nay?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ecology'); return false;">
-Ecology
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Philosophy'); return false;">
-Philosophy
-</div>
-</div>
-<div class="card-text listing-description">
-What if I told you wolf reintroductions would be one of the the most polarizing topics in modern times? Sounds crazy and I wouldn’t believe it either. That was until I…<em></em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aryamik Sharma
-</div>
-<div class="listing-date">
-Mar 23, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Sustainability,Philosophy" data-listing-date-sort="1740286800000" data-listing-file-modified-sort="1740354043035" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1663">
-<a href="./posts/2025-02-24/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\2025-02-24\images\IMG_20210111_023924.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-In Search of Awe
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Sustainability'); return false;">
-Sustainability
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Philosophy'); return false;">
-Philosophy
-</div>
-</div>
-<div class="card-text listing-description">
-Riddle me this:
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aryamik Sharma
-</div>
-<div class="listing-date">
-Feb 23, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="AI" data-listing-date-sort="1732424400000" data-listing-file-modified-sort="1740336426585" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2498">
-<a href="./posts/2024-11-24/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\2024-11-24\images\2017-Hans-Moravec-Landscape-of-Human-Competence-1920-comp.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AI and Jobs
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-</div>
-<div class="card-text listing-description">
-AI taking over human jobs is an age old topic. I am old enough to remember watching <em>Push Button Kitty</em> episode of Tom and Jerry as a kid where Tom gets replaced by a robotic…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aryamik Sharma
-</div>
-<div class="listing-date">
-Nov 24, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Sustainability,Statistics" data-listing-date-sort="1729310400000" data-listing-file-modified-sort="1740336426585" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1516">
-<a href="./posts/2024-10-19/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\2024-10-19\images\Greenhouse-gas-emission-scenarios_2062.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Uncertainties in Climate Risk Modelling
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Sustainability'); return false;">
-Sustainability
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
-Statistics
-</div>
-</div>
-<div class="card-text listing-description">
-Weather forecasts and climate predictions have been a part of human culture since time immemorial. From elaborate rain dance rituals to simulation models, predicting what…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aryamik Sharma
-</div>
-<div class="listing-date">
-Oct 19, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="AI" data-listing-date-sort="1726286400000" data-listing-file-modified-sort="1740336426581" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1637">
-<a href="./posts/2024-08-31/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\2024-08-31\images\who-is-this-in-the-office-v0-vffle08dwcec1.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-‘Smart Regulations’ in the age of AI
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-</div>
-<div class="card-text listing-description">
-Riddle me this:
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aryamik Sharma
-</div>
-<div class="listing-date">
-Sep 14, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="AI" data-listing-date-sort="1724472000000" data-listing-file-modified-sort="1740336426581" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1163">
-<a href="./posts/2024-08-24/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\2024-08-24\images\Screenshot from 2024-08-24 10-27-27.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Is AI an ‘existential risk’?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-</div>
-<div class="card-text listing-description">
-From Terminator to Westworld, almost all depictions of AI that I have seen in media follow a similar theme: a malevolent entity that aims to subjugate human beings. In fact…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aryamik Sharma
-</div>
-<div class="listing-date">
-Aug 24, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="AI" data-listing-date-sort="1722744000000" data-listing-file-modified-sort="1740336426578" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1191">
-<a href="./posts/2024-08-04/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\2024-08-04\images\1_x7P7gqjo8k2_bj2rTQWAfg.webp" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AI Washing - Is it time to put a brake on the AI Hype Train?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-</div>
-<div class="card-text listing-description">
-If you are anything like me, every day you wake up to see something new happening in the AI space. Whether its is OpenAI creating its own search engine SearchGPT or Meta…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aryamik Sharma
-</div>
-<div class="listing-date">
-Aug 4, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="AI,Sustainability" data-listing-date-sort="1721534400000" data-listing-file-modified-sort="1740336426574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1454">
-<a href="./posts/2024-07-21/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\2024-07-21\images\Screenshot from 2024-07-07 17-48-32.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AI and Sustainability - How to make them coexist?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
-AI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Sustainability'); return false;">
-Sustainability
-</div>
-</div>
-<div class="card-text listing-description">
-AI and Sustainability - two of the hottest topics right now. From regulators to policymakers, businesses, research institutions, non-governmental organizations (NGOs)…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aryamik Sharma
-</div>
-<div class="listing-date">
-Jul 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="Economics" data-listing-date-sort="1720324800000" data-listing-file-modified-sort="1740336426574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1795">
-<a href="./posts/2024-07-07/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\2024-07-07\images\Screenshot from 2024-07-06 11-18-54.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Goodhart’s Law - When Chasing Measures Goes Wrong
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Economics'); return false;">
-Economics
-</div>
-</div>
-<div class="card-text listing-description">
-I was listening to Episode #2156 of the Joe Rogan Experience featuring Jeremie &amp; Edouard Harris from Gladstone AI, an organization dedicated to promoting the responsible…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aryamik Sharma
-</div>
-<div class="listing-date">
-Jul 7, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="10" data-listing-date-sort="1719806400000" data-listing-file-modified-sort="1740336426571" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
-<a href="./posts/2024-07-01/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bare Beginnings
-</h5>
-<div class="card-text listing-description">
-Hey there!
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aryamik Sharma
-</div>
-<div class="listing-date">
-Jul 1, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

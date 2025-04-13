@@ -28,6 +28,7 @@ Here's the scene:
 ```{=html}
 <p align = 'center'><iframe width="560" height="315" src="https://www.youtube.com/embed/1DyD2jrWjFM?si=ap_D5Y-yvTsCNV2a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 ```
+
 Sometimes that's what most of the debates on the internet feel like. Except they are not. The R vs Python is no such exception. It feels as if its the clash of the titans. But spoiler alert: *it's not!*
 
 The other day I came across this amazing meme and as a fan of both Wile E. Coyote and The Flash, I couldn't help but laugh.
@@ -54,6 +55,7 @@ This post is not going to go into the specifics. Instead I will just link some a
 <iframe title="Popular Programming Languages" aria-label="Interactive line chart" id="datawrapper-chart-RASRM" src="https://datawrapper.dwcdn.net/RASRM/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
 ```
+
 In this graph, we can see that over the past few years Python has emerged to be one of the most popular programming languages. Even the results from [Stack Overflow's surveys](https://survey.stackoverflow.co/2023/#technology-most-popular-technologies) since have supported this claim. Nearly 49.3% of survey respondents (out of 87,585 responses) used Python. For R, it was 4.23%. Similarly, Python ranks first in several programming language popularity indices such as the [Popularity of Programming Language Index (PYPL)](https://pypl.github.io/PYPL.html) and the [TIOBE Programming Community index](https://www.tiobe.com/tiobe-index/).
 
 So what does this mean to the 'R vs Python' debate? Is it settled then? Do we have a 'winner'?
@@ -95,6 +97,7 @@ Here's your answer:
 ```{=html}
 <p align = 'center'><iframe src="https://giphy.com/embed/3o7aCRloybJlXpNjSU" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/3o7aCRloybJlXpNjSU">via GIPHY</a></p></p> 
 ```
+
 One last meme to put this topic to bed:
 
 ![](images/Screenshot%20from%202023-12-20%2000-11-03.png){fig-align="center"}
