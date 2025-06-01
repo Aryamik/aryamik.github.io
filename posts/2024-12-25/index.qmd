@@ -67,6 +67,7 @@ doomerism movement:
 ```{=html}
 <p align = 'center'><iframe src="https://giphy.com/embed/xBqg5gAf1xINizpek6" width="480" height="360" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-xBqg5gAf1xINizpek6">via GIPHY</a></p>
 ```
+
 I was curious to examine the root cause of what fuels doomerism. My
 immediate reaction was 'social media'. And there is growing evidence to
 support this. Work by [Jonathan

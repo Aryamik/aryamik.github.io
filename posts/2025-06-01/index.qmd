@@ -1,0 +1,242 @@
+---
+title: "Analysing Greenwashing using RAG"
+#description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Aryamik Sharma
+    url: https://aryamik.github.io
+
+date: 06-01-2025
+categories: 
+- AI
+- ESG
+
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+Last year, I finally managed to cross an item of my bucket list
+
+-   ~~Assemble my own Gaming PC~~
+
+Upon setting it up, I did what any one with a ASUS TUF Radeon RX 7800 Graphic Card would do
+
+![](images/clipboard-3087939124.png){fig-align="center"}
+
+Forget getting 120 FPS on AAA games, I can now practically run large language models locally. It reminded me of this scene from Bruce Almighty where Bruce is like "All this horsepower and no room to gallop”
+
+```{=html}
+<p align = 'center'><iframe width="560" height="315" src="https://www.youtube.com/embed/iP_d-tWQTJ4?si=OW0VLLPOfVKHvdI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+```
+
+So eventually, I was like "you know what, now that I have all this computational horsepower, why don't I try my hands at Retrieval Augmented Generation (RAG) as it is the latest talk of the town?"
+
+It just so happened that I stumbled upon the [work](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4826207) by Markus Leippold and his team at the University of Zurich on using LLMs for analysing sustainability reports. It is a pretty interesting use case because RAG can be a really valuable tool in extracting information from these reports. Lucky for me, one of the co-authors from that paper, Tobias Schimanski has published good [tutorials](https://medium.com/@schimanski.tobi/ai-for-sustainability-1-a-tool-for-analyzing-company-transition-plans-7d75853f933b) on this topic.
+
+As I was in the process of implementing the solution, I noticed that the code was pretty up to what I was looking for. However, as I was going through the implementation, I thought of couple of areas that I could play around with:
+
+-   For starters, Tobias uses OpenAI. While I could create my own OpenAI API keys, I wanted to use an open source model, something like [Llama 3.3](https://ollama.com/library/llama3.3).
+
+-   For parsing PDFs, the tutorial uses [PyPDF](https://pypdf.readthedocs.io/en/stable/). While it does an amazing job of parsing documents, for more complex documents like sustainability reports that are not standardized. using [LlamaParse](https://docs.llamaindex.ai/en/stable/llama_cloud/llama_parse/), would result in better outputs. I came across this idea in [this](https://www.youtube.com/watch?v=u5Vcrwpzoz8) tutorial by AI Jason.
+
+-   The tutorial focuses on extracting basic information about a company and answering a couple of high-level questions. I asked myself - "Why not take this one step further? Why not create an AI agent that helps me analyse a sustainability report and see whether it meets the principles outlined in Canada's Competition Act, specifically around environmental claims and greenwashing?"
+
+Last year, the Competition Bureau released its [draft principles for compliance](https://competition-bureau.canada.ca/en/how-we-foster-competition/consultations/environmental-claims-and-competition-act). While they have not been finalized at the time of this writing, I thought it would be a good starting point for this use case.
+
+From an analytics perspective, greenwashing as a topic has always fascinated me. Why, you may ask?
+
+Simply put, it is hard to 'quantify' greenwashing. Sure, it does involve numbers. Let's say I go out on a limb and say that my product is going to save 50% emissions compared to other products in the market, you would be like 'How did you come up with that number?' and I'm going to be like:
+
+![](images/proxy-image.png){fig-align="center" width="336"}
+
+You would tell me to do a trend analysis of my historical emissions or by first sourcing the emissions data of the industry and of other products. Maybe even do a life cycle assessment (LCA) and then I might get to a number. So yes, there are numbers involved. But it's not as if I can simply 'measure' greenwashing. I was curious to see if there was any work done on this topic. I came across some good papers such as [this](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4582917) one by Lagasio (2023) who introduces 'Greenwashing Severity Index' (GSI) or [this](https://doi.org/10.1007/s10551-012-1360-0) one by Chen and Chang (2013) who suggest measuring greenwashing on product level, green consumer confusion, green perceived risk and green trust based on survey responses.
+
+However, [Dorfleitner and Utz (2023)](https://link.springer.com/article/10.1007/s11846-023-00718-w) sum it up best :
+
+> So far, the literature does not present a widely accepted framework to measure greenwashing. Moreover, approaches based on surveys and case studies are not scalable on a broad sample of firms.
+
+In short, there is no unified framework to measure greenwashing. So while this use case is not an attempt to quantify greenwashing, it's simply a glimpse into how we could leverage analytics to make our lives easier.
+
+So without further ado, here is how I implemented it
+
+I first import all the necessary libraries
+
+``` python
+import os
+import json
+import nest_asyncio
+import re
+from llama_parse import LlamaParse
+from llama_index.core import SimpleDirectoryReader
+from langchain_ollama import ChatOllama, OllamaEmbeddings
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.vectorstores import Chroma
+from langchain.schema import Document
+from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain_core.prompts import ChatPromptTemplate
+```
+
+Next, I setup my LlamaParse API Key. You can read more about how to get your API key over [here](https://docs.cloud.llamaindex.ai/llamaparse/getting_started).
+
+``` python
+os.environ["LLAMA_CLOUD_API_KEY"] = "*insert API KEY here"
+```
+
+Then I define the prompt. As you can see, I leveraged most of the instructions from Tobias' tutorial and then added instructions around the six principles outlined in the Competition Act to analyse greenwashing.
+
+``` python
+PROMPT_TEMPLATE_GREENWASHING = """
+You are a senior sustainability analyst with expertise in climate science, evaluating a company's climate-related transition plan and sustainability report.
+
+You need to analyze the report based on the following principles outlined in Bill C-59:
+
+1. **Environmental claims should be truthful, and not false or misleading**
+2. **Environmental benefit of a product and performance claims should be adequately and properly tested**
+3. **Comparative environmental claims should be specific about what is being compared**
+4. **Environmental claims should avoid exaggeration**
+5. **Environmental claims should be clear and specific – not vague**
+6. **Environmental claims about the future should be supported by substantiation and a clear plan**
+
+The sources you are analyzing are provided below.
+
+--------------------- [BEGIN OF SOURCES]
+{context}
+--------------------- [END OF SOURCES]
+
+You need to respond to these questions based on the above principles:
+
+1. Are the environmental claims made in the report truthful, or do they contain misleading information?
+2. Are the environmental benefits of products and performance claims tested and supported by evidence?
+3. Are comparative environmental claims specific and clear about what is being compared?
+4. Are there any exaggerated environmental claims in the report?
+5. Are the environmental claims clear and specific, or are they vague?
+6. Do any future environmental claims lack substantiation or a clear plan?
+
+For each question, provide the detailed response, including relevant evidence from the sources, and indicate which source(s) support the evaluation. Your FINAL_ANSWER should be in JSON format with the following structure:
+
+{{
+  "Are the environmental claims made in the report truthful, or do they contain misleading information?": {{
+    "answer": "...",
+  }},
+  "Are the environmental benefits of products and performance claims tested and supported by evidence?": {{
+    "answer": "...",
+  }},
+  "Are comparative environmental claims specific and clear about what is being compared?": {{
+    "answer": "...",
+  }},
+  "Are there any exaggerated environmental claims in the report?": {{
+    "answer": "...",
+  }},
+  "Are the environmental claims clear and specific, or are they vague?": {{
+    "answer": "...",
+  }},
+  "Do any future environmental claims lack substantiation or a clear plan?": {{
+    "answer": "...",
+  }}
+}}
+"""
+```
+
+Then I parse my Sustainability report and split the text into chunks. I decided to use [Patagonia's 2023/2024 BCorp Report](https://www.patagonia.com/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw2f8292a3/PDF-US/Patagonia-2023-2024-BCorp-Report.pdf).
+
+``` python
+parser = LlamaParse(result_type="markdown")
+file_extractor = {".pdf": parser}
+
+docs = SimpleDirectoryReader(
+    input_files=[r"C:\Users\aryam\Downloads\Documents\Patagonia-2023-2024-BCorp-Report.pdf"],
+    file_extractor=file_extractor
+).load_data()
+
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+document_splits = []
+for doc in docs:
+    chunks = text_splitter.split_text(doc.text)
+    for chunk in chunks:
+        document_splits.append(Document(page_content=chunk, metadata={"source": doc.get_doc_id()}))
+```
+
+This is where things get a little technical. After parsing and splitting the text, we need to embed and store the chunks in a vector store. For embeddings, I decided to use [Nomic Embed](https://www.nomic.ai/blog/posts/nomic-embed-text-v1) as I saw this being used in almost every RAG tutorial. Then we will retrieve the relevant chunks followed by invoking the model, in this case Llama 3.3. I had already pulled [Llama 3.3](https://ollama.com/library/llama3.3) from Ollama along with [Nomic Embedding](https://ollama.com/library/nomic-embed-text) on my system. Finally, I print the results in a JSON format.
+
+``` python
+
+embeddings = OllamaEmbeddings(model="nomic-embed-text")
+vectorstore = Chroma.from_documents(document_splits, embedding=embeddings)
+retriever = vectorstore.as_retriever()
+
+retrieved_docs = retriever.invoke("Analyze the sustainability report for greenwashing based on the seven principles of Bill C-59.")
+
+input_variables = {
+    "question_1": "Are the environmental claims made in the report truthful, or do they contain misleading information?",
+    "question_2": "Are the environmental benefits of products and performance claims tested and supported by evidence?",
+    "question_3": "Are comparative environmental claims specific and clear about what is being compared?",
+    "question_4": "Are there any exaggerated environmental claims in the report?",
+    "question_5": "Are the environmental claims clear and specific, or are they vague?",
+    "question_6": "Do any future environmental claims lack substantiation or a clear plan?"
+}
+
+prompt = ChatPromptTemplate.from_template(PROMPT_TEMPLATE_GREENWASHING)
+chain = create_stuff_documents_chain(
+    llm=ChatOllama(model="llama3.3"),
+    prompt=prompt,
+    document_variable_name="context"
+)
+
+
+results = chain.invoke({
+    "context": retrieved_docs, 
+    **input_variables
+})
+
+try:
+    json_match = re.search(r'```json\n(.*?)```', results, re.DOTALL)
+    
+    if json_match:
+        json_text = json_match.group(1).strip()
+        
+        final_answer = json.loads(json_text)
+        
+        print("\n📄 Greenwashing Analysis Based on Bill C-59:")
+        
+        for question, details in final_answer.items():
+            if question != "sources":
+                print(f"\n{question}: {details['answer']}")
+
+    else:
+        print("⚠️ No valid JSON found in the response.")
+
+except json.JSONDecodeError:
+    print("⚠️ Could not parse the extracted JSON as valid JSON.")
+    print("Here is the raw response for further inspection:")
+    print(results)
+```
+
+And, finally the moment you have been waiting for
+
+```{=html}
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/fT1ioa8iBZ9Hk6luPK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/advertising-drumroll-drumrollholiday2019-fT1ioa8iBZ9Hk6luPK">via GIPHY</a></p>
+```
+
+Here is the output
+
+> 📄 Greenwashing Analysis Based on Bill C-59:
+>
+> Are the environmental claims made in the report truthful, or do they contain misleading information?: Based on the provided excerpts, the claims appear truthful *in intent*, but lack specific detail to verify their accuracy. The statement about conducting operations “causing no unnecessary harm” is a broad aspiration. Without quantifiable metrics or specific details about what constitutes 'unnecessary harm', it is difficult to assess its truthfulness. It is not demonstrably *false*, but lacks the level of detail needed for full verification.
+>
+> Are the environmental benefits of products and performance claims tested and supported by evidence?: The report states that environmental impact information will be based on “the best science and data practicably available.” However, the provided excerpts do *not* demonstrate that any testing or evidence gathering *has* been done or is currently underway. It only states an *intention* to use data, rather than presenting results of testing or supporting evidence. Therefore, it fails to meet the standard outlined in principle 2.
+>
+> Are comparative environmental claims specific and clear about what is being compared?: The excerpts contain no comparative claims. Therefore, it's not possible to evaluate whether comparisons are specific and clear. The report only discusses the company's own impacts and intentions, not comparisons to other products, companies, or methods.
+>
+> Are there any exaggerated environmental claims in the report?: The claim of 'causing no unnecessary harm’ *could* be interpreted as exaggerated, especially without clear definitions or quantifiable metrics. While a laudable goal, achieving *zero* unnecessary harm is extremely difficult and could be seen as unrealistic without substantial clarification. The lack of specificity raises the risk of it being perceived as hyperbole.
+>
+> Are the environmental claims clear and specific, or are they vague?: The claims are largely vague. Terms like “unnecessary harm” and “environmental footprint” are not defined. The report mentions providing information on “representative items,” but doesn't specify the criteria for selecting these items, or how representative they truly are. The general nature of the statements lacks the clarity needed for meaningful assessment.
+>
+> Do any future environmental claims lack substantiation or a clear plan?: The claim to provide information on environmental impact *is* a future claim. The excerpts do not outline a clear plan for *how* this information will be gathered, verified, and made publicly available. While stating an intention to use ‘best science and data,’ it lacks details about methodologies, timelines, or key performance indicators (KPIs). This lack of a concrete plan undermines the credibility of the future claim.
+
+Ok, maybe it is not as dramatic as I made it out to be. But it's something that makes you go "Hmph, ok, that's pretty cool". Is it perfect? No, far from it. At the end of the day, it still requires human overlay because like I said earlier, greenwashing is a very nuanced topic. Nevertheless, it is still pretty fun to play around with it and get a sense of what is possible within the realm of ESG and AI.
+
+Overall, this was a fun learning project for me. As a newbie to RAG, I have barely scratched the surface. There are so many rabbit holes I want to explore such as playing around with different models, refining the prompts and tinkering with other technical parameters to get better outputs. Maybe also create a nice web application while I am at it. Some of the ones that I found really interesting were:
+
+-   [SEC Insights](https://github.com/run-llama/sec-insights?tab=readme-ov-file) - As I was exploring some of the different use cases of RAG, I found that a 10-K RAG agent was very popular. You have an agent that can scour through complex 10-K filings and easily answer some of the questions you might have. Granted 10-K filings have a structured format, compared to most of the sustainability reports, I really liked this one because it largely overlaps with my use case as analysing sustainability reports seems like a natural extension of these financial chatbots.
+
+-   [Llama Banker](https://github.com/nicknochnack/Llama2RAG) - Similar to the previous one, but I stumbled across this tutorial and really liked how Nick highlighted some of the challenges he encountered while building this application.
+
+-   [Agentic Company Researcher](https://github.com/pogjester/company-research-agent) - This one is a little bit more advanced as it involves retrieving data from multiple sources such as company websites, news articles, financial reports, and industry analyses.

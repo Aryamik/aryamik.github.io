@@ -70,7 +70,7 @@ complex arithmetic operations. Eventually, we weighed the pros and cons
 of doing the grunt work when it comes to these arithmetic operations
 
 | Pro | Con |
-|------------------------------------|------------------------------------|
+|----|----|
 | The student understands the underlying logic of these arithmetic operations and will be comfortable with dealing more advanced problems in the future | Doing complex calculations takes more time and once the underlying logic has been well understood, it results in marginal benefits in terms of skill development |
 
 Initially the pro outweighed the con. But gradually we were like "Does
