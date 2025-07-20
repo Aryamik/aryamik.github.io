@@ -10,7 +10,7 @@ categories:
 - AI
 - Philosophy
 
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
 The other day I was scrolling Reddit and saw a post that went something along the lines of 'brainrot is real'. (ironic, wouldn't you say?)
