@@ -1,0 +1,155 @@
+---
+title: "The cure for 'brainrot"
+#description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Aryamik Sharma
+    url: https://aryamik.github.io
+
+date: 07-31-2025
+categories: 
+- AI
+- Philosophy
+
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+The other day I was scrolling Reddit and saw a post that went something along the lines of 'brainrot is real'. (ironic, wouldn't you say?)
+
+If you are someone like me who was born before 21st century, [brain rot](https://corp.oup.com/news/brain-rot-named-oxford-word-of-the-year-2024/) is defined as “the supposed deterioration of a person’s mental or intellectual state, especially viewed as the result of overconsumption of material (now particularly online content) considered to be trivial or unchallenging. Also: something characterized as likely to lead to such deterioration”. Fun fact: brain rot was named as the Oxford Word of the Year in 2024.
+
+Recent brain-scan studies from MIT have exposed startling findings about the cognitive effects of relying heavily on AI-generated content:\
+\
+🔹 Memory Impact: 83% of participants using ChatGPT for writing tasks couldn't recall what they wrote moments later, versus only 11% who relied on traditional methods.\
+🔹 Brain Connectivity Decline: Regular ChatGPT users experienced a shocking 47% drop in neural connectivity, essentially halving their cognitive engagement.\
+🔹 Quality vs. AI-Assisted Writing: Teachers described AI-assisted essays as "soulless," lacking depth, nuance, and individuality despite flawless grammar.\
+🔹 Cognitive Debt: Continuous AI reliance might lead to diminished brain functionality, leaving users struggling when forced to think independently.\
+🔹 Creativity Trade-off: Studies from Oregon State and Canada show short-term creativity boosts from AI brainstorming, but longer-term declines in original cognitive capability.\
+\
+This data raises critical questions about how we should balance AI assistance with our cognitive health.
+
+A couple of weeks back, I wrote about this idea of ['technology and laziness'.](https://aryamik.github.io/posts/2025-04-12/)\
+Essentially the idea that technology is making us lazier is not new.
+
+I am first hand experiencing the effects. In that post, I the inner resistance I have to overcome with.
+
+But why?
+
+Why are we so adamant? Why do I feel guilty for using ChatGPT to help me draft an email?
+
+Why is a part of me afraid to lose the things that 'make me human'?
+
+It's no surprise our attention spans have diminished.
+
+I tried looking at it from an objective lens and asked "Why is it bad?"
+
+"Why do we resist?"
+
+"Is it really bad?"
+
+Yeah for now.
+
+But what if this is what we are meant to be?
+
+What if the future is going to us living in the 60 second clip format? What if that is the norm?
+
+Sounds a little too dystopian, maybe?
+
+What can we do about it?
+
+We are a freight train running full speed with no guard rails with no intention of stopping. Call it an arms race to development of AGI or call it whatever, one thing is clear - we won't stop working on AI.
+
+Maybe we will crack the code in our lifetimes. Or maybe it's something we will never be able to decipher.
+
+WE are caught in limbo?
+
+So as kids these days will call, "Chat, are we cooked?" (If there is one phrase that I am really digging from this Gen Alpha dictionary, it has to be this one. an I make a quick confession: this is by far one of my favorite things to say these days. I almost find myself giggling when I utter these four words. )
+
+Are we cooked?
+
+Why do we value being a human?
+
+What it takes to be a human?
+
+The good news is everyone has different reasons. That in tself is a 'meta-value'.
+
+I value.
+
+We value.
+
+It got me thinking.
+
+# ‘Brain rot’ named Oxford Word of the Year 2024
+
+<https://www.reddit.com/r/Millennials/comments/1ewudfm/its_just_so_exhausting_what_are_some_words_youve/>
+
+<https://arxiv.org/abs/2506.08872>
+
+```{=html}
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/iP_d-tWQTJ4?si=OW0VLLPOfVKHvdI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+```
+
+Think about it this way
+
+1\) Event X happens
+
+2\) Event gets recorded by someone
+
+Sounds pretty straightforward, right? Except it's not.
+
+Let's say I try to recall everything that happened on June 21, 2015. That in itself is something hard to do. I will first have to be like "How old was it was in 2015?
+
+"Where was I in 2015?
+
+"Who was there with me?"
+
+Already my memory is starting to failing on me. I may be able to recall some of the facts that transpired that day, but everything else my brain will literally fill in the blanks - some of it maybe complete fabrication of details or I may straight up omit it.
+
+Even if I were to jot it down and preserve it in a time capsule so that someone from the future were to read about it (not that I expect anyone to do this in the future but you never know); they will literally have to take my word for it (unless of course humanity comes up with a technology to figure out a way to validate historical event. I think the word I am looking for is a time machine.)
+
+Now imagine if my brother was tasked with the same assignment - "Describe everything that happened to Aryamik on June 21, 2015." This further adds more complexities. We are basically asking another individual to describe the events from my point of view. If I can't accurately describe what happened 10 years ago, how can I expect someone else to describe MY POINT OF VIEW? This is the classic theme between autobiographies and biographies comes in.
+
+I genuinely think we as a society owe a debt to the biographers who went this process of conveying the facts.
+
+Think of the burden of responsibility they have.
+
+After all, "history is written by victors."
+
+Think about it. Everything we now consider as 'facts' were at one point in time recorded as texts in some archaic language.
+
+And this is all before translations come in. Imagine trying to convey events of June 21, 2015 in Danish?
+
+Languages are so nuanced and are rapidly evolving. The original event happened in a point in time in history. So already we have a disconnect between the two.
+
+Almost all languages have their unique set of grammatical rules, vocabulary, lexicons, syntax. But these rules are not enough. Context is equally important when it comes to languages. This includes cultural, historical and societal norms of the period when a given text was written. This background information is crucial for accurately intepreting idiomatic expressions, metaphors and references that may not have direct equivalents in modern languages.
+
+It's part of the reason why the idea of solely relying on "Google Translate" when travelling in a foreign country is a bit clunky. Yes AI, can translate the exact words but without the context it just feels...weird.
+
+It is rarely a 1:1 translation.
+
+ble to decipher the grammar, syntax, and vocabulary, often using reference materials like dictionaries, lexicons, and gramm
+
+DFiogenes wrote it one way. Then Yonge translated it in
+
+And then I am trying to make sense out of it in 21st century.
+
+Biographer
+
+We stray further away from the actual event and before we know it, we have a lot of 'noise'
+
+### **Proficiency in the Source Language**
+
+The first and most fundamental skill required for translating ancient texts is a deep understanding of the source language. Ancient languages like Latin, Classical Greek, Sanskrit, or Cuneiform scripts require years of study and practice to master. [Translators](https://www.daytranslations.com) must be able to decipher the grammar, syntax, and vocabulary, often using reference materials like dictionaries, lexicons, and grammatical guides specific to the ancient language.
+
+### **Contextual Knowledge**
+
+Language alone is not sufficient. Translators must also possess extensive contextual knowledge of the culture, history, and social norms of the period in which the text was written. This background information is crucial for accurately interpreting idiomatic expressions, metaphors, and references that may not have direct equivalents in modern languages.
+
+### **Paleography and Codicology**
+
+Paleography is the study of ancient scripts and handwriting, while codicology focuses on the physical aspects of manuscripts, such as their materials, structure, and layout. Translators must be skilled in both disciplines to properly analyze and interpret ancient texts. Understanding the physicality of a manuscript can offer clues to the context and authorship of the text.
+
+### **Historical Linguistics**
+
+Translating ancient texts often involves dealing with linguistic changes and evolutions. Expertise in historical linguistics is essential for recognizing how languages have transformed over time and identifying archaic or obscure terms that may not appear in standard dictionaries.
+
+But I do hope that future generations look down
