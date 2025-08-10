@@ -45,7 +45,7 @@ And the short answer is we don't know. We can't go back in time to Ancient Greec
 
 I was thinking about why stuff like this matters. I came across this amazing quote by Zeno a while back
 
-![Source: The Daily Stoic](images/1715988399035.jpg){alt="Source: The Daily Stoic" width="653"}
+![Source: The Daily Stoic](images/1715988399035.jpg){width="653"}
 
 So technically I knew about Zeno before I read *The Lives and Opinions of Eminent Philosophers* but I never thought about how the process of knowledge transfer took place for me.
 
