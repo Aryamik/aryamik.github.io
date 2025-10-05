@@ -131,7 +131,7 @@ On Spotify, it is their most popular track with around 140 million listeners at 
 
 In conclusion, looking at these two metrics tells us a little bit about their evolution as a band. But just like all things in life, there is more than meets the eye.
 
-## What has been the average sentiment of their albums and how has it evolved over time? 
+## What has been the average sentiment of their albums and how has it evolved over time?
 
 Just like Raphael did for Cannibal Corpse's discography, I wanted to quantify the 'heaviness' of Architects' songs. But that ship had sailed. So I had to come up with something new. Then I thought why not do something with their lyrics? Maybe analyse the average sentiment of their albums over time?
 
