@@ -76,6 +76,6 @@ Compare that to the mere 261 articles I retrieved. I had considered using NewsAP
 
 To wrap this up, as I was running this analysis and saw the results, I asked myself "What is it that I am actually measuring?" Am I truly capturing the sentiment of what is happening in the ESG space or am I simply analysing the sentiment of Bloomberg Green's authors and their individual headlines that I am assuming is representative of the overall sentiment of the ESG in general? Because those are two very different things. Sometimes we get excited with the prospect of measuring abstract concepts like sentiment. But in doing so, we run this risk of [Goodhart's Law](https://aryamik.github.io/posts/2024-07-07/) that simply states "When a measure becomes a target, it ceases to become a good measure." I had set out to capture the sentiment of ESG industry over the last year with the assumption that Bloomberg Green's headlines are reflective of the overall sentiment. The truth is I ended up capturing the sentiment of ESG headlines written by Bloomberg Green's authors which I think is a still useful insight!
 
-So in conclusion, my take on the ESG space as a whole after analysis is:
+So in conclusion, my take on the ESG space as a whole after this analysis is:
 
 ![](images/clipboard-996777210.png)
