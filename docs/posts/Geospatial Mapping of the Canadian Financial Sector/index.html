@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Aryamik Sharma">
+<meta name="dcterms.date" content="2026-01-25">
+
+<title>Geospatial Mapping of Canadian Financial Sector for Physical Risk Assessment – Aryamik Sharma</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Aryamik Sharma</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Sympatheia</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Disclaimer.html"> 
+<span class="menu-text">Disclaimer</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/aryamik-sharma"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:aryamik.sharma@uwaterloo.ca"> <i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Geospatial Mapping of Canadian Financial Sector for Physical Risk Assessment</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Data Science</div>
+                <div class="quarto-category">ESG</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://aryamik.github.io">Aryamik Sharma</a> </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 25, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+
+<p>It’s story time.</p>
+<p>It was early 2019. A young Aryamik had just wrapped up his 1B term at University of Waterloo where one of the courses he took was introductory statistics. He became fascinated with the idea of the world of analytics and different applications in the environmental sector. One day he was casually browsing the internet and he stumbled across a <a href="https://www.unepfi.org/industries/banking/navigating-a-new-climate-assessing-credit-risk-and-opportunity-in-a-changing-climate/">report</a> titled ‘Navigating a New Climate: Assessing Credit Risk and Opportunity in a Changing Climate’ by UNEPFI. In the report, he saw a case study where TD used Bloomberg’s &lt;MAPS&gt; function for assessing the physical risks of climate change on their lending portfolio. That young Aryamik became fascinated with the interplay of how physical risks can be analysed.</p>
+<p>A couple of years later, when Aryamik finally got his hands on a Bloomberg Terminal, the first function he entered in the search bar was &lt;MAPS&gt; (duh). And the rest as they say is history.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="images/Screenshot 2026-01-24 115030.png" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">A young Aryamik learning about physical risks, &lt;MAPS&gt;, financial sector and everything in between</figcaption>
+</figure>
+</div>
+<p>For some reason, the idea of physical risks and analysing the real world impacts has always fascinated me. Needless to say, I always wanted to do something <em>akin</em> to what &lt;MAPS&gt; function allows users to do - overlay and analyze multiple datasets; bringing together geographic data on projected climate change impacts. Afters years and years of pondering over what that would look like, I finally have something to show for: A real time web application to visualize and understand the impacts of climate change variables on the Canadian branches of different banks using NASA’s WMS capabilities.</p>
+<p>But before we got into that, I think it’s important to look at how I got the data in the first place because without it, none of this would had been possible.</p>
+<p>A while back when I was noodling around with &lt;MAPS&gt;, I found out that there was a way to overlay different layers on top of locations of banks in the US. Upon further investigation, I found out that the Federal Deposit Insurance Corporation provides this <a href="https://banks.data.fdic.gov/bankfind-suite/bankfind">dataset</a> that is updated on a weekly basis. I wanted to find something similar for the Canadian banks. Unfortunately, I couldn’t find a FDIC-esque dataset even on Government of Canada’s <a href="https://search.open.canada.ca/opendata/?owner_org=osfi-bsif&amp;page=1&amp;sort=metadata_modified%20desc">Open Data Portal</a>. Eventually, I literally searched for ‘Canadian Banks Branch Locations’ and the first result that showed up was from Payments Canada. Turns out, Payments Canada has a <a href="https://www.payments.ca/payment-resources/directories?field_directory_type=11">Financial institutions branch directory (FIBD)</a> that provides routing numbers and addresses for branches of all Canadian financial institutions. The only caveat was that the data is provided in .pdf format. But atleast that is better than something. And besides, it’s 2026 and we do have some amazing tools like LlamaParse that can allow us to extract data from complex documents.</p>
+<p>So finally a plan was set in motion. As a first step, I would download the document and parse it to get a nice, clean looking dataset. FIBD has two formats for the addresses: a geographical list organized by municipality and a numerical list. Initially, I was leaning towards using the geographical list as I thought it was better suited for my purpose (geocoding addresses) as it is categorized by regions. But upon further inspection, I ended up using the numerical list primarily because it was categorized by banks which is something I wanted to have in the final dataset.</p>
+<p>Then came the important part: parsing the document. I <a href="https://aryamik.github.io/posts/Man's%20Search%20for%20Catastrophe%20Data/">recently used</a> docling for extracting natural disasters data from AON’s reports and I was very happy with the results. So I had no reason to NOT use it again. Besides the contents of the FIBD seemed somewhat more structured compared to AON’s reports.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> docling.document_converter <span class="im">import</span> DocumentConverter</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>source <span class="op">=</span> Data\<span class="dv">2026</span><span class="op">-</span><span class="dv">0</span><span class="er">1</span><span class="op">-</span><span class="dv">0</span><span class="er">9</span><span class="op">-</span>Banks_Numeric_List.pdf  </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>converter <span class="op">=</span> DocumentConverter()</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>doc <span class="op">=</span> converter.convert(source).document</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(doc.export_to_markdown()) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>For the first few pages, the markdown extracted was pretty accurate. However, somewhere around page 3, the format turned funky:</p>
+<p><img src="images/clipboard-2021980708.png" class="" width="740" height="281"></p>
+<p>I could have worked with it somehow but I realized the juice is not worth the squeeze. So I decided to try using LlamaParse this time.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">"LLAMA_CLOUD_API_KEY"</span>] <span class="op">=</span> <span class="st">"llx-"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> llama_parse <span class="im">import</span> LlamaParse</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nest_asyncio</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>nest_asyncio.<span class="bu">apply</span>()</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>parser <span class="op">=</span> LlamaParse()</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> parser.load_data(Data\<span class="dv">2026</span><span class="op">-</span><span class="dv">0</span><span class="er">1</span><span class="op">-</span><span class="dv">0</span><span class="er">9</span><span class="op">-</span>Banks_Numeric_List.pdf)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Much better and consistent results this time:</p>
+<p><img src="images/clipboard-315025447.png" class="img-fluid"></p>
+<p>Goes on to show why I am still a huge fan of LlamaParse for parsing documents. Given that the markdown was consistent across the board, next step was simply extracting the data from the markdown and creating a pandas dataframe.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>header_pattern <span class="op">=</span> re.<span class="bu">compile</span>(<span class="vs">r"^(.*?)(\d</span><span class="sc">{3}</span><span class="vs">)\s*$"</span>) <span class="co">#extracting the bank header names</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>row_pattern <span class="op">=</span> re.<span class="bu">compile</span>(<span class="vs">r"(\d</span><span class="sc">{9}</span><span class="vs">)\s+(\d</span><span class="sc">{5}</span><span class="vs">)-(\d</span><span class="sc">{3}</span><span class="vs">)\s+(.*)"</span>) <span class="co">#extracting individual rows containing addresses</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> []</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>current_bank <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>current_inst <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># A simple function that extracts dataset rows by first detecting bank's header and then rows containing the addresses</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> doc <span class="kw">in</span> result:</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> line <span class="kw">in</span> doc.text.splitlines():</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>        line <span class="op">=</span> line.strip()</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> line:</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>        bank_match <span class="op">=</span> bank_header_pattern.match(line)</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> bank_match:</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>            current_bank <span class="op">=</span> bank_match.group(<span class="dv">1</span>).strip()</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>            current_inst <span class="op">=</span> bank_match.group(<span class="dv">2</span>)</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>            <span class="cf">continue</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>        data_match <span class="op">=</span> data_row_pattern.match(line)</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> data_match:</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>            routing <span class="op">=</span> data_match.group(<span class="dv">1</span>)</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>            transit <span class="op">=</span> data_match.group(<span class="dv">2</span>)</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>            inst <span class="op">=</span> data_match.group(<span class="dv">3</span>)</span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>            address <span class="op">=</span> data_match.group(<span class="dv">4</span>)</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>            rows.append({</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>                <span class="st">"bank_name"</span>: current_bank,</span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>                <span class="st">"institution"</span>: inst,</span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>                <span class="st">"transit"</span>: transit,</span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>                <span class="st">"routing"</span>: routing,</span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>                <span class="st">"address"</span>: address</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>            })</span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a><span class="co">#converting the dataset into a pandas dataframe</span></span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(data)</span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Atleast now I had an exhaustive dataset consisting of a bank’s name, it’s transit and routing numbers and most importantly the addresses. But it was far from over. I still needed the geocoordinates (i.e.&nbsp;latitudes and longitudes) of these addresses to effectively plot them.</p>
+<p>This is where geocoding comes in. Simply put, <a href="https://en.wikipedia.org/wiki/Address_geocoding">geocoding</a> is the process of taking a text-based description of a location, such as an address or the name of a place, and returning geographic coordinates (typically the latitude/longitude pair) to identify a location on the Earth’s surface. I could talk at lengths about geocoding as honestly it is a domain in itself but for our purposes, I will just leave it by saying it is an art as much as it is a science. How you decide to geocode is going to vary your final results. I decided to use <a href="https://geopy.readthedocs.io/en/stable/">geopy</a> for this task. Turns out there a whole bunch of geocoders available such as Google Maps, Bing Maps, Nominatim each with their own strengths and weaknesses. According to geopy’s documentation:</p>
+<blockquote class="blockquote">
+<p>Each geolocation service you might use, such as Google Maps, Bing Maps, or Nominatim, has its own class in <code>geopy.geocoders</code> abstracting the service’s API. Geocoders each define at least a <code>geocode</code> method, for resolving a location from a string, and may define a <code>reverse</code> method, which resolves a pair of coordinates to an address. Each Geocoder accepts any credentials or settings needed to interact with its service, e.g., an API key or locale, during its initialization.</p>
+</blockquote>
+<p>Now I will be completely honest. I had no idea what I was doing at this point. The examples in the documentation and other supporting tutorials were valid for a handful of addresses, not for around 15000 addresses! When I did try geocoding a large batch, I was hitting the rate limits of these API services. That was until I came across <a href="https://youtu.be/tKtDZ_-GuBo">this</a> tutorial by EthanHicks1. He had created a Python script for batch geocoding large amounts of addresses using ArcGIS and Komoot. This is literally I wanted. So I ran the script as is and lo and behold I had my dataset with all the addresses and their geocoordinates. The only downside is it took nearly 8 hours for the script to run. My computer probably still hates me for this.</p>
+<p>The only thing that was missing was having different layers that could be overlayed on top of these geocoordinates. But the million dollar question was “How would I do that?”</p>
+<p>Turns out in the field of Geographic Information Systems (GIS), there is a standard protocol called <a href="https://www.ogc.org/standards/wms/">Web Map Service (WMS)</a> for serving georeferenced map images over an application. Think of it this way - in order to plot a geographical data over an application, one would have to get a whole bunch of data (usually in a Raster and TIFF format), figure out a way to plot them accurately. That sounds like a computational nightmare. It takes too much resources and it’s not very user friendly. Every time I want to plot something, I have to fetch this massive dataset and then process it. Now instead of this entire song and dance, what if the underlying data was readily available to be displayed by a simple request to a remote server hosting the underlying data? This renders a real time map of the geospatial data without any pre-defined and cached tiles.</p>
+<p>As long as I could find an appropriate data source that allows WMS capabilities for different environmental and climate change related impacts, I should be all set. And if there is one trusted, reliable and authoritative resource that provides these capabilities, it has to be <a href="https://nasa-gibs.github.io/gibs-api-docs/">NASA’s Global Imagery Browse Services (GIBS)</a>. According to GIBS documentation:</p>
+<blockquote class="blockquote">
+<p>NASA’s Global Imagery Browse Services (GIBS) system provides visualizations of NASA Earth Science observations through standardized web services. These services deliver global, full-resolution visualizations of satellite data to users in a highly responsive manner, enabling visual discovery of scientific phenomena, supporting timely decision-making for natural hazards, educating the next generation of scientists, and making imagery of the planet more accessible to the media and public.</p>
+</blockquote>
+<p>GIBS provides over 1000 visualizations representing visualized science data from the NASA Earth Observing System Data and Information System. I seriously doubt there is any other resource that is as comprehensive as GIBS. Can we just take a moment to appreciate the fact that we live in a time where we have all these capabilities at our fingertips? Think of the advantages from an emergency response perspective, disaster recovery, resiliency planning and data driven decision making.</p>
+<p>Once that was done, all that was left to do was marry the geocoordinates with the WMS layers in a nicely packaged Streamlit app that allows users to select the relevant layers and visualize the footprint of a given bank.</p>
+<p>So here is the moment you all have been waiting for:</p>
+<p><img src="images/clipboard-704454665.png" class="img-fluid"></p>
+<p>Over here, we can see the ‘Flood Mortality Risk’ layer overlayed on top of branch locations for ‘BANQUE LAURENTIENNE DU CANADA’. It looks like the flood mortality risk is concentrated around Ontario and Quebec. Something the risk managers would want to consider:</p>
+<ul>
+<li><p>How are we ensuring operations in these high risk areas don’t go down in an event of an extreme flood? Do we have adequate business continuity processes?</p></li>
+<li><p>How would we ensure our customers living in these high risk areas have access to banking services in an event of an extreme flood?</p></li>
+<li><p>Do we have the proper insurance coverage in the high risk areas?</p></li>
+</ul>
+<p>Similarly, for ‘Cyclone Hazard’, we see that the economic risk is concentrated along the east coast.</p>
+<p><img src="images/clipboard-316502618.png" class="img-fluid"></p>
+<p>What’s great about GIBS is that it provides layers on other socio-economic variables that extend beyond environmental hazards and physical risks. For instance, ‘Population Density’ layer can provide some unique insights such as “Whether BANQUE LAURENTIENNE DU CANADA has operations in areas of low population density?” Customers that are located in remote areas might not have access to banking services within their immediate vicinity.</p>
+<p><img src="images/clipboard-2432855154.png" class="img-fluid"></p>
+<p>From a nature and biodiversity risk perspective, risk managers may find it useful to investigate the ‘Land Cover’ layers to see if they have any operations in biodiversity hotspots? Or even better, they could think about how can they safeguard those areas and communities through innovative financing solutions.</p>
+<p><img src="images/clipboard-1830734280.png" class="img-fluid"></p>
+<p>As you can see, the sky is the limit when you have over 1000 layers of different datasets representing all sorts of environmental and socio-economic variables. And it’s worth mentioning that even though the mapping of the addresses was for Canadian branches of banks (primarily because I am interested in the financial sector), this exercise can be applied to virtually any use case - car retailers, utilities, consumer products and so on. As long as you have the proper geocoordinates, you should be all set.</p>
+<p>To wrap things up, I just want to bring up a couple of limitations of this application. For starters, the data from FIBD of addresses of Canadian financial institutions is as of January 09, 2026. Secondly, as I mentioned earlier, geocoding can result in different outputs depending on the service you use. Besides Google Maps API, I think ArcGIS is pretty reliable. However, I did see a couple of instances where I was seeing branch locations in different parts of the world for a dataset that is supposed to be for branches based in Canada. Even though, there were only a handful of them (~1%) and I could probably fix them manually, it’s important to keep in mind the limitations of geocoding.</p>
+<p><img src="images/clipboard-1180676630.png" class="img-fluid"></p>
+<p>Last but not least, as amazing as WMS layers are and how they provide us these amazing insights, they only tell us part of the story. What most risk managers want to understand is “how do these different climate hazards interact with a bank’s existing risk appetite?”. In other words, how are these hazards going to translate into credit risk, market risk, liquidity risk etc? That is where you need to go beyond traditional hazard maps and get better data on exposures and vulnerability, use advanced catastrophe modelling capabilities and examine a wide range of scenarios to translate the damages into a dollar amount.</p>
+<p>At the end of the day, this is just a high school data science project. Despite all its limitations, I still think this might be a useful tool for doing a high level physical risk assessment of the Canadian Financial Sector. Feel free to use this <a href="https://geomapcanadianfinance.streamlit.app/">application</a> for your individual use cases. If you do end up using it, do let me know and please do credit Payments Canada and NASA’s GIBS as the data belongs to them.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="images/u3i61.jpg" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Me watching the application run in all its glory</figcaption>
+</figure>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://utteranc.es/client.js" repo="Aryamik/aryamik.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
