@@ -18,43 +18,43 @@ Last year, I [started on a quest](https://aryamik.github.io/posts/Man's%20Search
 
 A couple of weeks ago, the amazing folks at University of Zurich's Department of Finance (Schimanski et al. 2026) published a paper [*What Firms Actually Lose (and Gain) from Extreme Weather Event Impacts*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6035794) where they used large language models to analyse 1.7 million filings from all publicly listed US firms between 2005-2024 and map identified impacts to 286 specific extreme weather events. They made the data and the models used [publicly available](https://huggingface.co/extreme-weather-impacts). What I was primarily interested in was the [Extreme Event dataset](https://huggingface.co/datasets/extreme-weather-impacts/NOAA_event_with_summary) of the 286 US Specific Weather events that was sourced from NOAA. The dataset contains the following fields:
 
--   Name: event name according to NOAA
+- Name: event name according to NOAA
 
 <!-- -->
 
--   Disaster: disaster event type according to NOAA
+- Disaster: disaster event type according to NOAA
 
 <!-- -->
 
--   Begin Date: event begin date according to NOAA
+- Begin Date: event begin date according to NOAA
 
 <!-- -->
 
--   End Date: event end date according to NOAA
+- End Date: event end date according to NOAA
 
 <!-- -->
 
--   CPI-Adjusted Cost: CPI-adjusted cost of the event according to NOAA
+- CPI-Adjusted Cost: CPI-adjusted cost of the event according to NOAA
 
 <!-- -->
 
--   Unadjusted Cost: non-adjusted cost of the event according to NOAA
+- Unadjusted Cost: non-adjusted cost of the event according to NOAA
 
 <!-- -->
 
--   Deaths: deaths caused by the event according to NOAA
+- Deaths: deaths caused by the event according to NOAA
 
 <!-- -->
 
--   Event Duration: event duration according to NOAA
+- Event Duration: event duration according to NOAA
 
 <!-- -->
 
--   Event ID: ID of the event in the NOAA billion-dollar dataset
+- Event ID: ID of the event in the NOAA billion-dollar dataset
 
 <!-- -->
 
--   Summary: event description / summary provided by NOAA
+- Summary: event description / summary provided by NOAA
 
 As you can probably guess, I was primarily interested in the 'Unadjusted Cost' field. But as I was skimming through the dataset, I looked at some of the events like 'Typhoon Mawar (May 2023)', 'Hurricane Beryl (July 2024)' and these names started to ring a bell. Turns out they were listed in the Appendices of the AON reports. That's when I had a question come up in my head "I wonder if the events listed in this dataset are also included in the AON tables that I extracted?"
 

@@ -1,0 +1,235 @@
+---
+title: "Jack of All; Master of  ̶n̶o̶n̶e̶ All? - P22rt 1"
+#description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Aryamik Sharma
+    url: https://aryamik.github.io
+
+date: 05-25-2026
+categories: 
+- AI
+
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+Tolerance for ambiguity. A couple of decades ago, when career paths were limited. It made sense to pick a lane and stick with it.
+
+But we will need to have that
+
+able to check the AI for hallucinations and lies and be able to work with it without being taken in by it. You provide . This collaboration leads to better results and keeps you engaged with the AI process, preventing overreliance and complacency. Being in the loop helps you maintain and sharpen your skills, as you actively learn from the AI and adapt to new ways of thinking and problem-solving. It also helps you form a working co-intelligence with the AI.
+
+by outsourcing tactics, the part of human expertise that is most easily replaced, the part that he and the Polgar prodigies spent years honing.
+
+This is what Co-Intelligence
+
+Does it still make sense to
+
+In the genre of modern self-help narratives, music training has stood beside golf atop the podium, exemplars of the power of a narrowly focused head start in highly technical training. Whether it is the story of Tiger Woods or the Yale law professor known as the Tiger Mother, the message is the same: choose early, focus narrowly, never waver.
+
+The Tiger Mother’s real name is Amy Chua, and she coined the term in her 2011 book Battle Hymn of the Tiger Mother. Like Tiger, the Tiger Mother permeated popular culture. Chua advertised the secrets to “how Chinese parents raise such stereotypically successful kids.” On the very first page of the very first chapter is the litany of things Sophia and Lulu must never do, including: “play any instrument other than the piano or the violin.” (Sophia gets piano, Lulu is assigned violin.) Chua supervised three, four, and sometimes five hours of music practice a day.
+
+Popular lore holds that the sculptor Michelangelo would see a full figure in a block of marble before he ever touched it, and simply chip away the excess stone to free the figure inside. It is an exquisitely beautiful image. It just isn’t true. Art historian William Wallace showed that Michelangelo was actually a test-and-learn all-star. He constantly changed his mind and altered his sculptural plans as he worked. He left three-fifths of his sculptures unfinished, each time moving on to something more promising. The first line of Wallace’s analysis: “Michelangelo did not expound a theory of art.” He tried, then went from there. He was a sculptor, painter, master architect, and made engineering designs for fortifications in Florence. In his late twenties he even pushed visual art aside to spend time writing poems (including one about how much he grew to dislike painting), half of which he left unfinished.
+
+Practical life advice
+
+It raises broader question. Like what do I want to do? In a world, where facts can be looked up in an instant, does it make sense tfor our education system to rely
+
+Working with AI , co-intelligence book
+
+The progress of AI in the closed and orderly world of chess, with instant feedback and bottomless data, has been exponential. In the rule-bound but messier world of driving, AI has made tremendous progress, but challenges remain. In a truly open-world problem devoid of rigid rules and reams of perfect historical data, AI has been disastrous. IBM’s Watson destroyed at Jeopardy! and was subsequently pitched as a revolution in cancer care, where it flopped so spectacularly that several AI experts told me they worried its reputation would taint AI research in health-related fields. As one oncologist put it, “The difference between winning at Jeopardy! and curing all cancer is that we know the answer to Jeopardy! questions.” With cancer, we’re still working on posing the right questions in the first place.
+
+In short, the boring answer is "it depends".
+
+It might seem that nothing would be easier than deciding what you like, but it turns out to be hard, partly because it’s hard to get an accurate picture of most jobs. . . . Most of the work I’ve done in the last ten years didn’t exist when I was in high school. . . . In such a world it’s not a good idea to have fixed plans.
+
+Some practical frameworks for making it happen
+
+Interleaving
+
+Birnbaum et al. (2013) found out that for knowledge to be flexible, it should learned under varied conditions
+
+Try interleaving
+
+For knowledge to be flexible, it should be learned under varied conditions, an approach called varied or mixed practice, or, to researchers, “interleaving.”
+
+In other words, there are benefits of testing yourself in unfamiliar environments. Why is this significant? This is where we get into the downsides of hyperspecialization
+
+In her famous book, The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA, sociologist Diane Vaughan interviewed engineers at NASA who worked on the catastrophic Challenger mission found that NASA’s own famous can-do culture manifested as a belief that everything would be fine because “we followed every procedure”; because “the \[flight readiness review\] process is aggressive and adversarial”; because “we went by the book.” NASA’s tools were its familiar procedures. The rules had always worked before. But with Challenger they were outside their usual bounds, where “can do” should have been swapped for what Weick calls a “make do” culture. They needed to improvise rather than throw out information that did not fit the established rubric.
+
+as we collaquialy like to call it "tunnel visioning"
+
+Now it's entirey possible that the Challenger mission went sideaways for a myriad of other reasons, besides But a case could be made that this happened because of what Erik Dane, a Rice University professor, calls "cognitive entrenchment." - a high level of stability in one’s domain schemas. This entrenchment appears to stem from increasing expertise and develop greater expertise in an area, you have the potential to become more 'entrenched' in your thinking. Colloquially, we like to call this "tunnel visioning".
+
+According to Yale law and psychology professor Dan Kahan , it could be attributed to the fact that the more expertise we get in a given domain, the better we get at finding evidence to confirm our own bias.
+
+Another example that David mentions is about the 2008 Financial Crisis. Here is an excerpt from the book:
+
+“Insurance regulators regulated insurance, bank regulators regulated banks, securities regulators regulated securities, and consumer regulators regulated consumers,” the official told me. “But the provision of credit goes across all those markets. So we specialized products, we specialized regulation, and the question is, ‘Who looks across those markets?’ The specialized approach to regulation missed systemic issues.”
+
+Expert or not, the key takeaway for all of us is perfectly captured in the title of one of the chapters of the book: "Learning to drop your familiar tools" or as Erik Dane puts it "having one foot outside your world."
+
+The more information specialists create, the more opportunity exists for curious dilettantes to contribute by merging strands of widely available but disparate information—undiscovered public knowledge, as Don Swanson called it. The larger and more easily accessible the library of human knowledge, the more chances for inquisitive patrons to make connections at the cutting edge.
+
+It isn’t just the increase in new knowledge that generates opportunities for nonspecialists, though. In a race to the forefront, a lot of useful knowledge is simply left behind to molder. That presents another kind of opportunity for those who want to create and invent but who cannot or simply do not want to work at the cutting edge. They can push forward by looking back; they can excavate old knowledge but wield it in a new way.
+
+The more information specialists create, the more opportunity exists for curious dilettantes to contribute by merging strands of widely available but disparate information—undiscovered public knowledge, as Don Swanson called it. The larger and more easily accessible the library of human knowledge, the more chances for inquisitive patrons to make connections at the cutting edge. An operation like InnoCentive, which at first blush seems totally counterintuitive, should become even more fruitful as specialization accelerates.
+
+It isn’t just the increase in new knowledge that generates opportunities for nonspecialists, though. In a race to the forefront, a lot of useful knowledge is simply left behind to molder. That presents another kind of opportunity for those who want to create and invent but who cannot or simply do not want to work at the cutting edge. They can push forward by looking back; they can excavate old knowledge but wield it in a new way.
+
+Sometimes taking a step back can also help us . This may not be news to most of us as we have all heard the adages
+
+"Take a break/walk"
+
+"Let's think about it differently"
+
+We have all experienced this in our personal and/or professional lives to some extent. We have been stuck on a problem for a while. We then decide to step away, both literally and figuratively, in hopes of coming back with a solution with a fresh set of eyes. Soon enough, we have a "Eureka" moment.
+
+Well, it's no accident. History is littered with examples where
+
+Outside-in thinking: finding solutions in experiences outsideof focusied training for the problem itself.
+
+Beyond the logistical skills and cultivating a broad expertise, I think this requires cultivating something that is within us - dropping our egos and embrace what psychologist Jonathan Baron calls "active open mindedness." This means cultivating a childlike-curiosity and regularly testing our own ideas.
+
+Let's be honest. We all become overly attached with our ideas and see it as the only way of doing things. I do it from time to time. But that is not something to beat ourselves up for it. The world is too complex as is. All it requires taking a step back and saying "I didn't think about this."
+
+And sometimes that means being able to abandon our ideas for newer ones. It obviously requires a lot more nuance than simply abandoning projects willy nilly. But as long
+
+Analogies
+
+David talks about the utility of analogies when it comes to problem solving in our daily lives. We all know Johannes Kepler deducted the laws of planetary motion. But how did he come with those laws that ushered the age of Scientific Revolution?
+
+Analogies
+
+We live in age of Information. Someone who can connect the dots across various domains.
+
+In an age when alchemy was still a common approach to natural phenomena, Kepler filled the universe with invisible forces acting all around us, and helped usher in the Scientific Revolution. His fastidious documentation of every meandering path his brain blazed is one of the great records of a mind undergoing creative transformation. It is a truism to say that Kepler thought outside the box. But what he really did, whenever he was stuck, was to think entirely outside the domain. He left a brightly lit trail of his favorite tools for doing that, the ones that allowed him to cast outside eyes upon wisdom his peers simply accepted. “I especially love analogies,” he wrote, “my most faithful masters, acquainted with all the secrets of nature. . . . One should make great use of them.”
+
+Going back to Andy Ouderkirk said about information being readily available
+
+"procedure. It leads to excellent immediate performance, but for knowledge to be flexible, it should be learned under varied conditions, an approach called varied or mixed practice, or, to researchers, “interleaving.”
+
+Use analogies where possible
+
+The more extreme the analogy, the better it was for idea generation
+
+Outside-in thinking: finding solutions in experiences outsideof focusied training for the problem itself.
+
+TEaching them how to hunt for and connect contextual clues to understand what they read can be
+
+Successful problem solvers are more able to determine the deep structure of a problem before they proceed to match a strategy to it.
+
+Willingness to jettison a project for a better fit
+
+Grit
+
+I became curious with the case study of Frances Hesslebein, Phil Knight
+
+Don't ask me what my training was. She just did whatever seemed like it would teach her something and allow her to be of service at each moment.
+
+Herminia ibarra: ""We learn who we are only by living, not before"
+
+First act then think. We discover the possibilities by doing, by trying new activites, building new networks, finding new role models.
+
+Lateral thinking with withered technology - figure out a way to repuprose existing information.
+
+Superforecasters - narrow view hedgehogs who know one big thing and the integrator foxes who know many little things
+
+"Let's say for the sake of argument" which led him playing out viewpoints from different disciplies or political or emotional perspectives
+
+Active open mindness
+
+Typewriter I get it. You want to increase your typing speed? You might want to reconsider that decision
+
+It's getting good at many things. Tactics, it can do. Strategy is where your input is needed.
+
+Classical Morevoc's PAradox. Analogies
+
+Comparisons. Deductive Reasoning. Those are exactly the areas that David
+
+On the contrary,
+
+Let's look at certain examples that I can think of. As a lifelong fan of Avenged Sevenfold, I grew up idolizing their lead guitarist Synyster Gates and he was one of the reasons why I picked up guitar. In my opinion, he is easily one of the best modern metal guitarists. Don't believe me? Listen to this solos in Nobody, Second Heartbeat, Bat Country, Afterlife. But before producing all those masterpieces, he wasn't doing metal stuff. In fact, he was doing something on the opposite end of musical spectrum - Gypsy Jazz. He is son of Papa Gates (Brian Haner) who is an amazing guitarist known for his Blues and Jazz music. So naturally he had a major influence on Syn. He ended up doing
+
+The end result? You have sweep picking pentatonics and crazy licks across Avenged Sevenfold's discography.
+
+Another area - Mixed Martial Arts. There are exceptions like Alex Perrieria. But the
+
+Gypsy Jazz.
+
+Without the risk of sounding like a politician, I'll echo what David has mentioned throughout the work. We need 'Tiger' and 'Roger' models to thrive in this seemingly complex world. Both have their place and it is upto us to figure out what environment we are in
+
+Whether you agree, there are merits to venturing out of our domains and getting a fresh perspective from other fields.
+
+Think 10000 hours,
+
+President and CEO, Marriott International Inc.
+
+But what if that was no longer the case?
+
+But then you might argue? What about polymaths? Like Da Vinci? or Benjamin Franklin?
+
+Maybe they were truly exceptions to the norm.
+
+My wife, Meia, likes to point out that the aviation industry didn’t start with mechanical birds. Indeed, when we finally figured out how to build mechanical birds in 2011, 1 more than a century after the Wright brothers’ first flight, the aviation industry showed no interest in switching to wing-flapping mechanical-bird travel, even though it’s more energy efficient—because our simpler earlier solution is better suited to our travel needs.
+
+We do tasks. And we create jobs around that.
+
+In other words, that are
+
+So while AI might be able to focus its efforts on tactics and do the heavy lifting for us, our competitive advantage would lie in focusing our efforts on the broad picture stuff.
+
+But the point is there are still many tasks that AI is horrendously bad at. For all we know, this could all change tomorrow and we finally might have AGI.
+
+As Max jokingly remarks in the TED Talk,
+
+while great rewards will accrue to those who can take conceptual knowledge from one problem or domain and apply it in an entirely new one.
+
+Now where does AI fit in?
+
+May not be well defined.
+
+Now this is where the technological innovation aspect of it comes into play.
+
+Now that's a theme everyone keeps repeating. We have different terms for it 'soft skills', 'people skills', 'non-tech skills'.
+
+My biggest gripe is how do we figure out what is a kind environment and what is a wicked environment?
+
+Aren't wicked environments a series of kind environments?
+
+Everyone wants to know what skills will be in high demand and what jobs will get automated.
+
+In words of NVIDA's CEO Jensen Huang "If your job is a task, it will get automated"
+
+This question is becoming even more important as the age of AI dawns upon us. Everyone wants to know what skills will be in high demand and what jobs will get automated.
+
+In words of NVIDA's CEO Jensen Huang "If your job is a task, it will get automated"
+
+So the natural question is what skills should I cultivate?
+
+David brings up the case study of the famous Deep Blue vs Gary Kasparov chess (re)match in 1997 where the supercomputer defeated a world champion and it was seen as symbolically significant and a sign that AI was catching up to human intelligence. Soon after that, Kasparov helped in organizing an "advanced chess" tournament in which each human player, including Kasparov himself, paired with a computer. The idea was the machine would handle the tactics and the human would focus on strategy. They say "Chess is 99% tactics". Now all of a sudden, his years of repitition were neutralized and he settled for a 3-3 draw with a player he had won four games to zero in a traditional match.
+
+Without the risk of sounding like a politician, I'll echo what David has mentioned throughout the work. We need 'Tiger' and 'Roger' models to thrive in this seemingly complex world. Both have their place and it is upto us to figure out what environment we are in
+
+Whether you agree, there are merits to venturing out of our domains and getting a fresh perspective from other fields.
+
+What I really appreciated about David was nowhere in the book he discredits the "narrow-10000-hours-specialization" approach. In fact he acknowledges the merits of this model numerous times in the book. This excerpt succinctly summarizes this point:
+
+In kind environments, where the goal is to re-create prior performance with as little deviation as possible, teams of specialists work superbly. Surgical teams work faster and make fewer mistakes as they repeat specific procedures, and specialized surgeons get better outcomes even independent of repetitions. If you need to have surgery, you want a doctor who specializes in the procedure and has done it many times, preferably with the same team, just as you would want Tiger Woods to step in if your life was on the line for a ten-foot putt. They’ve been there, many times, and now have to re-create a well-understood process that they have executed successfully before. The same goes for airline crews. Teams that have experience working together become exceedingly efficient at delegating all of the well-understood tasks required to ensure a smooth flight. When the National Transportation Safety Board analyzed its database of major flight accidents, it found that 73 percent occurred on a flight crew’s first day working together. Like surgeries and putts, the best flight is one in which everything goes according to routines long understood and optimized by everyone involved, with no surprises.
+
+Downsides of Narrow Specialization
+
+Cognitive entrenchment - tax law
+
+More internal details an individual can be made to consider, the more extreme judgment becomes.
+
+2008 Financial Crisis
+
+Einstellung effect
+
+Dan Kahan that more literate adults are more likely to be dogmatic about polarizing topics in science. It could be because they are better at finding evidence to confirm their feelings: the more time they spend on topic, the more hedgehog they become
+
+Carter Racing Problem - we followed every procedure . But with Challenger, they were outside their usual bounds.
+
+Overlearned behavior
+
+Bent Flyvberg 90% of major infrastructure projects go over budget
