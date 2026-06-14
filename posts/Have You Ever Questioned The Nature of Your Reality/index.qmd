@@ -72,11 +72,11 @@ What does it take to be a human? Or perhaps a better question would be "Are we e
 
 In Life 3.0, Max Tegmark proposes that development of life can be divided into three stages:
 
--   Life 1.0 (biological stage): evolves its hardware and software
+- Life 1.0 (biological stage): evolves its hardware and software
 
--   Life 2.0 (cultural stage): evolves its hardware, designs much of its software
+- Life 2.0 (cultural stage): evolves its hardware, designs much of its software
 
--   Life 3.0 (technological stage): designs its hardware and software
+- Life 3.0 (technological stage): designs its hardware and software
 
 ![The three stages of life. Source: Life 3.0 by Max Tegmark](images/Screenshot%202025-10-25%20101644.jpg)
 
@@ -201,11 +201,11 @@ What does it take to be a human? Or perhaps a better question would be "Are we e
 
 In Life 3.0, Max Tegmark proposes that development of life can be divided into three stages:
 
--   Life 1.0 (biological stage): evolves its hardware and software
+- Life 1.0 (biological stage): evolves its hardware and software
 
--   Life 2.0 (cultural stage): evolves its hardware, designs much of its software
+- Life 2.0 (cultural stage): evolves its hardware, designs much of its software
 
--   Life 3.0 (technological stage): designs its hardware and software
+- Life 3.0 (technological stage): designs its hardware and software
 
 ![The three stages of life. Source: Life 3.0 by Max Tegmark](images/Screenshot%202025-10-25%20101644.jpg)
 
@@ -295,7 +295,7 @@ The purpose of this post was to not to paint a bleak picture and suggest that we
 
 I don't know if the Dead Internet Theory is actually true but at this point if we were to objectively look at the facts, we can reasonably conclude:
 
--   There is *some* bot activity happening on the internet.
+- There is *some* bot activity happening on the internet.
 
 And the implications were beyond scams.
 

@@ -1,5 +1,5 @@
 ---
-title: "Jack of All; Master of  ̶n̶o̶n̶e̶ All? - P22rt 1"
+title: "Jack of All; Master of  ̶n̶o̶n̶e̶ All?- P22rt 1"
 #description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
 author:
   - name: Aryamik Sharma
@@ -12,37 +12,109 @@ categories:
 draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
-Tolerance for ambiguity. A couple of decades ago, when career paths were limited. It made sense to pick a lane and stick with it.
+In the previous edition, we covered a lot of ground with
 
-But we will need to have that
+In this edition, I want to go into some specific frameworks and ideas
 
-able to check the AI for hallucinations and lies and be able to work with it without being taken in by it. You provide . This collaboration leads to better results and keeps you engaged with the AI process, preventing overreliance and complacency. Being in the loop helps you maintain and sharpen your skills, as you actively learn from the AI and adapt to new ways of thinking and problem-solving. It also helps you form a working co-intelligence with the AI.
+So far we have established that in this ever-increasingly complex world, we need to develop a *Range,* i.e. have a breadth of skills instead of a narrow subset of hyperspecialized skills. But why? Yes, we looked into how AI is getting better at automating some of the manual, repetitive tasks. This means that certain occupations may not exist in the near future. Therefore, our competitive advantage in having a wide array of skills and being adaptable for 'wicked' environments. If job security wasn't a motivation enough, what are some of the other reasons to develop a *Range?*
 
-by outsourcing tactics, the part of human expertise that is most easily replaced, the part that he and the Polgar prodigies spent years honing.
+Let's take a look at some of them:
 
-This is what Co-Intelligence
+### Tunnel Visioning
 
-Does it still make sense to
+On January 28, 1986, NASA's *Challenger* broke apart 73 seconds into its flight, killing all seven crew members. Even today, it remains a textbook case study of organizational failures in our recent history. There were a series of investigations conducted after the incident to understand what went wrong. Turns out the primary and secondary O-rings failed to properly seal a joint in the wall of a rocket booster. Due to record-low temperatures at the Kennedy Space Center at the time of liftoff, the the rings had stiffened which caused hot pressurized gas from the booster to leak and caused the fuel tank to explode.
 
-In the genre of modern self-help narratives, music training has stood beside golf atop the podium, exemplars of the power of a narrowly focused head start in highly technical training. Whether it is the story of Tiger Woods or the Yale law professor known as the Tiger Mother, the message is the same: choose early, focus narrowly, never waver.
+In her famous book, *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*, sociologist Diane Vaughan interviewed engineers at NASA who worked on the Challenger mission. During her investigation, she found out that NASA had a can-do culture and developed strict, quantitative procedures for everything. Everything had to be backed by data. These procedures worked remarkably well for the preceeding twenty-four flights. However, things took a turn the night before the launch during the emergency conference call where Morton Thiokol's engineer Roger Boisjoly pointed out that out that after the flight at 53-degrees Fahrenheit, he found jet-black soot around the joint. He explained that the cold conditions had hardened the O-rings and made them slow to expand and seal at ignition. His only problem? He didn't have quantitative data to support his observation.
 
-The Tiger Mother’s real name is Amy Chua, and she coined the term in her 2011 book Battle Hymn of the Tiger Mother. Like Tiger, the Tiger Mother permeated popular culture. Chua advertised the secrets to “how Chinese parents raise such stereotypically successful kids.” On the very first page of the very first chapter is the litany of things Sophia and Lulu must never do, including: “play any instrument other than the piano or the violin.” (Sophia gets piano, Lulu is assigned violin.) Chua supervised three, four, and sometimes five hours of music practice a day.
+His observation went against NASA's strict procedures and was thus disregarded. As Vaughan later observed, NASA's can do culture "was grounded in conformity". Anything that went against the grain was deemed inadmissible evidence and disregarded. Vaughan's describes this phenomena as "the normalization of deviance" where deviations from norms - like in *Challenger -* became ingrained through the workplace culture.
 
-Popular lore holds that the sculptor Michelangelo would see a full figure in a block of marble before he ever touched it, and simply chip away the excess stone to free the figure inside. It is an exquisitely beautiful image. It just isn’t true. Art historian William Wallace showed that Michelangelo was actually a test-and-learn all-star. He constantly changed his mind and altered his sculptural plans as he worked. He left three-fifths of his sculptures unfinished, each time moving on to something more promising. The first line of Wallace’s analysis: “Michelangelo did not expound a theory of art.” He tried, then went from there. He was a sculptor, painter, master architect, and made engineering designs for fortifications in Florence. In his late twenties he even pushed visual art aside to spend time writing poems (including one about how much he grew to dislike painting), half of which he left unfinished.
+It is easy to say in retrospect. A group of managers accustomed to dispositive technical information did not have any; engineers felt like they should not speak up without it. Decades later, an astronaut who flew on the space shuttle, both before and after Challenger, and then became NASA’s chief of safety and mission assurance, recounted what the “In God We Trust, All Others Bring Data” plaque had meant to him: “Between the lines it suggested that, ‘We’re not interested in your opinion on things. If you have data, we’ll listen, but your opinion is not requested here.’”
 
-Practical life advice
+Vaughan is not alone in sharing these observations. Psychologist and organizational behavior expert [Karl Weick](https://www.sciencedirect.com/science/article/pii/S0956522123000209) examined the decision making during the Mann Gulch fire disaster in Montana. He observed a common denominator in the deaths of smokejumpers and wilderness firefighters - overlearned behavior. Instead of ditching equipment and run away from an advancing fire, the smokejumpers and firefighters held on to their tools. They had become so accustomed to situation specific behaviors in response to specific challenges, they couldn't recognise when the conditions had changed dramatically.
 
-It raises broader question. Like what do I want to do? In a world, where facts can be looked up in an instant, does it make sense tfor our education system to rely
+Hyperspecialization played a role in the 2008 global financial crisis. Pre-crisis, the banking system was largerly fragmented with multiple competing regulatory bodies. As [Goldin and Vogel (2010)](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1758-5899.2009.00011.x) described in *Global Governance and Systemic Risk in the 21st Century: Lessons from the Financial Crisis*
 
-Working with AI , co-intelligence book
+> System fragility stemmed from governance gaps at the global, national and individual level. The fragmented surveillance system created a space within which regulatory arbitrage could grow out of control of regulators (and most traders) who did not properly understand the systemic vulnerabilities caused by increased complexity and homogeneity.
 
-The progress of AI in the closed and orderly world of chess, with instant feedback and bottomless data, has been exponential. In the rule-bound but messier world of driving, AI has made tremendous progress, but challenges remain. In a truly open-world problem devoid of rigid rules and reams of perfect historical data, AI has been disastrous. IBM’s Watson destroyed at Jeopardy! and was subsequently pitched as a revolution in cancer care, where it flopped so spectacularly that several AI experts told me they worried its reputation would taint AI research in health-related fields. As one oncologist put it, “The difference between winning at Jeopardy! and curing all cancer is that we know the answer to Jeopardy! questions.” With cancer, we’re still working on posing the right questions in the first place.
+Simply put, there was no one regulator responsible for the consolidated supervision of financial firms or the overall systemic risk. In fact, there is [some evidence](https://onlinelibrary.wiley.com/doi/epdf/10.1111/1468-0289.665) to suggest why countries like Canada that had a single, overarching regulator, seemed to avoid the banking crisis in 2008 as well in prior era compared to countries like the United States.
 
-In short, the boring answer is "it depends".
+What do these case studies highlight? It's not that hyper specialization is not needed. In high stake situations, we don't have the liberty to train by trial and error. If we are undergoing a medical surgery, we would want a doctor who specializes in the procedure and has done it multiple times. We all need to have our own set of tools which [Weick](https://www.jstor.org/stable/2640292)compares to the musical scales and chords that every member in a jazz band must be familiar with. However, we also need to have the wisdom to know that those scales and chords are just that - tools to navigate. We need to have the wisdom to know when our situations have changed. As I mentioned in the previous post, it's easier said than done. But we can certainly make an effort in what David succinctly describes as "learning to drop your familiar tools".
 
-It might seem that nothing would be easier than deciding what you like, but it turns out to be hard, partly because it’s hard to get an accurate picture of most jobs. . . . Most of the work I’ve done in the last ten years didn’t exist when I was in high school. . . . In such a world it’s not a good idea to have fixed plans.
+Expert or not, the key takeaway for all of us is perfectly captured in the title of one of the chapters of the book: "Learning to drop your familiar tools" or as Erik Dane puts it "having one foot outside your world."
 
-Some practical frameworks for making it happen
+These are, by definition, wicked situations. Wildland firefighters and space shuttle engineers do not have the liberty to train for their most challenging moments by trial and error. A team or organization that is both reliable and flexible, according to Weick, is like a jazz group. There are fundamentals—scales and chords—that every member must overlearn, but those are just tools for sensemaking in a dynamic environment. There are no tools that cannot be dropped, reimagined, or repurposed in order to navigate an unfamiliar challenge. Even the most sacred tools. Even the tools so taken for granted they become invisible. It is, of course, easier said than done. Especially when the tool is the very core of an organization’s culture.
+
+But sometimes, it can work against us. We can all benefit from
+
+Surgical teams work faster and make fewer mistakes as they repeat specific procedures, and specialized surgeons get better outcomes even independent of repetitions. If you need to have surgery, you want a doctor who specializes in the procedure and has done it many times, preferably with the same team,
+
+In kind environments, where the goal is to re-create prior performance with as little deviation as possible, teams of specialists work superbly. Surgical teams work faster and make fewer mistakes as they repeat specific procedures, and specialized surgeons get better outcomes even independent of repetitions. If you need to have surgery, you want a doctor who specializes in the procedure and has done it many times, preferably with the same team, just as you would want Tiger Woods to step in if your life was on the line for a ten-foot putt. They’ve been there, many times, and now have to re-create a well-understood process that they have executed successfully before. The same goes for airline crews. Teams that have experience working together become exceedingly efficient at delegating all of the well-understood tasks required to ensure a smooth flight. When the National Transportation Safety Board analyzed its database of major flight accidents, it found that 73 percent occurred on a flight crew’s first day working together. Like surgeries and putts, the best flight is one in which everything goes according to routines long understood and optimized by everyone involved, with no surprises.
+
+United States had a
+weak, crisis-prone and fragmented banking system with multiple
+competing regulatory bodies.^[\[352\]](https://en.wikipedia.org/wiki/2008_financial_crisis#cite_note-352)^
+
+One revelation in the aftermath of the 2008 global financial crisis was the degree of segregation within big banks. Legions of specialized groups optimizing risk for their own tiny pieces of the big picture created a catastrophic whole. To make matters worse, responses to the crisis betrayed a dizzying degree of specialization-induced perversity. A federal program launched in 2009 incentivized banks to lower monthly mortgage payments for homeowners who were struggling but still able to make partial payments. A nice idea, but here’s how it worked out in practice: a bank arm that specialized in mortgage lending started the homeowner on lower payments; an arm of the same bank that specialized in foreclosures then noticed that the homeowner was suddenly paying less, declared them in default, and seized the home. “No one imagined silos like that inside banks,” a government adviser said later. Overspecialization can lead to collective tragedy even when every individual separately takes the most reasonable course of action.
+
+I knew that specialization had played a critical role in the 2008 global financial crisis.
+
+A 2011 paper suggested that Canada's avoidance of a banking crisis in
+2008 (as well as in prior eras) could be attributed to Canada possessing
+a single, powerful, overarching regulator, while the United States had a
+weak, crisis-prone and fragmented banking system with multiple
+competing regulatory bodies.^[\[352\]](https://en.wikipedia.org/wiki/2008_financial_crisis#cite_note-352)^
+
+We have all experienced similar situations in our lives when we can't seem to see the forest from the trees.
+
+These are, by definition, wicked situations. Wildland firefighters and space shuttle engineers do not have the liberty to train for their most challenging moments by trial and error. A team or organization that is both reliable and flexible, according to Weick, is like a jazz group. There are fundamentals—scales and chords—that every member must overlearn, but those are just tools for sensemaking in a dynamic environment. There are no tools that cannot be dropped, reimagined, or repurposed in order to navigate an unfamiliar challenge. Even the most sacred tools. Even the tools so taken for granted they become invisible. It is, of course, easier said than done. Especially when the tool is the very core of an organization’s culture.
+
+ut with Challenger they were outside their usual bounds, where “can do” should have been swapped for what Weick calls a “make do” culture. They needed to improvise rather than throw out information that did not fit the established rubric.
+
+noticed something unusual in the deaths of smokejumpers and “hotshot” wilderness firefighters: they held on to their tools, even when ditching equipment would have allowed them to run away from an advancing fire. For Weick, it was emblematic of something larger.ng familiar tools is particularly difficult for experienced professionals who rely on what Weick called overlearned behavior. That is, they have done the s
+
+The book popularized Vaughan’s concept of “the normalization of
+deviance,” which describes the process by which deviations from norms —
+in this instance, safety protocols — become ingrained in organizations
+through a mix of production pressures, poor communication, and workplace
+culture.
+
+The very tool that had helped make NASA so consistently successful, what Diane Vaughan called “the original technical culture” in the agency’s DNA, suddenly worked perversely in a situation where the familiar brand of data did not exist. Reason without numbers was not accepted. In the face of an unfamiliar challenge, NASA managers failed to drop their familiar tools.
+
+“There were charts \[that several Thiokol engineers who wanted to postpone launch\] did not imagine and did not construct that, if created, would have provided the quantitative correlational data required to sustain their position.” The rules had always worked before. But with Challenger they were outside their usual bounds, where “can do” should have been swapped for what Weick calls a “make do” culture. They needed to improvise rather than throw out information that did not fit the established rubric.
+
+Roger Boisjoly’s unquantifiable argument that the cold weather was “away from goodness” was considered an emotional argument in NASA culture. It was based on interpretation of a photograph. It did not conform to the usual quantitative standards, so it was . The can-do attitude among the rocket-booster group, Vaughan observed, “was grounded in conformity.” After the tragedy, it emerged that other engineers on the teleconference agreed with Boisjoly, but knew they could not muster quantitative arguments, so they remained silent. Their silence was taken as consent. As one engineer who was on the Challenger conference call later said, “If I feel like I don’t have data to back me up, the boss’s opinion is better than mine.”
+
+anagers and engineers at NASA and its rocket-booster contractor, Morton Thiokol, on an emergency conference call the night before the Challenger launch.
+
+They had developed procedures for everything but when it came to Challenger,
+
+strong technical culture, NASA had developed quantitatively rigorous “flight readiness reviews.” They were productively adversarial, like superforecasting team discussions. Managers grilled engineers and forced them to produce data to back up their assertions. The process had worked remarkably. The space shuttle was the most complex machine ever built, and all twenty-four flights had returned safely. But on the emergency conference call, that same quantitative culture led them astray.
+
+Roger Boisjoly’s unquantifiable argument that the cold weather was “away from goodness” was considered an emotional argument in NASA culture. It was based on interpretation of a photograph. It did not conform to the usual quantitative standards, so it was deemed inadmissible evidence and disregarded. The can-do attitude among the rocket-booster group, Vaughan observed, “was grounded in conformity.” After the tragedy, it emerged that other engineers on the teleconference agreed with Boisjoly, but knew they could not muster quantitative arguments, so they remained silent. Their silence was taken as consent. As one engineer who was on the Challenger conference call later said, “If I feel like I don’t have data to back me up, the boss’s opinion is better than mine.”
+
+such as [engineering safety](https://en.wikipedia.org/wiki/Safety_engineering "Safety engineering"), the ethics of [whistleblowing](https://en.wikipedia.org/wiki/Whistleblower "Whistleblower"), communications and group decision-making, and the dangers of [groupthink](https://en.wikipedia.org/wiki/Groupthink "Groupthink").
+
+When sociologist Diane Vaughan interviewed NASA and Thiokol engineers who had worked on the rocket boosters, she found that NASA’s own famous can-do culture manifested as a belief that everything would be fine because “we followed every procedure”; because “the \[flight readiness review\] process is aggressive and adversarial”; because “we went by the book.” NASA’s tools were its familiar procedures. Turns out at the the time of launch, there were
+
+The engineers’ concerns for the most part were just based on a few photographs they took of joints they pulled apart that had soot trapped in there,” McDonald told me. “One was at a cool temperature, and one was at a rather warm temperature. Roger Boisjoly thought the difference was absolutely telling a story, but it was a qualitative assessment.” NASA’s Mulloy later argued that he “would’ve felt naked” taking Thiokol’s argument up the chain of command. Without a solid quantitative case, “I couldn’t have defended it.”
+
+Burning gas shot right through the joint to the outside, in a joint in the right [Space Shuttle Solid Rocket Booster](https://en.wikipedia.org/wiki/Space_Shuttle_Solid_Rocket_Booster "Space Shuttle Solid Rocket Booster") (SRB).
+
+failed to properly seal a joint in the wall of a rocket booster. Burning gas shot right through the joint to the outside,
+
+Weather reports on January 27, 1986, predicted unusually cool Florida weather for launch. After the conference call, NASA and Thiokol gave the okay to proceed. On January 28, O-rings and Challenger exploded seventy-three seconds into its mission. All seven crew members were killed.
+
+Business professors around the world have been teaching Carter Racing for thirty years because it provides a stark lesson in the danger of reaching conclusions from incomplete data, and the folly of relying only on what is in front of you.
+
+And now for one last surprise. They all got it wrong. The Challenger decision was not a failure of quantitative analysis. NASA’s real mistake was to rely on quantitative analysis too much.
+
+The book popularized Vaughan’s concept of “the normalization of deviance,” which describes the process by which deviations from norms — in this instance, safety protocols — become ingrained in organizations through a mix of production pressures, poor communication, and workplace culture.
+
+found that NASA’s own famous can-do culture manifested as a belief that everything would be fine because “we followed every procedure”; because “the \[flight readiness review\] process is aggressive and adversarial”; because “we went by the book.” NASA’s tools were its familiar procedures. The rules had always worked before. But with Challenger they were outside their usual bounds, where “can do” should have been swapped for what Weick calls a “make do” culture. They needed to improvise rather than throw out information that did not fit the established rubric.
+
+how there is a looming threat of AI automating manual, repetitive tasks.
+
+how AI seems to surpass us everyday in 'kind' environments where the tasks are manual and repititive. Job security
 
 Interleaving
 
@@ -54,17 +126,11 @@ For knowledge to be flexible, it should be learned under varied conditions, an a
 
 In other words, there are benefits of testing yourself in unfamiliar environments. Why is this significant? This is where we get into the downsides of hyperspecialization
 
-In her famous book, The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA, sociologist Diane Vaughan interviewed engineers at NASA who worked on the catastrophic Challenger mission found that NASA’s own famous can-do culture manifested as a belief that everything would be fine because “we followed every procedure”; because “the \[flight readiness review\] process is aggressive and adversarial”; because “we went by the book.” NASA’s tools were its familiar procedures. The rules had always worked before. But with Challenger they were outside their usual bounds, where “can do” should have been swapped for what Weick calls a “make do” culture. They needed to improvise rather than throw out information that did not fit the established rubric.
-
 as we collaquialy like to call it "tunnel visioning"
 
 Now it's entirey possible that the Challenger mission went sideaways for a myriad of other reasons, besides But a case could be made that this happened because of what Erik Dane, a Rice University professor, calls "cognitive entrenchment." - a high level of stability in one’s domain schemas. This entrenchment appears to stem from increasing expertise and develop greater expertise in an area, you have the potential to become more 'entrenched' in your thinking. Colloquially, we like to call this "tunnel visioning".
 
 According to Yale law and psychology professor Dan Kahan , it could be attributed to the fact that the more expertise we get in a given domain, the better we get at finding evidence to confirm our own bias.
-
-Another example that David mentions is about the 2008 Financial Crisis. Here is an excerpt from the book:
-
-“Insurance regulators regulated insurance, bank regulators regulated banks, securities regulators regulated securities, and consumer regulators regulated consumers,” the official told me. “But the provision of credit goes across all those markets. So we specialized products, we specialized regulation, and the question is, ‘Who looks across those markets?’ The specialized approach to regulation missed systemic issues.”
 
 Expert or not, the key takeaway for all of us is perfectly captured in the title of one of the chapters of the book: "Learning to drop your familiar tools" or as Erik Dane puts it "having one foot outside your world."
 
@@ -228,8 +294,38 @@ Einstellung effect
 
 Dan Kahan that more literate adults are more likely to be dogmatic about polarizing topics in science. It could be because they are better at finding evidence to confirm their feelings: the more time they spend on topic, the more hedgehog they become
 
-Carter Racing Problem - we followed every procedure . But with Challenger, they were outside their usual bounds.
-
 Overlearned behavior
 
 Bent Flyvberg 90% of major infrastructure projects go over budget
+
+Tolerance for ambiguity. A couple of decades ago, when career paths were limited. It made sense to pick a lane and stick with it.
+
+But we will need to have that
+
+able to check the AI for hallucinations and lies and be able to work with it without being taken in by it. You provide . This collaboration leads to better results and keeps you engaged with the AI process, preventing overreliance and complacency. Being in the loop helps you maintain and sharpen your skills, as you actively learn from the AI and adapt to new ways of thinking and problem-solving. It also helps you form a working co-intelligence with the AI.
+
+by outsourcing tactics, the part of human expertise that is most easily replaced, the part that he and the Polgar prodigies spent years honing.
+
+This is what Co-Intelligence
+
+Does it still make sense to
+
+In the genre of modern self-help narratives, music training has stood beside golf atop the podium, exemplars of the power of a narrowly focused head start in highly technical training. Whether it is the story of Tiger Woods or the Yale law professor known as the Tiger Mother, the message is the same: choose early, focus narrowly, never waver.
+
+The Tiger Mother’s real name is Amy Chua, and she coined the term in her 2011 book Battle Hymn of the Tiger Mother. Like Tiger, the Tiger Mother permeated popular culture. Chua advertised the secrets to “how Chinese parents raise such stereotypically successful kids.” On the very first page of the very first chapter is the litany of things Sophia and Lulu must never do, including: “play any instrument other than the piano or the violin.” (Sophia gets piano, Lulu is assigned violin.) Chua supervised three, four, and sometimes five hours of music practice a day.
+
+Popular lore holds that the sculptor Michelangelo would see a full figure in a block of marble before he ever touched it, and simply chip away the excess stone to free the figure inside. It is an exquisitely beautiful image. It just isn’t true. Art historian William Wallace showed that Michelangelo was actually a test-and-learn all-star. He constantly changed his mind and altered his sculptural plans as he worked. He left three-fifths of his sculptures unfinished, each time moving on to something more promising. The first line of Wallace’s analysis: “Michelangelo did not expound a theory of art.” He tried, then went from there. He was a sculptor, painter, master architect, and made engineering designs for fortifications in Florence. In his late twenties he even pushed visual art aside to spend time writing poems (including one about how much he grew to dislike painting), half of which he left unfinished.
+
+Practical life advice
+
+It raises broader question. Like what do I want to do? In a world, where facts can be looked up in an instant, does it make sense tfor our education system to rely
+
+Working with AI , co-intelligence book
+
+The progress of AI in the closed and orderly world of chess, with instant feedback and bottomless data, has been exponential. In the rule-bound but messier world of driving, AI has made tremendous progress, but challenges remain. In a truly open-world problem devoid of rigid rules and reams of perfect historical data, AI has been disastrous. IBM’s Watson destroyed at Jeopardy! and was subsequently pitched as a revolution in cancer care, where it flopped so spectacularly that several AI experts told me they worried its reputation would taint AI research in health-related fields. As one oncologist put it, “The difference between winning at Jeopardy! and curing all cancer is that we know the answer to Jeopardy! questions.” With cancer, we’re still working on posing the right questions in the first place.
+
+In short, the boring answer is "it depends".
+
+It might seem that nothing would be easier than deciding what you like, but it turns out to be hard, partly because it’s hard to get an accurate picture of most jobs. . . . Most of the work I’ve done in the last ten years didn’t exist when I was in high school. . . . In such a world it’s not a good idea to have fixed plans.
+
+Some practical frameworks for making it happen
