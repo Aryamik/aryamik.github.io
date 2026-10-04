@@ -50,19 +50,13 @@ Surgical teams work faster and make fewer mistakes as they repeat specific proce
 
 In kind environments, where the goal is to re-create prior performance with as little deviation as possible, teams of specialists work superbly. Surgical teams work faster and make fewer mistakes as they repeat specific procedures, and specialized surgeons get better outcomes even independent of repetitions. If you need to have surgery, you want a doctor who specializes in the procedure and has done it many times, preferably with the same team, just as you would want Tiger Woods to step in if your life was on the line for a ten-foot putt. They’ve been there, many times, and now have to re-create a well-understood process that they have executed successfully before. The same goes for airline crews. Teams that have experience working together become exceedingly efficient at delegating all of the well-understood tasks required to ensure a smooth flight. When the National Transportation Safety Board analyzed its database of major flight accidents, it found that 73 percent occurred on a flight crew’s first day working together. Like surgeries and putts, the best flight is one in which everything goes according to routines long understood and optimized by everyone involved, with no surprises.
 
-United States had a
-weak, crisis-prone and fragmented banking system with multiple
-competing regulatory bodies.^[\[352\]](https://en.wikipedia.org/wiki/2008_financial_crisis#cite_note-352)^
+United States had a weak, crisis-prone and fragmented banking system with multiple competing regulatory bodies.^[\[352\]](https://en.wikipedia.org/wiki/2008_financial_crisis#cite_note-352)^
 
 One revelation in the aftermath of the 2008 global financial crisis was the degree of segregation within big banks. Legions of specialized groups optimizing risk for their own tiny pieces of the big picture created a catastrophic whole. To make matters worse, responses to the crisis betrayed a dizzying degree of specialization-induced perversity. A federal program launched in 2009 incentivized banks to lower monthly mortgage payments for homeowners who were struggling but still able to make partial payments. A nice idea, but here’s how it worked out in practice: a bank arm that specialized in mortgage lending started the homeowner on lower payments; an arm of the same bank that specialized in foreclosures then noticed that the homeowner was suddenly paying less, declared them in default, and seized the home. “No one imagined silos like that inside banks,” a government adviser said later. Overspecialization can lead to collective tragedy even when every individual separately takes the most reasonable course of action.
 
 I knew that specialization had played a critical role in the 2008 global financial crisis.
 
-A 2011 paper suggested that Canada's avoidance of a banking crisis in
-2008 (as well as in prior eras) could be attributed to Canada possessing
-a single, powerful, overarching regulator, while the United States had a
-weak, crisis-prone and fragmented banking system with multiple
-competing regulatory bodies.^[\[352\]](https://en.wikipedia.org/wiki/2008_financial_crisis#cite_note-352)^
+A 2011 paper suggested that Canada's avoidance of a banking crisis in 2008 (as well as in prior eras) could be attributed to Canada possessing a single, powerful, overarching regulator, while the United States had a weak, crisis-prone and fragmented banking system with multiple competing regulatory bodies.^[\[352\]](https://en.wikipedia.org/wiki/2008_financial_crisis#cite_note-352)^
 
 We have all experienced similar situations in our lives when we can't seem to see the forest from the trees.
 
@@ -72,11 +66,7 @@ ut with Challenger they were outside their usual bounds, where “can do” shou
 
 noticed something unusual in the deaths of smokejumpers and “hotshot” wilderness firefighters: they held on to their tools, even when ditching equipment would have allowed them to run away from an advancing fire. For Weick, it was emblematic of something larger.ng familiar tools is particularly difficult for experienced professionals who rely on what Weick called overlearned behavior. That is, they have done the s
 
-The book popularized Vaughan’s concept of “the normalization of
-deviance,” which describes the process by which deviations from norms —
-in this instance, safety protocols — become ingrained in organizations
-through a mix of production pressures, poor communication, and workplace
-culture.
+The book popularized Vaughan’s concept of “the normalization of deviance,” which describes the process by which deviations from norms — in this instance, safety protocols — become ingrained in organizations through a mix of production pressures, poor communication, and workplace culture.
 
 The very tool that had helped make NASA so consistently successful, what Diane Vaughan called “the original technical culture” in the agency’s DNA, suddenly worked perversely in a situation where the familiar brand of data did not exist. Reason without numbers was not accepted. In the face of an unfamiliar challenge, NASA managers failed to drop their familiar tools.
 

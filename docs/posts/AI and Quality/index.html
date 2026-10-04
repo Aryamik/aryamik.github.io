@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Aryamik Sharma">
+<meta name="dcterms.date" content="2026-10-04">
+
+<title>On AI and ‘Quality’ – Aryamik Sharma</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-94af4658169b14e9a80686fd71f8949c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Aryamik Sharma</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Sympatheia</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Disclaimer.html"> 
+<span class="menu-text">Disclaimer</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/aryamik-sharma"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:aryamik.sharma@uwaterloo.ca"> <i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">On AI and ‘Quality’</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">AI</div>
+                <div class="quarto-category">Philosophy</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://aryamik.github.io">Aryamik Sharma</a> </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 4, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+
+<p>If there was one book that I kept seeing in various reading recommendations, it was the <em>Zen and the Art of Motorcycle Maintenance</em> by Robert M. Pirsig. At first, I kind of ignored it. Then, I kept seeing and hearing about this book all over the internet. I was like “Ok, I will add this to my reading list”. Eventually, it got to the point where this book was being described as an ‘all time classic’ which made me go “Ok, I have to read it NOW.”</p>
+<p>I kept wondering “What is it about this book?” Over the summer, I finally decided to give it a go and find out makes it an ‘all time classic’.</p>
+<p>The general synopsis of this book is about Pirsig and his son Chris who embark on a motorcycle trip from Minnesota to Northern California along with their close friends John and Sylvia Sutherland. Throughout the journey, Pirsig explores various philosophical discussions on various topics including the history of philosophy, epistemology and the philosophy of science. I have to admit it’s quite a dense read and I’ll probably have to reread it again a couple of times to fully grasp some of these topics.</p>
+<p>But if there’s one thing that Pirsig keeps talking about, it’s the concept of <em>Quality</em>. His discussions into <em>Quality</em> started a whole new branch of Metaphysics (again, another word that I keep hearing about but still don’t know what it means) called the Metaphysics of Quality (MOQ). I won’t even bother trying to explain words like ‘Metaphysics’ and <em>‘Quality’</em> because I don’t even know what they mean. Ironically, even Pirsig does not define <em>Quality</em> in the book. For instance, check out this excerpt:</p>
+<blockquote class="blockquote">
+<p><em>Quality … you know what it is, yet you don’t know what it is. But that’s self-contradictory. But some things</em> are <em>better than others, that is, they have more quality. But when you try to say what the quality is, apart from the things that have it, it all goes</em> poof! <em>There’s nothing to talk about. But if you can’t say what Quality is, how do you know what it is, or how do you know that it even exists? If no one knows what it is, then for all practical purposes it doesn’t exist at all. But for all practical purposes it really</em> does <em>exist.</em></p>
+<p>I think there is such a thing as Quality, but that as soon as you try to define it, something goes haywire. You can’t do it.</p>
+<p>But then, below the definition on the blackboard, he wrote, “But even though Quality cannot be defined, you know what Quality is!” and the storm started all over again.</p>
+</blockquote>
+<p><img src="images/clipboard-1178784232.png" class="img-fluid"></p>
+<p>Despite a lack of clear definition for <em>Quality</em> in Pirsig’s discussions, there was something about this word that resonated with me.</p>
+<p>One of my favorite parts from the book is Phaedrus (Pirsig’s fictional alter ego) attempting to define <em>Quality</em> using realism.</p>
+<blockquote class="blockquote">
+<p>His answer was an old one belonging to a philosophic school that called itself realism. “A thing exists,” he said, “if a world without it can’t function normally. If we can show that a world without Quality functions abnormally, then we have shown that Quality exists, whether it’s defined or not.” He thereupon proceeded to subtract Quality from a description of the world as we know it.</p>
+<p>The first casualty from such a subtraction, he said, would be the fine arts. If you can’t distinguish between good and bad in the arts they disappear. There’s no point in hanging a painting on the wall when the bare wall looks just as good. There’s no point to symphonies, when scratches from the record or hum from the record player sound just as good.</p>
+<p>Poetry would disappear, since it seldom makes sense and has no practical value. And interestingly, comedy would vanish too. No one would understand the jokes, since the difference between humor and no humor is pure Quality.</p>
+<p>Next he made sports disappear. Football, baseball, games of every sort would vanish. The scores would no longer be a measurement of anything meaningful, but simply empty statistics, like the number of stones in a pile of gravel. Who would attend them? Who would play?</p>
+<p>Next he subtracted Quality from the marketplace and predicted the changes that would take place. Since quality of flavor would be meaningless, supermarkets would carry only basic grains such as rice, cornmeal, soybeans and flour; possibly also some ungraded meat, milk for weaning infants and vitamin and mineral supplements to make up deficiencies. Alcoholic beverages, tea, coffee and tobacco would vanish. So would movies, dances, plays and parties. We would all use public transportation. We would all wear G.I. shoes.</p>
+<p>A huge proportion of us would be out of work, but this would probably be temporary until we relocated in essential non-Quality work. Applied science and technology would be drastically changed, but pure science, mathematics, philosophy and particularly logic would be unchanged.</p>
+<p>Phædrus found this last to be extremely interesting. The purely intellectual pursuits were the least affected by the subtraction of Quality. If Quality were dropped, only rationality would remain unchanged. That was odd. Why would that be?</p>
+<p>He didn’t know, but he did know that by subtracting Quality from a picture of the world as we know it, he’d revealed a magnitude of importance of this term he hadn’t known was there. The world can function without it, but life would be so dull as to be hardly worth living. In fact it wouldn’t be worth living. The term worth is a Quality term. Life would just be living without any values or purpose at all.</p>
+<p>He looked back over the distance this line of thought had taken him and decided he’d certainly proved his point. Since the world obviously doesn’t function normally when Quality is subtracted, Quality exists, whether it’s defined or not.</p>
+<p>After conjuring up this vision of a Qualityless world, he was soon attracted to its resemblance to a number of social situations he had already read about. Ancient Sparta came to mind, Communist Russia and her satellites. Communist China, the Brave New World of Aldous Huxley and the 1984 of George Orwell. He also remembered people from his own experience who would have endorsed this Qualityless world.</p>
+</blockquote>
+<p>As I was reading through the examples of a <em>Quality</em>-less world in the last paragraph, I was reminded of current state of affairs in the world of AI. AI slop is all around us. As Olivia Whang mentioned in the article <a href="https://www.nytimes.com/interactive/2026/06/01/magazine/ai-slop-viral-videos.html"><em>Can you get Rich Quick off AI Slop?</em></a><em>,</em> “there’s comedy slop, literary slop, art slop, niche slop, slop for kids, political slop — but the substance of slop always matters less than the fact that you’re looking at it.”</p>
+<p><img src="images/clipboard-402175944.png" class="img-fluid"></p>
+<p>The more I think about Pirsig’s <em>Quality</em>, the more I am starting to understand the current outrage against AI slop. But what is it about AI slop that makes it repugnant to the masses and is antithetical to <em>Quality</em>?</p>
+<p>First let us define what slop means. According to <a href="https://www.merriam-webster.com/dictionary/slop">Merriam-Webster’s Dictionary</a>, slop is defined as:</p>
+<blockquote class="blockquote">
+<p>Digital content of low quality that is produced usually in quantity by means of artificial intelligence.</p>
+</blockquote>
+<p><em>Low quality.</em> Those are the keywords that stand out. We know that artificial content can be easily mass produced. But that doesn’t answer the question “Why is it not <em>Quality</em>?”</p>
+<p>Later I found out that I was barking at the wrong tree. Instead of asking myself the characteristics of low <em>Quality</em> work, I should ask myself what constitutes as <em>Quality</em>? When I think of <em>Quality</em>, I equate it with words like ‘good’, ‘excellence’, ‘craftsmanship’. In the <em>Zen and the Art of Motorcycle Maintenance</em>, Phaedrus attempts to single out aspects of <em>Quality</em> such as unity, vividness, authority, economy, sensitivity, clarity, emphasis, flow, suspense, brilliance, precision, proportion, depth. But then again, they are equally hard to define.</p>
+<p>So I thought why not look at something that would be considered as <em>Quality</em>? I was reminded of Robert A. Caro’s works such as <em>The Power Broker</em> and his four volumes of <em>The Years of Lyndon Johnson</em>.</p>
+<p>A while back, I came across <em>Working</em> by Robert A. Caro. Caro is dubbed as one the greatest living biographers because of his influential works such as <em>The Power Broker</em>, a biography of New York’s urban planner Robert Moses and four volumes of <em>The Years of Lyndon Johnson.</em> <em>Working</em> is about the process Caro went through to produce those works. I thought maybe there is something over there that can illustrate what it takes to create <em>Quality.</em></p>
+<p>Caro’s work centers around the political power. Whether it is describing how Robert Mosses amassed more power than any mayor or governor in New York’s history or Lyndon Johnson’s ascension from rural Texas to the Oval Office in Washington D.C.; what makes Caro’s works special is his ability to make the reader visualize the physical setting in which a book’s action is occurring.</p>
+<p>When Caro started working on his biographies of Johnson, Caro thought that it would be a piece of cake. There were already seven biographies written three years after Johnson passed away. These biographies portrayed Johnson as a hero from the Hill Country who came from humble beginnings and rose through the ranks in Capitol Hill. Caro thought that all he would have to do was interview the people that knew Johnson to fill in some additional details and he would have himself a biography on Lyndon Johnson.</p>
+<p>However, as he started doing these interviews in rural Hill Country, the process was turning out to be more difficult than he anticipated. Turns out the rural folk in Hill Country led a totally different lifestyle from the city dwelling journalists. Hill Country folk were not accustomed to long conversations with strangers. If someone did manage to get a hold of them, at best, they would regurgitate the same facts that everyone knew about Johnson: that he was young, ambitious and cared about winning. At worst, they would simply refuse to elaborate and that would be it.</p>
+<p>Eventually, Caro and his wife moved to the Hill Country and lived there for three years. Needless to say, things started changing for Caro. Now, people from the Hill Country started sharing details about Johnson that were never shared with the ‘portable journalists’.</p>
+<p>To understand someone as complex as Lyndon Johnson, you have to understand the circumstances he grew up in. Johnson grew up on the Johnson Ranch, an isolated place in rural Texas. Through his interactions with Sam Houston Johnson, Lyndon Johnson’s little brother, Caro found out that the two boys would sit on a fence for hours when they were little hoping that a rider or carriage would come by so they’d have a new person to talk to. Not only that, but Johnson’s mother, Rebekah was also inflicted by her own share of loneliness which definitely rubbed on a young Johnson.</p>
+<p>It’s one thing to write about how loneliness shaped a young Johnson but how do you make a reader <em>feel</em> that loneliness? That’s when Caro decided to spend a whole day alone in the hills. This helped him get a sense of that loneliness and put it in words.</p>
+<blockquote class="blockquote">
+<p>When Rebekah walked out the front door of that little house, there was nothing—a roadrunner streaking behind some rocks with something long and wet dangling from his beak, perhaps, or a rabbit disappearing around a bush so fast that all she really saw was the flash of a white tail—but otherwise nothing. There was no movement except for the ripple of the leaves in the scattered trees, no sound except for the constant whisper of the wind…. If Rebekah climbed, almost in desperation, the hill in back of the house, what she saw from its crest was more hills, an endless vista of hills, hills on which there was visible not a single house … hills on which nothing moved, empty hills with, above them, empty sky; a hawk circling silently overhead was an event. But most of all, there was nothing human, no one to talk to.</p>
+</blockquote>
+<p>Similarly, it was through interactions with Sam Houston that Caro was able to understand Johnson’s complicated relationship with his father. As Sam Houston said “The most important thing for Lyndon was not to be like Daddy.”</p>
+<p>Sam Ealy Houston, was an idealistic man. He always wanted to restore the great ‘Johnson Ranch’. However, in an attempt to restore the ranch, Sam Johnson went broke and lost the ranch. Eventually, the Johnson family had to move to Johnson City. Things took a downturn for the Johnson family. Sam Ealy Houston became a laughing stock of the town and was constantly plagued with illness. A young Lyndon Johnson grew up in an environment where food was hard to come by and he was in constant fear of the bank taking away their house. Clearly this upbringing shaped Johnson’s personality as a President. For instance, when Henry ‘Scoop’ Jackson, who served with Johnson as senator and under the presidencies of both John Kennedy and Johnson, was asked to describe the differences between the two presidents, he said that Kennedy would use his charm to get the votes. Johnson, on the other hand, would go to the ends of the earth to get the vote because what mattered to him was winning. As Caro found out, Texas Hill Country was a very unforgivable place and consequences of the slightest mistake were unsurmountable. Johnson had witnessed those consequences firsthand which explains why he couldn’t afford to lose.</p>
+<p>During Caro’s time at the Hill Country, he also found out about the impoverished conditions the women of the Hill Country were living in. These women used to carry gallons of water on wooden yokes for miles because there was no electricity. It makes sense why Lyndon Johnson was instrumental in bringing electricity to rural areas under the Rural Electrification Administration (REA) which changed the lives of those women. But we only get to appreciate the significance of this initiative because someone like Caro was able to witness the hardships the women in the Hill Country and then write about it.</p>
+<p>That’s when it started to hit me why Caro’s works are an embodiment of <em>Quality.</em> There have been numerous biographies written on Lyndon Johnson. But what seperated his works from others was not just what he wrote but the lengths he went to find the Truth. It’s those interviews and intensive research that showed us a side of Lyndon Johnson that we all understand today. It’s the time and effort he put in to make the reader resonate with the words. That is <em>Quality.</em></p>
+<p>This brings me to my next point about one of the other precursors about <em>Quality:</em> care. Think of any piece of <em>Quality</em> work (or let’s just replace <em>Quality</em> with ‘exceptional’ if you are still having a hard time understand what the word means). Think of any piece of exceptional work. It can be Da Vinci’s <em>Lady with an Ermine,</em> Shakespeare’s <em>King Lear,</em> a dish from a three Michelin star restaurant or something that is close to you like a great project that you completed. What’s the common ingredient across all these examples?</p>
+<p>Care.</p>
+<p>Brad Stulberg describes it succintly in his book <em>The Way of Excellence</em></p>
+<blockquote class="blockquote">
+<p>The best athletes care deeply.<br>
+The best artists care deeply.<br>
+The best leaders care deeply.<br>
+The best coaches care deeply.<br>
+The best teachers care deeply.<br>
+The best doctors care deeply.<br>
+The best writers care deeply.<br>
+The best scientists care deeply.<br>
+The best parents care deeply.</p>
+<p>Caring deeply is the cost of admission to a big and textured life.</p>
+</blockquote>
+<p>Caring is what compels someone to put in the time and effort to produce <em>Quality.</em> When we care deeply about something or someone, whether it’s our loved ones, our friends , family, community, society; we are willing to give it our all because anything short of that is not <em>Quality.</em> That’s why I think, care, or lack thereof, is what separates AI slop from <em>Quality</em>.</p>
+<p>Recently Paul Graham, co-founder of Y Combinator called out the AI-written emails he was receiving in his inbox</p>
+<p></p><blockquote class="twitter-tweet blockquote"><p lang="en" dir="ltr">A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by AI, because no founder ever wrote this way before. And once you realize something is written by AI, it's hard not to ignore it.</p>— Paul Graham (@paulg) <a href="https://x.com/paulg/status/2058844147092488401?ref_src=twsrc%5Etfw">May 25, 2026</a></blockquote> <script async="" src="https://platform.x.com/widgets.js" charset="utf-8"></script><p></p> 
+<p>Graham further added that he stops reading the email the moment he suspects it’s AI generated. I kind of see his position on this issue. He views these emails as an inability to communicate independently. If you, as a founder, can’t even bother to spend some time articulating your thoughts, how can you expect someone else to care about it? The purpose of writing is to simulate our thoughts and express our ideas. As Cal Newport puts it, “writing is calisthenics for your brain” and it is supposed to be hard. However, if I just pawn off someone else’s ideas, I failed at the task. If I actually cared, I wouldn’t be content with handing off a bunch of facts from Wikipedia.</p>
+<p>It would be akin to going a three Michelin star restaurant and the waiter serving you a bag of Doritos for the main course. What makes the fining dining experience <em>Quality</em> is the simple fact that the chef cares deeply about his ingredients, his craft, his fellow employees, his guests, his community and so on. If the waiter were to bring a bag of Doritos to my table, that would indicate that the chef does not care about me and therefore, in my eyes, this experience is not <em>Quality.</em></p>
+<p>So where does that leave us with AI and <em>Quality</em>? Whether we hate it or like it, AI is here to stay and I still do think it is going to be an integral part of our lives. My hope is that AI will help us enhance <em>Quality</em>, whatever that term entails in this digital age. Who knows, maybe in a world of AI slop, creating <em>Quality</em> work would be treasured even more? However, if there is one thing I learned going down this rabbit hole, it is that <em>Quality</em> is an essence of our experience. Yes, it’s that same human experience that continues to pollute rivers, wage wars and drive inequalities. But just like how depths of winter makes us appreciate the warmth of spring, similarly our experiences, good or bad, makes us appreciate <em>Quality.</em> All the arts, sciences, inventions, cultures are a by product of the human experience. Ironically, creation of AI is a testament to the human ingenuity. While we have done a great job of building something that is an amalgam of our experiences, it would be a mistake to assume AI is THE EXPERIENCE. As I said earlier, It can certainly help us enhance THE EXPERIENCE but to say AI in itself is <em>Quality</em> is to undermine our human imagination, creativity, innovation, empathy, sympathy, love, compassion, healing, and forgiveness.</p>
+<p>To say AI is <em>Quality</em> is to undermine the human experience.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="images/PXL_20260801_140746551.jpg" class="figure-img" width="613" height="828"></p>
+<figcaption class="margin-caption">Kejimkujik National Park - Quality</figcaption>
+</figure>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<script src="https://utteranc.es/client.js" repo="Aryamik/aryamik.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
