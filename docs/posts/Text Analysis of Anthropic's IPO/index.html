@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Aryamik Sharma">
+<meta name="dcterms.date" content="2026-11-08">
+
+<title>Analysing Anthropic’s Risk Factors from S-1 filing – Aryamik Sharma</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-94af4658169b14e9a80686fd71f8949c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Aryamik Sharma</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Sympatheia</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Disclaimer.html"> 
+<span class="menu-text">Disclaimer</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/aryamik-sharma"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:aryamik.sharma@uwaterloo.ca"> <i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Analysing Anthropic’s Risk Factors from S-1 filing</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">AI</div>
+                <div class="quarto-category">Data Science</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://aryamik.github.io">Aryamik Sharma</a> </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 8, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+
+<p>Anthropic recently filed for an <a href="https://www.anthropic.com/news/s1-sec">Initial Public Offering (IPO)</a> and some buyers are discussing a valuation of over $1.1 trillion. Trillion Dollars.</p>
+<p><img src="images/9296b1f811cfb7d5ff8054df531d77d1a5a8866bae672092531b7477007d440b.jpg" class="img-fluid"></p>
+<p>I was reading through it’s <a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm">S-1 filling</a> on EDGAR and as I was skimming through the document, I came across the ‘Risk Factors’ section. This section includes information about significant risks that the company faces, generally listed in order of importance. I knew that ‘Risk Factors’ is present in <a href="https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k">Annual 10-K reports</a>, but to see one in a S-1 filing was news to me. But more importantly, I was curious to see how Anthropic describes the risks it faces.</p>
+<p>If you go to page 27 of the S-1 filing, you are greeted by a huge disclaimer that reads as follows:</p>
+<blockquote class="blockquote">
+<p>The disclosures in this section reflect our beliefs and opinions as to matters that could materially and adversely affect us in the future, and are not representations as to whether such matters have or have not occurred previously, except as otherwise disclosed. References to past events are provided by way of example only and are not intended to be a complete listing or a representation as to their likelihood of occurring in the future. Our business, financial condition, results of operations, or prospects could also be adversely affected by risks and uncertainties not currently known to us or that we currently do not believe are material. If any of the risks actually occur, our business, financial condition, results of operations, and prospects could be adversely affected. In that event, the market price of our Class A common stock could decline, and you could lose part or all of your investment.</p>
+</blockquote>
+<p>Now I know the ‘Risk Factors’ section is not indicative of the actual risks that Anthropic faces. But nevertheless, I was curious to do a very basic Natural Language Processing (NLP) analysis of this section to see if I could identify any key insights, trends or anything that might be of value. Plus I thought it would be a good excuse to try out <a href="https://edgartools.readthedocs.io/en/latest/">Edgartools</a>, an open source Python package that I recently came across and is used for accessing, analysing and extracting insights from SEC filings.</p>
+<p>First step was accessing the S-1 filing. This <a href="https://edgartools.readthedocs.io/en/latest/guides/registration-s1-data-object-guide/?h=1+s">documentation page</a> was really helpful.</p>
+<div id="86ac9531" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Testing Python</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> edgar <span class="im">import</span> <span class="op">*</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>set_identity(<span class="st">"joey23@example.com"</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>filing <span class="op">=</span> find(<span class="st">"0001628280-26-067168"</span>)   </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>s1 <span class="op">=</span> filing.obj()                       </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>s1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>C:\Users\aryam\AppData\Local\Temp\ipykernel_30856\1806555514.py:3: DeprecationWarning:
+
+NORMAL is deprecated and has no effect; it will be removed in edgartools 6.0. The access modes advertise a timeout, connection limit and retry policy that was never wired into the HTTP client, so selecting a mode has never changed how edgartools talks to SEC. Set EDGAR_RATE_LIMIT_PER_SEC to stay within SEC rate limits, and EDGAR_HTTP_TIMEOUT to set the request timeout.
+
+C:\Users\aryam\AppData\Local\Temp\ipykernel_30856\1806555514.py:3: DeprecationWarning:
+
+CAUTION is deprecated and has no effect; it will be removed in edgartools 6.0. The access modes advertise a timeout, connection limit and retry policy that was never wired into the HTTP client, so selecting a mode has never changed how edgartools talks to SEC. Set EDGAR_RATE_LIMIT_PER_SEC to stay within SEC rate limits, and EDGAR_HTTP_TIMEOUT to set the request timeout.
+
+C:\Users\aryam\AppData\Local\Temp\ipykernel_30856\1806555514.py:3: DeprecationWarning:
+
+CRAWL is deprecated and has no effect; it will be removed in edgartools 6.0. The access modes advertise a timeout, connection limit and retry policy that was never wired into the HTTP client, so selecting a mode has never changed how edgartools talks to SEC. Set EDGAR_RATE_LIMIT_PER_SEC to stay within SEC rate limits, and EDGAR_HTTP_TIMEOUT to set the request timeout.
+</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="1">
+<div class="ansi-escaped-output">
+<pre>╭────────────────────────────────────────── <span class="ansi-bold">Anthropic, PBC  2026-10-26</span> ───────────────────────────────────────────╮
+│                                                                                                                 │
+│  <span class="ansi-bold"> </span><span class="ansi-bold">Form                  </span><span class="ansi-bold"> </span>  S-1                                                                                  │
+│  <span class="ansi-bold"> </span><span class="ansi-bold">Offering Type         </span><span class="ansi-bold"> </span>  Resale Registration                                                                  │
+│  <span class="ansi-bold"> </span><span class="ansi-bold">Registration No.      </span><span class="ansi-bold"> </span>  333-299633                                                                           │
+│  <span class="ansi-bold"> </span><span class="ansi-bold">State                 </span><span class="ansi-bold"> </span>  Delaware                                                                             │
+│  <span class="ansi-bold"> </span><span class="ansi-bold">SIC Code              </span><span class="ansi-bold"> </span>  7372                                                                                 │
+│  <span class="ansi-bold"> </span><span class="ansi-bold">EIN                   </span><span class="ansi-bold"> </span>  86-1696045                                                                           │
+│  <span class="ansi-bold"> </span><span class="ansi-bold">Confidence            </span><span class="ansi-bold"> </span>  high                                                                                 │
+│                                                                                                                 │
+│                                                                                                                 │
+│ <span style="font-style:italic">              Fee Table               </span>                                                                          │
+│                                                                                                                 │
+│  <span class="ansi-bold"> </span><span class="ansi-bold">Field         </span><span class="ansi-bold"> </span> <span class="ansi-bold"> </span><span class="ansi-bold">            Value</span><span class="ansi-bold"> </span>                                                                           │
+│  ────────────────────────────────────                                                                           │
+│  <span class="ansi-bold"> </span><span class="ansi-bold">Total Offering</span><span class="ansi-bold"> </span>  $1,000,000,000.00                                                                            │
+│  <span class="ansi-bold"> </span><span class="ansi-bold">Net Fee       </span><span class="ansi-bold"> </span>         $87,000.00                                                                            │
+│  <span class="ansi-bold"> </span><span class="ansi-bold">Securities    </span><span class="ansi-bold"> </span>                  1                                                                            │
+│                                                                                                                 │
+╰─────────────────────────────────────────── S-1  Resale Registration ────────────────────────────────────────────╯</pre>
+</div>
+</div>
+</div>
+<p>Turns out you can fetch all the filings for a given ticker using the official ticker symbol or the SEC Accession No.&nbsp;I tried using ‘ANT’ (Anthropic’s official ticker symbol) but for some reason it gave me an error message. Therefore I settled for the SEC Accession No<strong>.</strong> 0001628280-26-067168</p>
+<p>Then I was interested in extracting just the ‘Risk Factors’ section.</p>
+<div id="c3cc523b" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>risk_factors_text <span class="op">=</span> s1.sections.get(<span class="st">"risk_factors"</span>).text()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Nice! Pretty amazing what a few lines of code can do these days.</p>
+<p>But before I could start doing fun stuff, I had to preprocess the data: remove stop words, tokenize, convert to lowercase, remove special characters etc. I leveraged the script from <a href="https://www.tilburgsciencehub.com/topics/manage-manipulate/manipulate-clean/textual/text-prep-python/">this tutorial</a> by Tilburg University.</p>
+<div id="9fe165fe" class="cell" data-execution_count="3">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> spacy</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> spellchecker <span class="im">import</span> SpellChecker</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the spaCy model</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>nlp <span class="op">=</span> spacy.load(<span class="st">'en_core_web_sm'</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the text preprocessing function</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocess_text(text):</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert to lowercase to normalize the case</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    text <span class="op">=</span> text.lower()</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Remove URLs</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    text <span class="op">=</span> re.sub(<span class="vs">r'https</span><span class="op">?</span><span class="vs">://</span><span class="dv">\S</span><span class="op">+</span><span class="cf">|</span><span class="vs">www</span><span class="ch">\.</span><span class="dv">\S</span><span class="op">+</span><span class="vs">'</span>, <span class="st">''</span>, text)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Remove special characters, keeping only words and basic punctuation</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    text <span class="op">=</span> re.sub(<span class="vs">r'</span><span class="pp">[^a-zA-Z0-9</span><span class="dv">\s</span><span class="pp">,.?!]</span><span class="vs">'</span>, <span class="st">''</span>, text)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Reduce excessive character repetition to a maximum of two occurrences</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    text <span class="op">=</span> re.sub(<span class="vs">r'</span><span class="kw">(</span><span class="dv">.</span><span class="kw">)</span><span class="ch">\1</span><span class="op">{2,}</span><span class="vs">'</span>, <span class="vs">r'</span><span class="ch">\1\1</span><span class="vs">'</span>, text)</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Tokenize and lemmatize the text, removing stop words, punctuation, and short words</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    doc <span class="op">=</span> nlp(text)</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    tokens <span class="op">=</span> [token.lemma_ <span class="cf">for</span> token <span class="kw">in</span> doc <span class="cf">if</span> <span class="kw">not</span> token.is_stop <span class="kw">and</span> <span class="kw">not</span> token.is_punct <span class="kw">and</span> <span class="bu">len</span>(token.text) <span class="op">&gt;</span> <span class="dv">2</span>]</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Correct tokens with repeated characters using a spell checker</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    spell <span class="op">=</span> SpellChecker()</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    corrected_tokens <span class="op">=</span> [spell.correction(token) <span class="cf">if</span> re.search(<span class="vs">r'</span><span class="kw">(</span><span class="dv">.</span><span class="kw">)</span><span class="ch">\1</span><span class="vs">'</span>, token) <span class="cf">else</span> token <span class="cf">for</span> token <span class="kw">in</span> tokens]</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Join the tokens back into a single string, removing any potential None values</span></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">" "</span>.join(token <span class="cf">for</span> token <span class="kw">in</span> corrected_tokens <span class="cf">if</span> token <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span> <span class="kw">and</span> token <span class="op">!=</span> <span class="st">''</span>)</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply the preprocessing function to the 'risk_factors_text'</span></span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>cleaned_text <span class="op">=</span> preprocess_text(risk_factors_text)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Now that the data has been preprocessed, I thought why not generate wordcloud and see if I can find something interesting.</p>
+<div id="c291cf82" class="cell" data-execution_count="4">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.tokenize <span class="im">import</span> word_tokenize</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> wordcloud <span class="im">import</span> WordCloud, STOPWORDS</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>words <span class="op">=</span> word_tokenize(cleaned_text)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co">#wordcloud = WordCloud().generate(words)</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.imshow(wordcloud, interpolation='bilinear')</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.axis("off")</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.show()</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> wordcloud <span class="im">import</span> WordCloud, STOPWORDS</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>wordcloud <span class="op">=</span> WordCloud(</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    width<span class="op">=</span><span class="dv">1000</span>,</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    height<span class="op">=</span><span class="dv">500</span>,</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    background_color<span class="op">=</span><span class="st">"white"</span>,</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    stopwords<span class="op">=</span>STOPWORDS</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>).generate(cleaned_text)</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">7</span>))</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>plt.imshow(wordcloud, interpolation<span class="op">=</span><span class="st">"bilinear"</span>)</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">"off"</span>)</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/cell-5-output-1.png" class="figure-img" width="1054" height="537"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>How about something more intuitive? Maybe a bar chart showing the frequency of most commonly occuring words in Anthropic’s ‘Risk Factors’ section? For this I decided to use <a href="https://github.com/kanaries/pygwalker">PygWalker</a>.</p>
+<div id="9281050b" class="cell" data-execution_count="5">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk <span class="im">import</span> ngrams</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> collections <span class="im">import</span> Counter</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pygwalker <span class="im">as</span> pyg</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>bow <span class="op">=</span> Counter(words)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>bow2 <span class="op">=</span> Counter(ngrams(words,<span class="dv">2</span>))</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>bow3 <span class="op">=</span> Counter(ngrams(words,<span class="dv">3</span>))</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame(bow.items(), columns<span class="op">=</span> [<span class="st">'word'</span>,<span class="st">'frequency'</span>]).sort_values(by<span class="op">=</span> <span class="st">'frequency'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>data1 <span class="op">=</span> pd.DataFrame(bow2.items(), columns<span class="op">=</span> [<span class="st">'word'</span>,<span class="st">'frequency'</span>]).sort_values(by<span class="op">=</span> <span class="st">'frequency'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>data2 <span class="op">=</span> pd.DataFrame(bow3.items(), columns<span class="op">=</span> [<span class="st">'word'</span>,<span class="st">'frequency'</span>]).sort_values(by<span class="op">=</span> <span class="st">'frequency'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="images/clipboard-3946290079.png" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Frequency of Most Commonly Occurring Words in the Risk Factors Section</figcaption>
+</figure>
+</div>
+<p>Model was the most commonly word in the section with 617 instances. AI company has ‘model’ as the most commonly occurring word?!?! Color me shocked. Customer had 407 instances. It makes sense considering customers use Anthropic’s LLMs.</p>
+<p>But words by themselves don’t tell us the complete picture. While I was at it, I thought why not do a bigram and trigram analysis as well to get more context?</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="images/clipboard-4155321224.png" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Frequency of Most Commonly Occurring Bigrams in the Risk Factors Section</figcaption>
+</figure>
+</div>
+<p>‘Adversely affect’ had the highest frequency of 257, followed by ‘platform application’ and ‘model platform’ both tied at 246. As you can see there were a lot of S-1 specific stop word pairs such as ‘common stock’, ‘class common’ and ‘business financial’. I am pretty sure removing these custom stopwords would eliminate a lot of noise from our dataset. I found ‘operation adversely’, ‘intellectual property’, ‘datum center’ (the word ‘data’ got lemmatized to ‘datum’) and ‘united states’ pretty interesting.</p>
+<p>Given the current state of AI development, simply reading through these, I am sure we can all conceptualize what these bigrams are alluding to. Let’s look at some of the closely:</p>
+<ul>
+<li><p>‘Operation adversely’:</p>
+<ul>
+<li><p>We face intense competition, and if we are unable to compete effectively, our business, financial condition, and results of operations could be adversely affected.</p></li>
+<li><p>If the market for our models, platform, and applications develops more slowly than we expect or declines, our growth may slow or stall, and our business, financial condition, and results of operations could be adversely affected.</p></li>
+<li><p>Our business is subject to an evolving and uncertain regulatory and political environment, which could increase our costs, restrict our operations, or adversely affect demand for our models, platform, and applications.</p></li>
+</ul></li>
+<li><p>‘intellectual property’</p>
+<ul>
+<li><p>AI algorithms may be flawed, and AI systems may contain bugs, errors, or defects or fail to follow instructions or produce inaccurate, misleading, offensive, inappropriate, or otherwise harmful outputs; reflect or amplify unwanted or unknown biases present in training data; or raise concerns relating to intellectual property, privacy, or other legal and ethical considerations.</p></li>
+<li><p>Our expansion into new geographic markets further compounds these risks, as we must navigate differing cultural norms regarding AI use, comply with diverse and evolving regulatory regimes that may impose varying safety, compliance, or liability requirements, address language-specific vulnerabilities and content moderation challenges, and potentially face regulatory enforcement actions, litigation, or other liabilities in jurisdictions where we have more limited operational experience, including heightened risks of intellectual property theft, unauthorized model access, or misuse associated with operating data center infrastructure in certain non-U.S. locations</p></li>
+</ul></li>
+<li><p>‘datum (data) center’</p>
+<ul>
+<li><p>Chip manufacturers, CSPs, and data center developers require advance commitments in order to allocate production capacity, plan infrastructure investments, and manage their own supply chains.</p></li>
+<li><p>An acceleration of our indebtedness, combined with the loss of access to critical data center infrastructure, among other things, could impair our ability to train and deploy models, serve customers, and fund ongoing operations, which could have an adverse effect on our business, financial condition, and results of operations.</p></li>
+<li><p>The operation of data centers at the scale required for frontier AI development and deployment consumes substantial quantities of electrical power. The availability of sufficient electrical power has emerged as a significant constraint on data center development and expansion in many geographies, including the United States.</p></li>
+</ul></li>
+<li><p>‘united states’</p>
+<ul>
+<li><p>Electrical grid infrastructure in the United States and other countries was not designed to accommodate the rapid increase in demand associated with AI development, and the lead times required to build new generation capacity, transmission infrastructure, and grid interconnections can extend for years.</p></li>
+<li><p>Efforts to establish sufficient advanced chip manufacturing capacity outside of Taiwan, including in the United States, remain in early stages and may not produce adequate compute to materially reduce these concentration risks within the foreseeable future.</p></li>
+<li><p>A meaningful portion of the components we and our partners rely on is sourced from or manufactured outside of the United States, and new or increased tariffs, import restrictions, or trade disputes could delay deliveries, force supply-chain changes, or raise our costs, some of which we bear directly under pass-through arrangements.</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="images/clipboard-159658719.png" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Frequency of Most Commonly Occurring Trigrams in the Risk Factors Section</figcaption>
+</figure>
+</div>
+<p>Finally, I wanted to see if there are any inherent topics present in the section. For this, I decided to use <a href="https://maartengr.github.io/BERTopic/getting_started/quickstart/quickstart.html#quick-start">BERTopic</a>.</p>
+<p>I initially tried the base version but I decided to KeyBERTInspired, which increases the coherence and reduces stopwords from the resulting topic representations.</p>
+<div id="9a37c13c" class="cell" data-execution_count="6">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nltk  </span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sentence_transformers <span class="im">import</span> SentenceTransformer</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bertopic <span class="im">import</span> BERTopic</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> umap <span class="im">import</span> UMAP</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bertopic <span class="im">import</span> BERTopic</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bertopic.representation <span class="im">import</span> KeyBERTInspired</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>sentences <span class="op">=</span> nltk.sent_tokenize(risk_factors_text)  </span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>representation_model <span class="op">=</span> KeyBERTInspired()</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>topic_model <span class="op">=</span> BERTopic(representation_model<span class="op">=</span>representation_model)</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>topics, probs <span class="op">=</span> topic_model.fit_transform(sentences)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="5bf8a95c" class="cell" data-execution_count="7">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>topic_model.get_topic_info()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="7">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Topic</th>
+<th data-quarto-table-cell-role="th">Count</th>
+<th data-quarto-table-cell-role="th">Name</th>
+<th data-quarto-table-cell-role="th">Representation</th>
+<th data-quarto-table-cell-role="th">Representative_Docs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">0</th>
+<td>-1</td>
+<td>609</td>
+<td>-1_risks_risk_liability_future</td>
+<td>[risks, risk, liability, future, financial, ad...</td>
+<td>[For more information, see the \n\nsection tit...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">1</th>
+<td>0</td>
+<td>77</td>
+<td>0_enterprise_ai_industry_business</td>
+<td>[enterprise, ai, industry, business, developme...</td>
+<td>[The risks of that strategy, including the ris...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">2</th>
+<td>1</td>
+<td>73</td>
+<td>1_demand_constraints_technological_revenue</td>
+<td>[demand, constraints, technological, revenue, ...</td>
+<td>[Whereas the compute purchased through our CSP...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">3</th>
+<td>2</td>
+<td>54</td>
+<td>2_automatically_future_completion_directors</td>
+<td>[automatically, future, completion, directors,...</td>
+<td>[Immediately prior to the completion of this o...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">4</th>
+<td>3</td>
+<td>48</td>
+<td>3_models_prospects_onboarding_growth</td>
+<td>[models, prospects, onboarding, growth, strate...</td>
+<td>[If we increase sales \n\nand marketing expend...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">5</th>
+<td>4</td>
+<td>47</td>
+<td>4_models_applications_future_promising</td>
+<td>[models, applications, future, promising, rest...</td>
+<td>[Any new export restrictions, new legislation,...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">6</th>
+<td>5</td>
+<td>44</td>
+<td>5_application_sales_existing_business</td>
+<td>[application, sales, existing, business, regul...</td>
+<td>[Risks Related to Tax and Accounting Matters\n...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">7</th>
+<td>6</td>
+<td>37</td>
+<td>6_scalability_models_performance_competitors</td>
+<td>[scalability, models, performance, competitors...</td>
+<td>[In order to deliver high-quality customer sup...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">8</th>
+<td>7</td>
+<td>37</td>
+<td>7_data_infrastructure_development_risks</td>
+<td>[data, infrastructure, development, risks, dev...</td>
+<td>[Further, given data center development projec...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">9</th>
+<td>8</td>
+<td>36</td>
+<td>8_competitors_industry_growth_estimates</td>
+<td>[competitors, industry, growth, estimates, ope...</td>
+<td>[The market price of our Class A common stock ...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">10</th>
+<td>9</td>
+<td>34</td>
+<td>9_growth_workforce_financial_technical</td>
+<td>[growth, workforce, financial, technical, adva...</td>
+<td>[If we are unable to attract, retain, or motiv...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">11</th>
+<td>10</td>
+<td>31</td>
+<td>10_corporations_companys_business_corporate</td>
+<td>[corporations, companys, business, corporate, ...</td>
+<td>[As a PBC, we are required to balance the pecu...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">12</th>
+<td>11</td>
+<td>30</td>
+<td>11_operations_costly_markets_technologies</td>
+<td>[operations, costly, markets, technologies, te...</td>
+<td>[Litigation brought to protect and enforce our...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">13</th>
+<td>12</td>
+<td>30</td>
+<td>12_constrain_fragmented_strategic_models</td>
+<td>[constrain, fragmented, strategic, models, sys...</td>
+<td>[In particular, increasing strategic competiti...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">14</th>
+<td>13</td>
+<td>30</td>
+<td>13_operations_expenditures_spending_contracts</td>
+<td>[operations, expenditures, spending, contracts...</td>
+<td>[Because it annualizes a short measurement per...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">15</th>
+<td>14</td>
+<td>29</td>
+<td>14_development_ai_models_develop</td>
+<td>[development, ai, models, develop, considerati...</td>
+<td>[These judgments are particularly consequentia...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">16</th>
+<td>15</td>
+<td>27</td>
+<td>15_risk_failure_employment_difficulties</td>
+<td>[risk, failure, employment, difficulties, acco...</td>
+<td>[We are subject to a range of laws and regulat...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">17</th>
+<td>16</td>
+<td>26</td>
+<td>16_capabilities_future_technology_2025</td>
+<td>[capabilities, future, technology, 2025, appli...</td>
+<td>[We expect that \n\nmalicious actors, includin...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">18</th>
+<td>17</td>
+<td>25</td>
+<td>17_supplychain_implementing_2026_supplier</td>
+<td>[supplychain, implementing, 2026, supplier, du...</td>
+<td>[and \n\n72\n\n\nAnthropic PBC v. Department o...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">19</th>
+<td>18</td>
+<td>25</td>
+<td>18_contracts_policies_financial_operations</td>
+<td>[contracts, policies, financial, operations, c...</td>
+<td>[Failure by us or our payment processing partn...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">20</th>
+<td>19</td>
+<td>25</td>
+<td>19_obligations_financing_financial_agreements</td>
+<td>[obligations, financing, financial, agreements...</td>
+<td>[If the payment of the related indebtedness \n...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">21</th>
+<td>20</td>
+<td>24</td>
+<td>20_obligations_underinvestment_overinvestment_...</td>
+<td>[obligations, underinvestment, overinvestment,...</td>
+<td>[Any of the foregoing risks could adversely af...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">22</th>
+<td>21</td>
+<td>23</td>
+<td>21_consequences_risks_strategic_financial</td>
+<td>[consequences, risks, strategic, financial, ac...</td>
+<td>[If \n\nwe are unable to manage the foregoing ...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">23</th>
+<td>22</td>
+<td>22</td>
+<td>22_financings_financing_operations_markets</td>
+<td>[financings, financing, operations, markets, i...</td>
+<td>[If we are unable to \n\ngenerate such cash fl...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">24</th>
+<td>23</td>
+<td>22</td>
+<td>23_infrastructure_complexity_capacity_allocation</td>
+<td>[infrastructure, complexity, capacity, allocat...</td>
+<td>[Demand on \n\nelectric grid infrastructure is...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">25</th>
+<td>24</td>
+<td>17</td>
+<td>24_nasdaq_estimates_internal_preparing</td>
+<td>[nasdaq, estimates, internal, preparing, marke...</td>
+<td>[We are continuing to develop and refine our d...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">26</th>
+<td>25</td>
+<td>17</td>
+<td>25_costly_antitrust_consumer_costs</td>
+<td>[costly, antitrust, consumer, costs, operation...</td>
+<td>[Such litigation may subject us to substantial...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">27</th>
+<td>26</td>
+<td>17</td>
+<td>26_capabilities_globally_releases_policy</td>
+<td>[capabilities, globally, releases, policy, unc...</td>
+<td>[For \n\nmodels we anticipate will have novel ...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">28</th>
+<td>27</td>
+<td>17</td>
+<td>27_offerings_enterprise_customers_deployments</td>
+<td>[offerings, enterprise, customers, deployments...</td>
+<td>[These requirements may be heightened for \n\n...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">29</th>
+<td>28</td>
+<td>16</td>
+<td>28_provisions_economic_governance_incorporation</td>
+<td>[provisions, economic, governance, incorporati...</td>
+<td>[Our Class T common stock will generally entit...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">30</th>
+<td>29</td>
+<td>16</td>
+<td>29_construction_agreements_guarantees_reserves</td>
+<td>[construction, agreements, guarantees, reserve...</td>
+<td>[Even if we do not litigate these matters to a...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">31</th>
+<td>30</td>
+<td>15</td>
+<td>30_oversight_equipment_decisionmakers_oversee</td>
+<td>[oversight, equipment, decisionmakers, oversee...</td>
+<td>[As our models become more capable, they \n\nh...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">32</th>
+<td>31</td>
+<td>15</td>
+<td>31_consolidations_limitations_acquisitions_inv...</td>
+<td>[consolidations, limitations, acquisitions, in...</td>
+<td>[Investors should consider these metrics in li...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">33</th>
+<td>32</td>
+<td>14</td>
+<td>32_expense_agreements_equity_effectiveness</td>
+<td>[expense, agreements, equity, effectiveness, s...</td>
+<td>[Assuming a grant-date fair value of $&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">34</th>
+<td>33</td>
+<td>13</td>
+<td>33_feasible_technologies_technology_alternatives</td>
+<td>[feasible, technologies, technology, alternati...</td>
+<td>[We currently, and may in the future, license ...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">35</th>
+<td>34</td>
+<td>12</td>
+<td>34_infrastructure_costeffectively_efficiency_c...</td>
+<td>[infrastructure, costeffectively, efficiency, ...</td>
+<td>[These observations are consistent with aspect...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">36</th>
+<td>35</td>
+<td>12</td>
+<td>35_regulatory_restrictions_energy_mandated</td>
+<td>[regulatory, restrictions, energy, mandated, r...</td>
+<td>[We process personal and sensitive data for AI...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">37</th>
+<td>36</td>
+<td>12</td>
+<td>36_technologies_initiatives_developments_inves...</td>
+<td>[technologies, initiatives, developments, inve...</td>
+<td>[Our investments in new products, technologies...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">38</th>
+<td>37</td>
+<td>11</td>
+<td>37_limitations_costs_contractual_carriers</td>
+<td>[limitations, costs, contractual, carriers, se...</td>
+<td>[Furthermore, there \n\ncan be no guarantee th...</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">39</th>
+<td>38</td>
+<td>11</td>
+<td>38_capabilities_oversight_regulations_regulatory</td>
+<td>[capabilities, oversight, regulations, regulat...</td>
+<td>[Such decisions and actions may include change...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">40</th>
+<td>39</td>
+<td>11</td>
+<td>39_risks_compliance_licenses_licensing</td>
+<td>[risks, compliance, licenses, licensing, distr...</td>
+<td>[While we employ practices designed to help \n...</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<p>See if any of these topics standout.</p>
+<p>I was looking at some of the cool visualization available on BERTopic. I thought why not give it a go?</p>
+<div id="157770a9" class="cell" data-execution_count="8">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> topic_model.visualize_topics()</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>fig.write_html(</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"topic_visualization.html"</span>,</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    include_plotlyjs<span class="op">=</span><span class="st">"cdn"</span>,</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    full_html<span class="op">=</span><span class="va">True</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<iframe src="topic_visualization.html" width="100%" height="700" style="border:none;">
+</iframe>
+<div id="cc224cf6" class="cell" data-execution_count="9">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>fig1 <span class="op">=</span> topic_model.visualize_barchart()</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>fig1.write_html(</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"topic_visualization1.html"</span>,</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    include_plotlyjs<span class="op">=</span><span class="st">"cdn"</span>,</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    full_html<span class="op">=</span><span class="va">True</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p><img src="images/newplot.png" class="img-fluid"></p>
+<p>All in all, I think the results were…okay?</p>
+<p>NLP certainly has limitations and I could have probably refined some of the steps along the way. For instance, I could have removed some of the SEC specific stopwords. When it comes to topic modelling, I realized it wasn’t much of a value add because the raw text has already been categorized in different topics such as ‘Supply and Concentration of Chips, Memory, and Data Center Equipment’ and ‘Electrical Power and Fuel Constraints’. Now if this was an unsupervised learning task, wherein I had to find topics, then I think topic modelling would had been pretty useful. Finally, you might be wondering “why didn’t I simply run this analysis via a LLM?”</p>
+<p>My answer is:</p>
+<p><img src="images/tony-stark-limited.gif" class="img-fluid"></p>
+<p>Don’t get me wrong. I did think long and hard about using a LLM to extract insights. But then I thought to myself “how would it be any different than simply uploading the filing and asking a LLM to summarize the key insights?” Also I do have gemma4:12b running locally on my PC. At the time, I just didn’t see the utility in using a LLM to summarize key insights of a S-1 filing by a company that also provides one of the most popular LLMs. That being said, I do see an opportunity to use LLMs for enhancing topic modelling. Turns out BERTopic has a <a href="https://maartengr.github.io/BERTopic/getting_started/representation/llm.html#llama-manual-quantization">functionality</a> to generate better labels for the topics.</p>
+<p>So there it is, an extremely bare bones NLP analysis of Anthropic’s Risk Factors listed in its S-1 filing. Maybe this analysis didn’t result in the giving me detailed insights that I was expecting. But at the very least, I learned a thing or two but some new avenues I can explore for future projects!</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<script src="https://utteranc.es/client.js" repo="Aryamik/aryamik.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

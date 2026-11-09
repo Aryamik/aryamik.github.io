@@ -1,0 +1,115 @@
+---
+title: "Guns, Germs, Steel...and AI"
+#description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Aryamik Sharma
+    url: https://aryamik.github.io
+
+date: 10-04-2026
+categories: 
+- AI
+
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+IWhy did the world turn out to be the way it is right now?
+
+1\) The first set consists of continental differences in the wild plant and animal species available as starting materials for domestication. That’s because food production was critical for the accumulation of food surpluses that could feed non-food-producing specialists, and for the buildup of large populations enjoying a military advantage through mere numbers even before they had developed any technological or political advantage. For both of those reasons, all developments of economically complex, socially stratified, politically centralized societies beyond the level of small nascent chiefdoms were based on food production.
+
+But most wild animal and plant species have proved unsuitable for domestication: food production has been based on relatively few species of livestock and crops. It turns out that the number of wild candidate species for domestication varied greatly among the continents, because of differences in continental areas and also (in the case of big mammals) in Late Pleistocene extinctions. These extinctions were much more severe in Australia and the Americas than in Eurasia or Africa. As a result, Africa ended up biologically somewhat less well endowed than the much larger Eurasia, the Americas still less so, and Australia even less so, as did Yali’s New Guinea (with one-seventieth of Eurasia’s area and with all of its original big mammals extinct in the Late Pleistocene).
+
+On each continent, animal and plant domestication was concentrated in a few especially favorable homelands accounting for only a small fraction of the continent’s total area. In the case of technological innovations and political institutions as well, most societies acquire much more from other societies than they invent themselves. Thus, diffusion and migration within a continent contribute importantly to the development of its societies, which tend in the long run to share each other’s developments (insofar as environments permit) because of the processes illustrated in such simple form by Maori New Zealand’s Musket Wars. That is, societies initially lacking an advantage either acquire it from societies possessing it or (if they fail to do so) are replaced by those other societies.
+
+Hence a second set of factors consists of those affecting rates of diffusion and migration, which differed greatly among continents. They were most rapid in Eurasia, because of its east-west major axis and its relatively modest ecological and geographical barriers. The reasoning is straightforward for movements of crops and livestock, which depend strongly on climate and hence on latitude. But similar reasoning also applies to the diffusion of technological innovations, insofar as they are best suited without modification to specific environments. Diffusion was slower in Africa and especially in the Americas, because of those continents’ north-south major axes and geographic and ecological barriers. It was also difficult in traditional New Guinea, where rugged terrain and the long backbone of high mountains prevented any significant progress toward political and linguistic unification.
+
+Related to these factors affecting diffusion within continents is a third set of factors influencing diffusion between continents, which may also help build up a local pool of domesticates and technology. Ease of intercontinental diffusion has varied, because some continents are more isolated than others. Within the last 6,000 years it has been easiest from Eurasia to sub-Saharan Africa, supplying most of Africa’s species of livestock. But interhemispheric diffusion made no contribution to Native America’s complex societies, isolated from Eurasia at low latitudes by broad oceans, and at high latitudes by geography and by a climate suitable just for hunting-gathering. To Aboriginal Australia, isolated from Eurasia by the water barriers of the Indonesian Archipelago, Eurasia’s sole proven contribution was the dingo.
+
+The fourth and last set of factors consists of continental differences in area or total population size. A larger area or population means more potential inventors, more competing societies, more innovations available to adopt—and more pressure to adopt and retain innovations, because societies failing to do so will tend to be eliminated by competing societies. That fate befell African pygmies and many other hunter-gatherer populations displaced by farmers. Conversely, it also befell the stubborn, conservative Greenland Norse farmers, replaced by Eskimo hunter-gatherers whose subsistence methods and technology were far superior to those of the Norse under Greenland conditions. Among the world’s landmasses, area and the number of competing societies were largest for Eurasia, much smaller for Australia and New Guinea and especially for Tasmania. The Americas, despite their large aggregate area, were fragmented by geography and ecology and functioned effectively as several poorly connected smaller continents.
+
+Those four sets of factors constitute big environmental differences that can be quantified objectively and that are not subject to dispute. While one can contest my subjective impression that New Guineans are on the average smarter than Eurasians, one cannot deny that New Guinea has a much smaller area and far fewer big animal species than Eurasia. But mention of these environmental differences invites among historians the label “geographic determinism,” which raises hackles. The label seems to have unpleasant connotations, such as that human creativity counts for nothing, or that we humans are passive robots helplessly programmed by climate, fauna, and flora. Of course these fears are misplaced. Without human inventiveness, all of us today would still be cutting our meat with stone tools and eating it raw, like our ancestors of a million years ago. All human societies contain inventive people. It’s just that some environments provide more starting materials, and more favorable conditions for utilizing inventions, than do other environments.
+
+10000 years from, would someone be able to trace back the conditions that attributed to the growth of AI boom?
+
+I started pondering. Why is it United States and China became the paragons of AI boom and no
+
+They say best way to understand the present is to look at the history.
+
+For instance, the following obvious question has probably occurred to readers already: why, within Eurasia, were European societies, rather than those of the Fertile Crescent or China or India, the ones that colonized America and Australia, took the lead in technology, and became politically and economically dominant in the modern world? A historian who had lived at any time between 8500 B.C. and A.D. 1450, and who had tried then to predict future historical trajectories, would surely have labeled Europe’s eventual dominance as the least likely outcome, because Europe was the most backward of those three Old World regions for most of those 10,000 years. From 8500 B.C. until the rise of Greece and then Italy after 500 B.C., almost all major innovations in western Eurasia—animal domestication, plant domestication, writing, metallurgy, wheels, states, and so on—arose in or near the Fertile Crescent. Until the proliferation of water mills after about A.D. 900, Europe west or north of the Alps contributed nothing of significance to Old World technology or civilization; it was instead a recipient of developments from the eastern Mediterranean, Fertile Crescent, and China. Even from A.D. 1000 to 1450 the flow of science and technology was predominantly into Europe from the Islamic societies stretching from India to North Africa, rather than vice versa. During those same centuries China led the world in technology, having launched itself on food production nearly as early as the Fertile Crescent did.
+
+Why, then, did the Fertile Crescent and China eventually lose their enormous leads of thousands of years to late-starting Europe? One can, of course, point to proximate factors behind Europe’s rise: its development of a merchant class, capitalism, and patent protection for inventions, its failure to develop absolute despots and crushing taxation, and its Greco-Judeo-Christian tradition of critical empirical inquiry. Still, for all such proximate causes one must raise the question of ultimate cause: why did these proximate factors themselves arise in Europe, rather than in China or the Fertile Crescent?
+
+strangled development of public electric lighting in London in the 1880s, the isolationism of the United States between the First and Second World Wars, and any number of backward steps in any number of countries, all motivated by local political issues. But in China there was a difference, because the entire region was politically unified. One decision stopped fleets over the whole of China. That one temporary decision became irreversible, because no shipyards remained to turn out ships that would prove the folly of that temporary decision, and to serve as a focus for rebuilding other shipyards.
+
+Now contrast those events in China with what happened when fleets of exploration began to sail from politically fragmented Europe. Christopher Columbus, an Italian by birth, switched his allegiance to the duke of Anjou in France, then to the king of Portugal. When the latter refused his request for ships in which to explore westward, Columbus turned to the duke of Medina-Sedonia, who also refused, then to the count of Medina-Celi, who did likewise, and finally to the king and queen of Spain, who denied Columbus’s first request but eventually granted his renewed appeal. Had Europe been united under any one of the first three rulers, its colonization of the Americas might have been stillborn.
+
+In fact, precisely because Europe was fragmented, Columbus succeeded on his fifth try in persuading one of Europe’s hundreds of princes to sponsor him. Once Spain had thus launched the European colonization of America, other European states saw the wealth flowing into Spain, and six more joined in colonizing America. The story was the same with Europe’s cannon, electric lighting, printing, small firearms, and innumerable other innovations: each was at first neglected or opposed in some parts of Europe for idiosyncratic reasons, but once adopted in one area, it eventually spread to the rest of Europe.
+
+These consequences of Europe’s disunity stand in sharp contrast to those of China’s unity. From time to time the Chinese court decided to halt other activities besides overseas navigation: it abandoned development of an elaborate water-driven spinning machine, stepped back from the verge of an industrial revolution in the 14th century, demolished or virtually abolished mechanical clocks after leading the world in clock construction, and retreated from mechanical devices and technology in general after the late 15th century. Those potentially harmful effects of unity have flared up again in modern China, notably during the madness of the Cultural Revolution in the 1960s and 1970s, when a decision by one or a few leaders closed the whole country’s school systems for five years.
+
+Thus, geographic connectedness and only modest internal barriers gave China an initial advantage. North China, South China, the coast, and the interior contributed different crops, livestock, technologies, and cultural features to the eventually unified China. For example, millet cultivation, bronze technology, and writing arose in North China, while rice cultivation and cast-iron technology emerged in South China. For much of this book I have emphasized the diffusion of technology that takes place in the absence of formidable barriers. But China’s connectedness eventually became a disadvantage, because a decision by one despot could and repeatedly did halt innovation. In contrast, Europe’s geographic balkanization resulted in dozens or hundreds of independent, competing statelets and centers of innovation. If one state did not pursue some particular innovation, another did, forcing neighboring states to do likewise or else be conquered or left economically behind. Europe’s barriers were sufficient to prevent political unification, but insufficient to halt the spread of technology and ideas. There has never been one despot who could turn off the tap for all of Europe, as of China.
+
+Being world's largest economy might have to do something with that.
+
+<https://www.bloomberg.com/graphics/2026-us-china-ai-race/?srnd=phx-ai&leadSource=uverify%20wall>
+
+Simply put you need money. In an age where we talking about trilliion dollar IPOs, who do you think has the means to do it?
+
+Land mass. You need to build land data centers. Russia Canada USA China
+
+It would be absurd to expect to build mega data centers in Portugal or New Zealand. These countries just don't have enough land mass. to support these massive structures. So that eliminates a lot of candidates.
+
+Now there are talks about building data centers on oceans or even spending them in space. But who do you think will realistically have a better shot of achieving that.
+
+But that doesn't explain why Russia doesn't have
+
+Geopolitical tensions,
+
+I can't just go and expect to build data centers willy nilly.
+
+<https://ourworldindata.org/data-insights/us-and-chinese-companies-train-almost-all-of-the-worlds-most-used-ai-models>
+
+It's a chicken and egg problem.
+
+Did more data centers pave wa
+
+AI using AI to create better AI
+
+Technology catalyses technology.
+
+In the book, The most dramatic moment in subsequent European-Native American relations was the first encounter between the Inca emperor Atahuallpa and the Spanish conquistador Francisco Pizarro at the Peruvian highland town of Cajamarca on November 16, 1532. Atahuallpa was absolute monarch of the largest and most advanced state in the New World, while Pizarro represented the Holy Roman Emperor Charles V (also known as King Charles I of Spain), monarch of the most powerful state in Europe. Pizarro, leading a ragtag group of 168 Spanish soldiers, was in unfamiliar terrain, ignorant of the local inhabitants, completely out of touch with the nearest Spaniards (1,000 miles to the north in Panama) and far beyond the reach of timely reinforcements. Atahuallpa was in the middle of his own empire of millions of subjects and immediately surrounded by his army of 80,000 soldiers, recently victorious in a war with other Indians. Nevertheless, Pizarro captured Atahuallpa within a few minutes after the two leaders first set eyes on each other. Pizarro proceeded to hold his prisoner for eight months, while extracting history’s largest ransom in return for a promise to free him. After the ransom—enough gold to fill a room 22 feet long by 17 feet wide to a height of over 8 feet—was delivered, Pizarro reneged on his promise and executed Atahuallpa.
+
+Why did Atahuallpa walk into what seems to us, with the gift of hindsight, to have been such a transparent trap? Did the factors acting in the encounter of Atahuallpa and Pizarro also play a broader role in encounters between Old World and New World peoples and between other peoples?
+
+Why did Pizarro capture Atahuallpa? Pizarro’s military advantages lay in the Spaniards’ steel swords and other weapons, steel armor, guns, and horses. To those weapons, Atahuallpa’s troops, without animals on which to ride into battle, could oppose only stone, bronze, or wooden clubs, maces, and hand axes, plus slingshots and quilted armor. Such imbalances of equipment were decisive in innumerable other confrontations of Europeans with Native Americans and other peoples.
+
+They already had a headstart.
+
+HUS, PIZARRO’S CAPTURE of Atahuallpa illustrates the set of proximate factors that resulted in Europeans’ colonizing the New World instead of Native Americans’ colonizing Europe. Immediate reasons for Pizarro’s success included military technology based on guns, steel weapons, and horses; infectious diseases endemic in Eurasia; European maritime technology; the centralized political organization of European states; and writing. The title of this book will serve as shorthand for those proximate factors, which also enabled modern Europeans to conquer peoples of other continents. Long before anyone began manufacturing guns and steel, others of those same factors had led to the expansions of some non-European peoples, as we shall see in later chapters.
+
+Inidivual Idosynracies -
+
+Jensen Huang. What if he stayed in Taiwan.
+
+<https://en.wikipedia.org/wiki/File:2024_AI_patents_by_country_-_artificial_intelligence.svg>
+
+CAn be long and windy.
+
+It's quite an interesting read. But for our purposes, I am going to assume from 20th century.
+
+[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing "Alan Turing") published "[Computing Machinery and Intelligence](https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence "Computing Machinery and Intelligence")", which proposes the [Turing test](https://en.wikipedia.org/wiki/Turing_test "Turing test") as a measure of machine intelligence and answered all of the most common objections to the proposal "machines can think".^[\[54\]](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence#cite_note-56)^
+
+FAvorable conditions to build data centers.
+
+Silicon Valley
+
+Cultural Factors
+
+One hypothesis I found interesting was
+
+view holds that it is a matter not of individual inventiveness but of the receptivity of whole societies to innovation. Some societies seem hopelessly conservative, inward looking, and hostile to change. That’s the impression of many Westerners who have attempted to help Third World peoples and ended up discouraged. The people seem perfectly intelligent as individuals; the problem seems instead to lie with their societies. How else can one explain why the Aborigines of northeastern Australia failed to adopt bows and arrows, which they saw being used
+
+Imagine going to Amazonian tribes and explaining to them whwat ChatGPT is.
+
+They would straight up
+
+who have lived hunter gatherer lifestyle.

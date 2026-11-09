@@ -1,0 +1,307 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"On AI and 'Quality'\"\n",
+        "#description: \"blog post description (appears underneath the title in smaller text) which is included on the listing page\"\n",
+        "author:\n",
+        "  - name: Aryamik Sharma\n",
+        "    url: https://aryamik.github.io\n",
+        "\n",
+        "date: 11-08-2026\n",
+        "categories: \n",
+        "- AI\n",
+        "- Data Science\n",
+        "\n",
+        "draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!\n",
+        "---\n",
+        "\n",
+        "Anthropic recently filed for an [Initial Public Offering (IPO)](https://www.anthropic.com/news/s1-sec) and some buyers are discussing a valuation of over \\$1.1 trillion. Trillion Dollars.\n",
+        "\n",
+        "![](images/9296b1f811cfb7d5ff8054df531d77d1a5a8866bae672092531b7477007d440b.jpg)\n",
+        "\n",
+        "I was reading through it's [S-1 filling](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm) on EDGAR and as I was skimming through the document, I came across the 'Risk Factors' section. This section includes information about significant risks that the company faces, generally listed in order of importance. I knew that 'Risk Factors' is present in [Annual 10-K reports](https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k), but to see one in a S-1 filing was news to me. But more importantly, I was curious to see how Anthropic describes the risks it faces.\n",
+        "\n",
+        "If you go to page 27 of the S-1 filing, you are greeted by a huge disclaimer that reads as follows:\n",
+        "\n",
+        "> The disclosures in this section reflect our beliefs and opinions as to matters that could materially and adversely affect us in the future, and are not representations as to whether such matters have or have not occurred previously, except as otherwise disclosed. References to past events are provided by way of example only and are not intended to be a complete listing or a representation as to their likelihood of occurring in the future. Our business, financial condition, results of operations, or prospects could also be adversely affected by risks and uncertainties not currently known to us or that we currently do not believe are material. If any of the risks actually occur, our business, financial condition, results of operations, and prospects could be adversely affected. In that event, the market price of our Class A common stock could decline, and you could lose part or all of your investment.\n",
+        "\n",
+        "Now I know the 'Risk Factors' section is not indicative of the actual risks that Anthropic faces. Nor does it fully capture the risks Anthropic could have .\n",
+        "\n",
+        "But nevertheless, I was curious to do a very basic Natural Language Processing (NLP) analysis of this section to see if I could identify any key insights, trends or anything that might be of value. Plus I thought it would be a good excuse to try out [Edgartools](https://edgartools.readthedocs.io/en/latest/), an open source Python package that I recently came across and is used for accessing, analysing and extracting insights from SEC filings.\n",
+        "\n",
+        "First step was accessing the S-1 filing. This [documentation page](https://edgartools.readthedocs.io/en/latest/guides/registration-s1-data-object-guide/?h=1+s) was really helpful in guiding me."
+      ],
+      "id": "ac4509e3"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "## Testing Python\n",
+        "\n",
+        "from edgar import *\n",
+        "set_identity(\"joey23@example.com\")\n",
+        "\n",
+        "filing = find(\"0001628280-26-067168\")   \n",
+        "s1 = filing.obj()                       \n",
+        "s1"
+      ],
+      "id": "125ed6d8",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "Turns out you can fetch all the filings for a given ticker using the official ticker symbol or the SEC Accession No. I tried using 'ANT' (Anthropic's official ticker symbol) but for some reason it gave me an error message. Therefore I settled for the SEC Accession No**.** 0001628280-26-067168\n",
+        "\n",
+        "Then I was interested in extracting just the 'Risk Factors' section."
+      ],
+      "id": "7c426f6b"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "risk_factors_text = s1.sections.get(\"risk_factors\").text()"
+      ],
+      "id": "36ac0e97",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "Nice! Pretty amazing what a few lines of code can do these days.\n",
+        "\n",
+        "But before I could start doing fun stuff, I had to preprocess the data: remove stop words, tokenize, convert to lowercase, remove special characters etc. I leveraged the script from [this tutorial](https://www.tilburgsciencehub.com/topics/manage-manipulate/manipulate-clean/textual/text-prep-python/) by Tilburg University."
+      ],
+      "id": "1ee1d256"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import spacy\n",
+        "import re\n",
+        "from spellchecker import SpellChecker\n",
+        "\n",
+        "# Load the spaCy model\n",
+        "nlp = spacy.load('en_core_web_sm')\n",
+        "\n",
+        "\n",
+        "# Define the text preprocessing function\n",
+        "def preprocess_text(text):\n",
+        "    # Convert to lowercase to normalize the case\n",
+        "    text = text.lower()\n",
+        "\n",
+        "    # Remove URLs\n",
+        "    text = re.sub(r'https?://\\S+|www\\.\\S+', '', text)\n",
+        "\n",
+        "    # Remove special characters, keeping only words and basic punctuation\n",
+        "    text = re.sub(r'[^a-zA-Z0-9\\s,.?!]', '', text)\n",
+        "\n",
+        "    # Reduce excessive character repetition to a maximum of two occurrences\n",
+        "    text = re.sub(r'(.)\\1{2,}', r'\\1\\1', text)\n",
+        "\n",
+        "    # Tokenize and lemmatize the text, removing stop words, punctuation, and short words\n",
+        "    doc = nlp(text)\n",
+        "    tokens = [token.lemma_ for token in doc if not token.is_stop and not token.is_punct and len(token.text) > 2]\n",
+        "\n",
+        "    # Correct tokens with repeated characters using a spell checker\n",
+        "    spell = SpellChecker()\n",
+        "    corrected_tokens = [spell.correction(token) if re.search(r'(.)\\1', token) else token for token in tokens]\n",
+        "\n",
+        "    # Join the tokens back into a single string, removing any potential None values\n",
+        "    return \" \".join(token for token in corrected_tokens if token is not None and token != '')\n",
+        "\n",
+        "# Apply the preprocessing function to the 'risk_factors_text'\n",
+        "cleaned_text = preprocess_text(risk_factors_text)"
+      ],
+      "id": "36e0db50",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "Now that the data has been preprocessed, I thought why not generate wordcloud and see if I can find something interesting.\n",
+        "\n",
+        "topwords = set(STOPWORDS)\n",
+        "\n",
+        "stopwords.add(\"said\")\n",
+        "\n",
+        "wc = WordCloud(background_color=\"white\", max_words=2000, mask=alice_mask,\n",
+        "\n",
+        "stopwords=stopwords, contour_width=3, contour_color='steelblue')\n",
+        "\n",
+        "\\# generate word cloud\n",
+        "\n",
+        "wc.generate(text)"
+      ],
+      "id": "a835c4f7"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "from nltk.tokenize import word_tokenize\n",
+        "from wordcloud import WordCloud, STOPWORDS\n",
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "words = word_tokenize(cleaned_text)\n",
+        "\n",
+        "\n",
+        "wordcloud = WordCloud().generate(words)\n",
+        "plt.imshow(wordcloud, interpolation='bilinear')\n",
+        "plt.axis(\"off\")\n",
+        "plt.show()\n"
+      ],
+      "id": "31445db7",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "How about something more intuitive? Maybe a bar chart showing the frequency of most commonly occuring words in Anthropic's 'Risk Factors' section? For this I decided to use [PygWalker](https://github.com/kanaries/pygwalker)."
+      ],
+      "id": "9d5c5f22"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import pandas as pd\n",
+        "from nltk import ngrams\n",
+        "from collections import Counter\n",
+        "import pygwalker as pyg\n",
+        "\n",
+        "bow = Counter(words)\n",
+        "bow2 = Counter(ngrams(words,2))\n",
+        "bow3 = Counter(ngrams(words,3))\n",
+        "\n",
+        "data = pd.DataFrame(bow.items(), columns= ['word','frequency']).sort_values(by= 'frequency', ascending=False)\n",
+        "data1 = pd.DataFrame(bow2.items(), columns= ['word','frequency']).sort_values(by= 'frequency', ascending=False)\n",
+        "data2 = pd.DataFrame(bow3.items(), columns= ['word','frequency']).sort_values(by= 'frequency', ascending=False)"
+      ],
+      "id": "53d930e6",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "![Frequency of Most Commonly Occurring Words in the Risk Factors Section](images/clipboard-3946290079.png)\n",
+        "\n",
+        "Model was the most commonly word in the section with 617 instances. AI company has 'model' as the most commonly occurring word?!?! Color me shocked. Customer had 407 instances. It makes sense considering customers use Anthropic's LLMs.\n",
+        "\n",
+        "But words by themselves don't tell us the complete picture. While I was at it, I thought why not do a bigram and trigram analysis as well to get more context?\n",
+        "\n",
+        "![Frequency of Most Commonly Occurring Bigrams in the Risk Factors Section](images/clipboard-4155321224.png)\n",
+        "\n",
+        "'Adversely affect' had the highest frequency of 257, followed by 'platform application' (246) and 'model platform' with both tied at 246. As you can see there were a lot of S-1 specific stop word pairs such as 'common stock', 'class common' and 'business financial'. I am pretty sure removing these custom stopwords would eliminate a lot of noise from our dataset. I found 'operation adversely', 'intellectual property', 'datum center' (the word 'data' got lemmatized to datum' and 'united states' pretty interesting.\n",
+        "\n",
+        "Given the current state of AI development, simply Just reading through these, I am sure we can all conceptualize what these bigrams are alluding to. Let's look at some of the closely:\n",
+        "\n",
+        "- 'Operation adversely':\n",
+        "\n",
+        "  - We face intense competition, and if we are unable to compete effectively, our business, financial condition, and results of operations could be adversely affected.\n",
+        "\n",
+        "  - If the market for our models, platform, and applications develops more slowly than we expect or declines, our growth may slow or stall, and our business, financial condition, and results of operations could be adversely affected.\n",
+        "\n",
+        "  - Our business is subject to an evolving and uncertain regulatory and political environment, which could increase our costs, restrict our operations, or adversely affect demand for our models, platform, and applications.\n",
+        "\n",
+        "- 'intellectual property'\n",
+        "\n",
+        "  - AI algorithms may be flawed, and AI systems may contain bugs, errors, or defects or fail to follow instructions or produce inaccurate, misleading, offensive, inappropriate, or otherwise harmful outputs; reflect or amplify unwanted or unknown biases present in training data; or raise concerns relating to intellectual property, privacy, or other legal and ethical considerations.\n",
+        "\n",
+        "  - Our expansion into new geographic markets further compounds these risks, as we must navigate differing cultural norms regarding AI use, comply with diverse and evolving regulatory regimes that may impose varying safety, compliance, or liability requirements, address language-specific vulnerabilities and content moderation challenges, and potentially face regulatory enforcement actions, litigation, or other liabilities in jurisdictions where we have more limited operational experience, including heightened risks of intellectual property theft, unauthorized model access, or misuse associated with operating data center infrastructure in certain non-U.S. locations\n",
+        "\n",
+        "- 'datum (data) center'\n",
+        "\n",
+        "  - Chip manufacturers, CSPs, and data center developers require advance commitments in order to allocate production capacity, plan infrastructure investments, and manage their own supply chains.\n",
+        "\n",
+        "  - An acceleration of our indebtedness, combined with the loss of access to critical data center infrastructure, among other things, could impair our ability to train and deploy models, serve customers, and fund ongoing operations, which could have an adverse effect on our business, financial condition, and results of operations.\n",
+        "\n",
+        "  - The operation of data centers at the scale required for frontier AI development and deployment consumes substantial quantities of electrical power. The availability of sufficient electrical power has emerged as a significant constraint on data center development and expansion in many geographies, including the United States.\n",
+        "\n",
+        "- 'united states'\n",
+        "\n",
+        "  - Electrical grid infrastructure in the United States and other countries was not designed to accommodate the rapid increase in demand associated with AI development, and the lead times required to build new generation capacity, transmission infrastructure, and grid interconnections can extend for years.\n",
+        "\n",
+        "  - Efforts to establish sufficient advanced chip manufacturing capacity outside of Taiwan, including in the United States, remain in early stages and may not produce adequate compute to materially reduce these concentration risks within the foreseeable future.\n",
+        "\n",
+        "  - A meaningful portion of the components we and our partners rely on is sourced from or manufactured outside of the United States, and new or increased tariffs, import restrictions, or trade disputes could delay deliveries, force supply-chain changes, or raise our costs, some of which we bear directly under pass-through arrangements.\n",
+        "\n",
+        "![Frequency of Most Commonly Occurring Trigrams in the Risk Factors Section](images/clipboard-159658719.png)\n",
+        "\n",
+        "Finally, I wanted to see if there are any inherent topics present in the section. For this, I decided to use [BERTopic](https://maartengr.github.io/BERTopic/getting_started/quickstart/quickstart.html#quick-start).\n",
+        "\n",
+        "I initially tried the base version but I decided to KeyBERTInspired, which increases the coherence and reduces stopwords from the resulting topic representations."
+      ],
+      "id": "cdc55dd8"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import nltk  \n",
+        "from sentence_transformers import SentenceTransformer\n",
+        "from bertopic import BERTopic\n",
+        "from umap import UMAP\n",
+        "\n",
+        "\n",
+        "from bertopic import BERTopic\n",
+        "from bertopic.representation import KeyBERTInspired\n",
+        "\n",
+        "sentences = nltk.sent_tokenize(risk_factors_text)  \n",
+        "representation_model = KeyBERTInspired()\n",
+        "topic_model = BERTopic(representation_model=representation_model)\n",
+        "topics, probs = topic_model.fit_transform(sentences)"
+      ],
+      "id": "33ac3492",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "topic_model.get_topic_info()"
+      ],
+      "id": "28841d97",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "topic_model.visualize_topics()"
+      ],
+      "id": "e094c345",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\aryam\\AppData\\Roaming\\Python\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
